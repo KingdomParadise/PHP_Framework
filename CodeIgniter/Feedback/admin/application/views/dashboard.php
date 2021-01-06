@@ -21,11 +21,6 @@
 <body>
     <div class="wrapper">
         <div class="sidebar" data-image="../../assets/img/sidebar-5.jpg">
-            <!--
-        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
-
-        Tip 2: you can also add an image using data-image tag
-    -->
             <div class="sidebar-wrapper">
                 <div class="logo">
                     <a href="#" class="simple-text">
@@ -34,21 +29,21 @@
                 </div>
                 <ul class="nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="dashboard.html">
+                        <a class="nav-link" href="/admin/dashboard">
                             <i class="nc-icon nc-chart-pie-35"></i>
                             <p>Dashboard</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./user.html">
-                            <i class="nc-icon nc-circle-09"></i>
-                            <p>User List</p>
+                        <a class="nav-link" href="/admin/form">
+                            <i class="nc-icon nc-notes"></i>
+                            <p>Forms</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./table.html">
-                            <i class="nc-icon nc-notes"></i>
-                            <p>Forms</p>
+                        <a class="nav-link" href="/admin/user">
+                            <i class="nc-icon nc-circle-09"></i>
+                            <p>User List</p>
                         </a>
                     </li>
                 </ul>
@@ -95,45 +90,39 @@
             <div class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="card ">
-                                <div class="card-header ">
-                                    <h4 class="card-title">Email Statistics</h4>
-                                    <p class="card-category">Last Campaign Performance</p>
-                                </div>
-                                <div class="card-body ">
-                                    <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
-                                    <div class="legend">
-                                        <i class="fa fa-circle text-info"></i> Open
-                                        <i class="fa fa-circle text-danger"></i> Bounce
-                                        <i class="fa fa-circle text-warning"></i> Unsubscribe
-                                    </div>
-                                    <hr>
-                                    <div class="stats">
-                                        <i class="fa fa-clock-o"></i> Campaign sent 2 days ago
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-8">
+                        <div class="col-md-12">
                             <div class="card ">
                                 <div class="card-header ">
                                     <h4 class="card-title">Users Behavior</h4>
-                                    <p class="card-category">24 Hours performance</p>
+                                    <!-- <p class="card-category">24 Hours performance</p> -->
                                 </div>
                                 <div class="card-body ">
                                     <div id="chartHours" class="ct-chart"></div>
                                 </div>
                                 <div class="card-footer ">
                                     <div class="legend">
-                                        <i class="fa fa-circle text-info"></i> Open
-                                        <i class="fa fa-circle text-danger"></i> Click
-                                        <i class="fa fa-circle text-warning"></i> Click Second Time
+                                        <i class="fa fa-circle text-info"></i> Good
+                                        <i class="fa fa-circle text-danger"></i> Average
+                                        <i class="fa fa-circle text-warning"></i> Bad
                                     </div>
                                     <hr>
-                                    <div class="stats">
-                                        <i class="fa fa-history"></i> Updated 3 minutes ago
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card ">
+                                <div class="card-header ">
+                                    <h4 class="card-title">Feedback Statistics</h4>
+                                    <!-- <p class="card-category">Last Campaign Performance</p> -->
+                                </div>
+                                <div class="card-body ">
+                                    <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
+                                    <div class="legend">
+                                        <i class="fa fa-circle text-info"></i> Good
+                                        <i class="fa fa-circle text-danger"></i> Average
+                                        <i class="fa fa-circle text-warning"></i> Bad
                                     </div>
+                                    <hr>
                                 </div>
                             </div>
                         </div>
