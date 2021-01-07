@@ -230,18 +230,51 @@ class Auth extends CI_Controller {
 			} else {
 				$resp['state'] = 'success';
 				$resp['message'] = 'Device IP Address is deleted correctly!';
-				
+				$resp['type'] = $equipments[0]['f_type'];
+				$resp['name'] = $equipments[0]['f_name'];
+				$resp['location'] = $equipments[0]['f_location'];
+				if($equipments[0]['f_state'] == 0) {
+					$resp['status'] = 'FAIL';
+				}
+				else {
+					$resp['status'] = 'OK';
+				}
 			}
 		}
 		echo json_encode($resp);
 	}
 
 	public function add_vlan_ports() {
+
+		$ip_addrs = $this->db->get_where('tb_equipment', array('f_del_flag' => 0))->result_array();
+		$data['ip_addrs'] = $ip_addrs;
 		if (!$this->session->userdata('login_session')) {
 			redirect('http://local.webcontrol.com:8080/auth');
 		} else {
-			$this->load->view('add_vlan_ports');
+			$this->load->view('add_vlan_ports', $data);
 		}
+	}
+
+	public function add_port_func(){
+		$req = $_POST;
+		$date = date('Y.m.d h:i:s');
+		$port = $this->db->get_where('tb_ip_port', array('f_ip'=>$req['ip_addr'],'f_del_flag'=>0, 'f_port'=>$req['port']))->result_array();
+		if($port != null) {
+			$resp['state'] = 'fail';
+			$resp['message'] = 'The port or VLAN is already registerd!';
+		} else {
+			$input_data = array(
+				'f_ip' => $req['ip_addr'],
+				'f_port' => $req['port'],
+				'f_vlan' => $req['vlan'],
+				'f_create_time' => $date,
+				'f_del_flag' => 0
+			);
+			$response = $this->db->insert('tb_ip_port', $input_data);
+			$resp['state'] = 'success';
+			$resp['message'] = 'IP AND PORT is added correctly!';
+		}
+		echo json_encode($resp);
 	}
 
 	public function restart_switch() {

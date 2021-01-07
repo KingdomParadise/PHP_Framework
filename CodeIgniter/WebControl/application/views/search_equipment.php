@@ -137,7 +137,8 @@
                 if (data.state === "fail") {
                     alert(data.message);
                 } else {
-                    alert(data.message);
+                    var alt_msg = "TYPE:  "+data.type+" , NAME:  " + data.name + " , LOCATION:  " + data.location + " , STATE:  " + data.status;
+                    alert(alt_msg);
                     location.href = "search_equipment";
                 }
             },

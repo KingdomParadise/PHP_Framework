@@ -95,12 +95,13 @@
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="inputGroup-sizing-default">IP Address</span>
                             <select class="form-control" id="ip_address" name="ip_address">
-                                <option value="1">1.1.1.1</option>
-                                <option value="2">1.1.1.2</option>
-                                <option value="3">1.1.1.3</option>
-                                <option value="4">1.1.1.4</option>
-                                <option value="5">1.1.1.5</option>
-                                <option value="6">1.1.1.6</option>
+                                <?php
+                                foreach ($ip_addrs as $key => $value) {
+                                ?>
+                                    <option value="<?php echo $value['f_ip_address']; ?>"><?php echo $value['f_ip_address']; ?></option>
+                                <?php
+                                }
+                                ?>
                             </select>
                         </div>
                     </div>
@@ -129,7 +130,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-primary" id="add_dev" name="add_dev">ADD</button>
+                <button class="btn btn-primary" onclick="add_port_func()" id="add_dev" name="add_dev">ADD</button>
             </div>
         </div>
     </div>
@@ -151,4 +152,33 @@
     $(document).ready(function() {
 
     });
+
+    function add_port_func() {
+        var ip_addr = $('#ip_address').val();
+        var port = $('#port').val();
+        var vlan = $('#vlan').val();
+
+        $.ajax({
+
+            url: 'add_port_func',
+            type: 'post',
+            data: {
+                'ip_addr': ip_addr,
+                'port': port,
+                'vlan': vlan
+            },
+            dataType: 'json',
+            success: function(data) {
+                if (data.state === "fail") {
+                    alert(data.message);
+                } else {
+                    alert(data.message);
+                    location.href = "add_vlan_ports";
+                }
+            },
+            error: function(request, error) {
+                alert("Ajax Error!!!");
+            }
+        });
+    }
 </script>
