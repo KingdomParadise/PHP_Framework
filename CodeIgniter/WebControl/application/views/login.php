@@ -1,4 +1,5 @@
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
@@ -110,13 +111,13 @@
 			</div>
 
 			<div class="col-lg-12 col-md-12 col-sm-12">
-				<input class="form-control" type="text" placeholder="Please enter your user name">
+				<input class="form-control" type="text" id="username" name="username" placeholder="Please enter your user name">
 			</div>
 			<div class="col-lg-12  col-md-12 col-sm-12">
-				<input class="form-control" type="password" placeholder="Please enter password">
+				<input class="form-control" type="password" id="userpwd" name="userpwd" placeholder="Please enter password">
 			</div>
 			<div class="col-lg-12  col-md-12 col-sm-12">
-				<a href="#" class="btn  submitButton">Submit </a>
+				<button class="btn  submitButton" onclick="submit_func()">Submit </button>
 			</div>
 
 		</div>
@@ -126,10 +127,57 @@
 		<br>
 		<br>
 		<footer class="footer">
-			<p>©2021 Designed by Nikola </p>
+			<p>©2021 Designed by Nikola Ivanovic</p>
 		</footer>
 		<!--footer Section ends-->
 
 	</div>
 	<div class="col-lg-4 col-md-3 col-sm-2"></div>
 </div>
+
+<script>
+	function submit_func() {
+		var username = $('#username').val();
+		var userpwd = $('#userpwd').val();
+		if (username == '') {
+			alert('Please input username!');
+			return;
+		}
+		if (userpwd == '') {
+			alert('Please input password!');
+			return;
+		}
+		if (username != "admin") {
+			alert('Please input username correctly!');
+			return;
+		}
+		if (userpwd != "1234") {
+			alert('Please input password correctly!');
+			return;
+		}
+
+		$.ajax({
+
+			url: 'auth/login',
+			type: 'post',
+			data: {
+				'username': username,
+				'userpwd': userpwd
+			},
+			dataType: 'json',
+			success: function(data) {
+				if(data.state === "fail"){
+					alert(data.message);
+				}
+				else {
+					alert(data.message);
+					location.href ="auth/show_user_manage";
+				}
+			},
+			error: function(request, error) {
+				alert("Ajax Error!!!");
+			}
+		});
+	}
+
+</script>

@@ -24,7 +24,274 @@ class Auth extends CI_Controller {
 	}
 
 	public function show_user_manage(){
+		if(!$this->session->userdata('login_session')){
+			redirect('http://local.webcontrol.com:8080/auth');
+		}
+		else{
+			$this->load->view('user_manage');
+		}
+	}
 
-		$this->load->view('user_manage');
+	public function delete_user(){
+		if (!$this->session->userdata('login_session')) {
+			redirect('http://local.webcontrol.com:8080/auth');
+		} else {
+			$this->load->view('delete_user_view');
+		}
+	}
+
+	public function del_user_func(){
+
+		$resp['state'] = 'fail';
+		$resp['message'] = 'Username is incorrect!';
+		if($_POST['username'] == ""){
+			$resp['state'] = 'fail';
+			$resp['message'] = 'Please input username!';
+		}
+		else {
+			$users = $this->db->get_where('tb_user', array('f_del_flag' => 0))->result_array();
+			foreach ($users as $key => $value) {
+				if($value['f_name'] == $_POST['username']){
+					$response = $this->db->set('f_del_flag', 1)->where('f_id', intval($value['f_id']))->update('tb_user');
+					$resp['state'] = 'success';
+					$resp['message'] = 'Delete user correctly!';
+				}
+			}
+		}
+		echo json_encode($resp);
+	}
+
+	public function add_user()
+	{
+		if (!$this->session->userdata('login_session')) {
+			redirect('http://local.webcontrol.com:8080/auth');
+		} else {
+			$this->load->view('add_user_view');
+		}
+	}
+
+	public function auth_add_user(){
+		$request = $_POST;
+		$date = date('Y.m.d h:i:s');
+		$state = true;
+		$users = $this->db->get_where('tb_user', array('f_del_flag' => 0))->result_array();
+
+		foreach ($users as $key => $value) {
+			if($value['f_name'] == $request['username']){
+				$state = false;
+			}
+		}
+
+		if($state){
+			if ($request['username'] == "") {
+				$resp['state'] = 'fail';
+				$resp['message'] = 'Please input username!';
+			} else if ($request['userpwd'] == "") {
+				$resp['state'] = 'fail';
+				$resp['message'] = 'Please input password!';
+			} else if ($request['confirm'] == "") {
+				$resp['state'] = 'fail';
+				$resp['message'] = 'Please confirm your password!';
+			} else if ($request['userpwd'] != $request['confirm']) {
+				$resp['state'] = 'fail';
+				$resp['message'] = 'Please confirm your password correctly!';
+			} else {
+				$input_data = array(
+					'f_name' => $request['username'],
+					'f_pwd' => md5($request['userpwd']),
+					'f_create_time' => $date,
+					'f_del_flag' => 0
+				);
+				$response = $this->db->insert('tb_user', $input_data);
+				$resp['state'] = 'success';
+				$resp['message'] = 'Add user correctly!';
+			}
+		}
+		else {
+			$resp['state'] = 'fail';
+			$resp['message'] = 'Username already exist!';
+		}
+		echo json_encode($resp);
+	}
+
+	public function view_equipment()
+	{
+		if (!$this->session->userdata('login_session')) {
+			redirect('http://local.webcontrol.com:8080/auth');
+		} else {
+			$this->load->view('view_equipment');
+		}
+	}
+	
+	public function equipment_manage()
+	{
+		if (!$this->session->userdata('login_session')) {
+			redirect('http://local.webcontrol.com:8080/auth');
+		} else {
+			$this->load->view('equipment_manage');
+		}
+	}
+
+	public function add_equipment(){
+		if (!$this->session->userdata('login_session')) {
+			redirect('http://local.webcontrol.com:8080/auth');
+		} else {
+			$this->load->view('add_equipment');
+		}
+	}
+
+	public function add_dev_func(){
+		$req = $_POST;
+		$date = date('Y.m.d h:i:s');
+		$equipments = $this->db->get_where('tb_equipment', array('f_del_flag' => 0, 'f_name' => $req['name']))->result_array();
+		if($equipments == null){
+			if($req['name'] == ''){
+				$resp['state'] = 'fail';
+				$resp['message'] = 'Please input device name!';
+			}
+			else if($req['location'] == ''){
+				$resp['state'] = 'fail';
+				$resp['message'] = 'Please input device location!';
+			}
+			else if($req['ip_addr'] == ''){
+				$resp['state'] = 'fail';
+				$resp['message'] = 'Please input IP address!';
+			}
+			else {
+				$input_data = array(
+					'f_type' => $req['type'],
+					'f_name' => $req['name'],
+					'f_location' => $req['location'],
+					'f_ip_address' => $req['ip_addr'],
+					'f_create_time' => $date,
+					'f_del_flag' => 0
+				);
+				$response = $this->db->insert('tb_equipment',$input_data);
+				$resp['state'] = 'success';
+				$resp['message'] = 'Device is added correctly!';
+			}
+		}
+		else {
+			$resp['state'] = 'fail';
+			$resp['message'] = 'Device name is already exist!';
+		}
+		echo json_encode($resp);
+	}
+
+	public function delete_equipment(){
+		if (!$this->session->userdata('login_session')) {
+			redirect('http://local.webcontrol.com:8080/auth');
+		} else {
+			$this->load->view('delete_equipment');
+		}
+	}
+
+	public function del_dev_func(){
+		$req = $_POST;
+		if($req['dev_ip'] == ''){
+			$resp['state'] = 'fail';
+			$resp['message'] = 'Please input Equipment IP address!';
+		}
+		else{
+			$equipments = $this->db->get_where('tb_equipment', array('f_ip_address' => $req['dev_ip'], 'f_del_flag' => 0))->result_array();
+			if ($equipments == null) {
+				$resp['state'] = 'fail';
+				$resp['message'] = 'Please input IP Address Correctly!';
+			}
+			else {
+				$response = $this->db->set('f_del_flag', 1)->where('f_ip_address', $req['dev_ip'])->update('tb_equipment');
+				$resp['state'] = 'success';
+				$resp['message'] = 'Device IP Address is deleted correctly!';
+			}
+		}
+		echo json_encode($resp);
+	}
+
+	public function search_equipment()
+	{
+		if (!$this->session->userdata('login_session')) {
+			redirect('http://local.webcontrol.com:8080/auth');
+		} else {
+			$this->load->view('search_equipment');
+		}
+	}
+
+	public function search_dev_func(){
+		$req = $_POST;
+		if($req['dev_ip'] == ''){
+			$resp['state'] = 'fail';
+			$resp['message'] = 'Please input device IP address!';
+		} 
+		else {
+			$equipments = $this->db->get_where('tb_equipment', array('f_ip_address' => $req['dev_ip'], 'f_del_flag' => 0))->result_array();
+			if ($equipments == null) {
+				$resp['state'] = 'fail';
+				$resp['message'] = 'Please input IP Address Correctly!';
+			} else {
+				$resp['state'] = 'success';
+				$resp['message'] = 'Device IP Address is deleted correctly!';
+				
+			}
+		}
+		echo json_encode($resp);
+	}
+
+	public function add_vlan_ports() {
+		if (!$this->session->userdata('login_session')) {
+			redirect('http://local.webcontrol.com:8080/auth');
+		} else {
+			$this->load->view('add_vlan_ports');
+		}
+	}
+
+	public function restart_switch() {
+		if (!$this->session->userdata('login_session')) {
+			redirect('http://local.webcontrol.com:8080/auth');
+		} else {
+			$this->load->view('restart_switch_view');
+		}
+	}
+
+	public function date_filter_show() {
+		if (!$this->session->userdata('login_session')) {
+			redirect('http://local.webcontrol.com:8080/auth');
+		} else {
+			$this->load->view('date_filter_result');
+		}
+	}
+
+	public function team_filter_show()
+	{
+		if (!$this->session->userdata('login_session')) {
+			redirect('http://local.webcontrol.com:8080/auth');
+		} else {
+			$this->load->view('team_filter_result');
+		}
+	}
+
+	public function login() {
+		$request = $_POST;
+		if($request['username'] == ""){
+			$resp['state'] = "fail";
+			$resp['message'] = "Please input username!";
+		}
+		else if ($request['userpwd'] == "") {
+			$resp['state'] = "fail";
+			$resp['message'] = "Please input password!";
+		}
+		else if ($request['username'] != "admin") {
+			$resp['state'] = "fail";
+			$resp['message'] = "Please input username correctly!";
+		}
+		else if ($request['userpwd'] != "1234") {
+			$resp['state'] = "fail";
+			$resp['message'] = "Please input password correctly!";
+		}
+		else {
+			$this->session->set_userdata('login_session','login_session');
+			$resp['state'] = "success";
+			$resp['message'] = "Congratulation!";
+		}
+		echo json_encode($resp);
 	}
 }
