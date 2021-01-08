@@ -69,6 +69,7 @@
                     </tbody>
                 </table>
                 <button id="search" name="search" type="submit" style="margin-top: 20px; float:right;" class="btn btn-success">Search</button>
+                <button id="back" name="back" type="button" onclick="back_func()" class="btn btn-danger" style="margin-top: 20px; float:left;">Back</button>
             </div>
         </form>
     </div>
@@ -85,6 +86,9 @@
 <script type="text/javascript" src="../../assets/js/style.js"></script>
 <script type="text/javascript" src="../../assets/js/custom.js"></script>
 <script>
+    function back_func() {
+        location.href = "show_user_manage";
+    }
 </script>
 
 </html>

@@ -63,6 +63,7 @@
                 </tbody>
             </table>
             <button id="status_view" name="status_view" data-bs-toggle="modal" data-bs-target="#equipment_status" style="margin-top: 20px; float:right;" class="btn btn-success">View Status</button>
+            <button id="back" name="back" onclick="back_func()"  style="margin-top: 20px; float:left;" class="btn btn-danger">Back</button>
         </div>
     </div>
 
@@ -120,5 +121,9 @@
 <!-- link style.js and custom.js -->
 <script type="text/javascript" src="../../assets/js/style.js"></script>
 <script type="text/javascript" src="../../assets/js/custom.js"></script>
-
+<script>
+    function back_func(){
+        location.href = "equipment_manage";
+    }
+</script>
 </html>
