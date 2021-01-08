@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="./vendor/fontawesome/css/all.css">
     -->
     <!-- link style.css and custom.css -->
-    <link type="text/css" rel="stylesheet" href="./css/style.css">
-    <link type="text/css" rel="stylesheet" href="./css/custom.css">
+    <link type="text/css" rel="stylesheet" href="../../assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="../../assets/css/custom.css">
     <style>
         .container>h2 {
             text-align: left;
@@ -38,64 +38,42 @@
 
 <body>
     <div class="wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Syslog Filter by date</h2>
-                </div>
-                <div class="col-md-6">
-                    <div class="input-group mb-3" style="margin-bottom: 0px;">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Team</span>
-                        <input type="text" id="team_id" name="team_id" placeholder="Please input team id" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <form action="team_filter_log_show" method="post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Syslog Filter by date</h2>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group mb-3" style="margin-bottom: 0px;">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Team</span>
+                            <input type="text" id="team_id" name="team_id" placeholder="Please input team id" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        </div>
                     </div>
                 </div>
+                <table class="table table-success table-striped">
+                    <thead>
+                        <th>No</th>
+                        <th>IP</th>
+                        <th>Date-Time</th>
+                    </thead>
+                    <tbody>
+                        <?php
+                        foreach ($logs as $key => $value) {
+                        ?>
+                            <tr>
+                                <th scope="row"><?php echo $key + 1; ?></th>
+                                <td><?php echo $value['f_ip']; ?></td>
+                                <td><?php echo $value['f_log_time']; ?></td>
+                            </tr>
+                        <?php
+                        }
+                        ?>
+                    </tbody>
+                </table>
+                <button id="search" name="search" type="submit" style="margin-top: 20px; float:right;" class="btn btn-success">Search</button>
             </div>
-            <table class="table table-success table-striped">
-                <thead>
-                    <th>No</th>
-                    <th>IP</th>
-                    <th>Date-Time</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>1.1.1.1</td>
-                        <td>2021.01.05 12:01:12</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>1.1.1.1</td>
-                        <td>2021.01.03 16:06:12</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>1.1.1.2</td>
-                        <td>2021.01.02 08:01:12</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">4</th>
-                        <td>1.1.1.2</td>
-                        <td>2021.01.06 02:19:12</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">5</th>
-                        <td>1.1.1.1</td>
-                        <td>2021.01.07 23:01:12</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">6</th>
-                        <td>1.1.1.5</td>
-                        <td>2021.01.02 06:54:23</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">7</th>
-                        <td>1.1.1.4</td>
-                        <td>2021.01.01 12:01:12</td>
-                    </tr>
-                </tbody>
-            </table>
-            <button id="search" name="search" style="margin-top: 20px; float:right;" class="btn btn-success">Search</button>
-        </div>
+        </form>
     </div>
 </body>
 <!-- link Bootstrap by cdn -->
@@ -107,7 +85,7 @@
     <script type="text/javascript" src="./vendor/bootstrap/js/bootstrap.bundle.js"></script>
     -->
 <!-- link style.js and custom.js -->
-<script type="text/javascript" src="./js/style.js"></script>
-<script type="text/javascript" src="./js/custom.js"></script>
+<script type="text/javascript" src="../../assets/js/style.js"></script>
+<script type="text/javascript" src="../../assets/js/custom.js"></script>
 
 </html>

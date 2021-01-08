@@ -22,12 +22,16 @@
     <link rel="stylesheet" href="./vendor/fontawesome/css/all.css">
     -->
     <!-- link style.css and custom.css -->
-    <link type="text/css" rel="stylesheet" href="./css/style.css">
-    <link type="text/css" rel="stylesheet" href="./css/custom.css">
+    <link type="text/css" rel="stylesheet" href="../../assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="../../assets/css/custom.css">
     <style>
         .container>h2 {
             margin-top: 100px;
             text-align: center;
+        }
+
+        .container {
+            width: 800px;
         }
     </style>
 </head>
@@ -35,7 +39,7 @@
 <body>
     <div class="wrapper">
         <div class="container">
-            <h2>Equipment Management</h2>
+            <h2>Equipment List</h2>
             <table class="table table-success table-striped">
                 <thead>
                     <th>Type</th>
@@ -44,24 +48,18 @@
                     <th>IP</th>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>1.1.1.1</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>1.1.1.2</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Larry the Bird</td>
-                        <td></td>
-                        <td>1.1.1.3</td>
-                    </tr>
+                    <?php
+                    foreach ($equipments as $key => $value) {
+                    ?>
+                        <tr>
+                            <th scope="row"><?php echo $value['f_type']; ?></th>
+                            <td><?php echo $value['f_name']; ?></td>
+                            <td><?php echo $value['f_location']; ?></td>
+                            <td><?php echo $value['f_ip_address']; ?></td>
+                        </tr>
+                    <?php
+                    }
+                    ?>
                 </tbody>
             </table>
             <button id="status_view" name="status_view" data-bs-toggle="modal" data-bs-target="#equipment_status" style="margin-top: 20px; float:right;" class="btn btn-success">View Status</button>
@@ -84,21 +82,25 @@
                                 <th>State</th>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <th scope="row">1.1.1.1</th>
-                                    <td>Mark</td>
-                                    <td>OK</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">1.1.1.2</th>
-                                    <td>Jacob</td>
-                                    <td>OK</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">1.1.1.3</th>
-                                    <td>Larry the Bird</td>
-                                    <td>FAIL</td>
-                                </tr>
+                                <?php
+                                foreach ($equipments as $key => $value) {
+                                ?>
+                                    <tr>
+                                        <th scope="row"><?php echo $value['f_ip_address']; ?></th>
+                                        <td><?php echo $value['f_name']; ?></td>
+                                        <td>
+                                            <?php
+                                            if ($value['f_state'] == 0) {
+                                                echo 'FAIL';
+                                            } else {
+                                                echo 'OK';
+                                            }
+                                            ?>
+                                        </td>
+                                    </tr>
+                                <?php
+                                }
+                                ?>
                             </tbody>
                         </table>
                     </div>
@@ -116,7 +118,7 @@
     <script type="text/javascript" src="./vendor/bootstrap/js/bootstrap.bundle.js"></script>
     -->
 <!-- link style.js and custom.js -->
-<script type="text/javascript" src="./js/style.js"></script>
-<script type="text/javascript" src="./js/custom.js"></script>
+<script type="text/javascript" src="../../assets/js/style.js"></script>
+<script type="text/javascript" src="../../assets/js/custom.js"></script>
 
 </html>

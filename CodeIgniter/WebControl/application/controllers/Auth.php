@@ -116,10 +116,12 @@ class Auth extends CI_Controller {
 
 	public function view_equipment()
 	{
+		$equipments = $this->db->get_where('tb_equipment', array('f_del_flag'=>0))->result_array();
+		$data['equipments'] = $equipments;
 		if (!$this->session->userdata('login_session')) {
 			redirect('http://local.webcontrol.com:8080/auth');
 		} else {
-			$this->load->view('view_equipment');
+			$this->load->view('view_equipment', $data);
 		}
 	}
 	
@@ -286,19 +288,46 @@ class Auth extends CI_Controller {
 	}
 
 	public function date_filter_show() {
+
+		$logs = $this->db->get_where('tb_syslog', array('f_del_flag'=>0))->result_array();
+		$data['logs'] = $logs;
 		if (!$this->session->userdata('login_session')) {
 			redirect('http://local.webcontrol.com:8080/auth');
 		} else {
-			$this->load->view('date_filter_result');
+			$this->load->view('date_filter_result', $data);
+		}
+	}
+
+	public function search_date_filter_show(){
+		$req = $_POST;
+		$logs = $this->db->get_where('tb_syslog', array('f_log_time'=>$req['filter_date'], 'f_del_flag'=>0))->result_array();
+		$data['logs'] = $logs;
+		if (!$this->session->userdata('login_session')) {
+			redirect('http://local.webcontrol.com:8080/auth');
+		} else {
+			$this->load->view('date_filter_result', $data);
 		}
 	}
 
 	public function team_filter_show()
 	{
+		$logs = $this->db->get_where('tb_syslog', array('f_del_flag' => 0))->result_array();
+		$data['logs'] = $logs;
 		if (!$this->session->userdata('login_session')) {
 			redirect('http://local.webcontrol.com:8080/auth');
 		} else {
-			$this->load->view('team_filter_result');
+			$this->load->view('team_filter_result',$data);
+		}
+	}
+
+	public function team_filter_log_show() {
+		$req = $_POST;
+		$logs = $this->db->get_where('tb_syslog', array('f_ip' => $req['team_id'], 'f_del_flag' => 0))->result_array();
+		$data['logs'] = $logs;
+		if (!$this->session->userdata('login_session')) {
+			redirect('http://local.webcontrol.com:8080/auth');
+		} else {
+			$this->load->view('team_filter_result', $data);
 		}
 	}
 
