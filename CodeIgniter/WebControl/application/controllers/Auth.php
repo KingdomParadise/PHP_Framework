@@ -1,45 +1,53 @@
+<!-- 
+	This is the function that can control all component and switch.
+	On the top of each function, I will explain about that function.
+ -->
+
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Auth extends CI_Controller {
-
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
+	/* 
+		Public function index()
+		This function shows the Login Page from start
+	*/
 	public function index()
 	{
 		$this->load->view('login');
 	}
 
+	/* 
+		public function show_user_manage()
+		This function shows the UserManagement page
+	*/
 	public function show_user_manage(){
 		if(!$this->session->userdata('login_session')){
-			redirect('http://local.webcontrol.com:8080/auth');
+			redirect('auth');
 		}
 		else{
+			$this->load->view('link');
 			$this->load->view('user_manage');
 		}
 	}
 
+	/* 
+		public function delete_user()
+		This function shows Delete User page
+	*/
 	public function delete_user(){
 		if (!$this->session->userdata('login_session')) {
-			redirect('http://local.webcontrol.com:8080/auth');
+			redirect('auth');
 		} else {
+			$this->load->view('link');
 			$this->load->view('delete_user_view');
 		}
 	}
 
+	/* 
+		public function del_user_func()
+		In this function, we can delete user from database if the admin input the username in the Delete User page
+		First part of this function is form validation part
+	*/
 	public function del_user_func(){
 
 		$resp['state'] = 'fail';
@@ -61,15 +69,25 @@ class Auth extends CI_Controller {
 		echo json_encode($resp);
 	}
 
+	/* 
+		public function add_user()
+		This function shows Add User page
+	*/
 	public function add_user()
 	{
 		if (!$this->session->userdata('login_session')) {
-			redirect('http://local.webcontrol.com:8080/auth');
+			redirect('auth');
 		} else {
+			$this->load->view('link');
 			$this->load->view('add_user_view');
 		}
 	}
 
+	/* 
+		public function auth_add_user()
+		In this function, we can add user in database if the admin input user detail inforamtion in the Add User Page
+		The first part of this function is form validation part
+	*/
 	public function auth_add_user(){
 		$request = $_POST;
 		$date = date('Y.m.d h:i:s');
@@ -114,34 +132,54 @@ class Auth extends CI_Controller {
 		echo json_encode($resp);
 	}
 
+	/* 
+		public function view_equipment()
+		This function shows Equipment List page
+		The first part of this function is getting equipments list from database
+	*/
 	public function view_equipment()
 	{
 		$equipments = $this->db->get_where('tb_equipment', array('f_del_flag'=>0))->result_array();
 		$data['equipments'] = $equipments;
 		if (!$this->session->userdata('login_session')) {
-			redirect('http://local.webcontrol.com:8080/auth');
+			redirect('auth');
 		} else {
 			$this->load->view('view_equipment', $data);
 		}
 	}
 	
+	/* 
+		public function equipment_manage()
+		This functions shows the Equipment Management page
+	*/
 	public function equipment_manage()
 	{
 		if (!$this->session->userdata('login_session')) {
-			redirect('http://local.webcontrol.com:8080/auth');
+			redirect('auth');
 		} else {
+			$this->load->view('link');
 			$this->load->view('equipment_manage');
 		}
 	}
 
+	/* 
+		public function add_equipment()
+		This function shows Add Equipment page
+	*/
 	public function add_equipment(){
 		if (!$this->session->userdata('login_session')) {
-			redirect('http://local.webcontrol.com:8080/auth');
+			redirect('auth');
 		} else {
+			$this->load->view('link');
 			$this->load->view('add_equipment');
 		}
 	}
 
+	/* 
+		public function add_dev_func()
+		In this function admin can add device to the database if the admin input detail information of device in the Add Equipment page
+		The first part of this function is form validation part
+	*/
 	public function add_dev_func(){
 		$req = $_POST;
 		$date = date('Y.m.d h:i:s');
@@ -180,14 +218,23 @@ class Auth extends CI_Controller {
 		echo json_encode($resp);
 	}
 
+	/* 
+		public function delete_equipment()
+		This function shows the Delete Equipment page
+	*/
 	public function delete_equipment(){
 		if (!$this->session->userdata('login_session')) {
-			redirect('http://local.webcontrol.com:8080/auth');
+			redirect('auth');
 		} else {
+			$this->load->view('link');
 			$this->load->view('delete_equipment');
 		}
 	}
 
+	/* 
+		public_function del_dev_func()
+		In this function, admin can delete device from database if he input correct information of device in Delete equipment page
+	*/
 	public function del_dev_func(){
 		$req = $_POST;
 		if($req['dev_ip'] == ''){
@@ -209,15 +256,24 @@ class Auth extends CI_Controller {
 		echo json_encode($resp);
 	}
 
+	/* 
+		public function search_equipment()
+		This function shows Search Equipment page
+	*/
 	public function search_equipment()
 	{
 		if (!$this->session->userdata('login_session')) {
-			redirect('http://local.webcontrol.com:8080/auth');
+			redirect('auth');
 		} else {
+			$this->load->view('link');
 			$this->load->view('search_equipment');
 		}
 	}
 
+	/* 
+		public function search_dev_func()
+		In this function, the admin can search the device detail information from database if he input correct information of device on th Search Equipment Page
+	*/
 	public function search_dev_func(){
 		$req = $_POST;
 		if($req['dev_ip'] == ''){
@@ -246,16 +302,26 @@ class Auth extends CI_Controller {
 		echo json_encode($resp);
 	}
 
+	/* 
+		public function add_vlan_ports()
+		This function shows the ADD VLAN PORTS PAGE
+	*/
 	public function add_vlan_ports() {
 
 		$ip_addrs = $this->db->get_where('tb_equipment', array('f_del_flag' => 0))->result_array();
 		$data['ip_addrs'] = $ip_addrs;
 		if (!$this->session->userdata('login_session')) {
-			redirect('http://local.webcontrol.com:8080/auth');
+			redirect('auth');
 		} else {
+			$this->load->view('link');
 			$this->load->view('add_vlan_ports', $data);
 		}
 	}
+
+	/* 
+		public function add_port_func()
+		In this function, admin can add port of device to database if he inputs correct info of device and port
+	*/
 
 	public function add_port_func(){
 		$req = $_POST;
@@ -279,58 +345,88 @@ class Auth extends CI_Controller {
 		echo json_encode($resp);
 	}
 
+	/* 
+		public function restart_switch()
+		This function shows Restart Switch page
+	*/
 	public function restart_switch() {
+		$equipments = $this->db->get_where('tb_equipment', array('f_del_flag'=>0))->result_array();
+		$data['equipments'] = $equipments;
 		if (!$this->session->userdata('login_session')) {
-			redirect('http://local.webcontrol.com:8080/auth');
+			redirect('auth');
 		} else {
-			$this->load->view('restart_switch_view');
+			$this->load->view('link');
+			$this->load->view('restart_switch_view', $data);
 		}
 	}
 
+	/* 
+		public function date_filter_show()
+		This function shows the syslog from database
+	*/
 	public function date_filter_show() {
 
 		$logs = $this->db->get_where('tb_syslog', array('f_del_flag'=>0))->result_array();
 		$data['logs'] = $logs;
 		if (!$this->session->userdata('login_session')) {
-			redirect('http://local.webcontrol.com:8080/auth');
+			redirect('auth');
 		} else {
+			$this->load->view('link');
 			$this->load->view('date_filter_result', $data);
 		}
 	}
 
+	/* 
+		public function search_date_filter_show()
+		This function shows the results of syslog from database with data that admin inputed date
+	*/
 	public function search_date_filter_show(){
 		$req = $_POST;
 		$logs = $this->db->get_where('tb_syslog', array('f_log_time'=>$req['filter_date'], 'f_del_flag'=>0))->result_array();
 		$data['logs'] = $logs;
 		if (!$this->session->userdata('login_session')) {
-			redirect('http://local.webcontrol.com:8080/auth');
+			redirect('auth');
 		} else {
+			$this->load->view('link');
 			$this->load->view('date_filter_result', $data);
 		}
 	}
 
+	/* 
+		public function team_filter_show()
+		This function shows the syslog from database
+		This function equal date_filter_show() but for expanding function I have made
+	*/
 	public function team_filter_show()
 	{
 		$logs = $this->db->get_where('tb_syslog', array('f_del_flag' => 0))->result_array();
 		$data['logs'] = $logs;
 		if (!$this->session->userdata('login_session')) {
-			redirect('http://local.webcontrol.com:8080/auth');
+			redirect('auth');
 		} else {
 			$this->load->view('team_filter_result',$data);
 		}
 	}
 
+	/* 
+		public function team_filter_log_show()
+		This function shows the filtered results of syslog from database with IP address 
+	*/
 	public function team_filter_log_show() {
 		$req = $_POST;
 		$logs = $this->db->get_where('tb_syslog', array('f_ip' => $req['team_id'], 'f_del_flag' => 0))->result_array();
 		$data['logs'] = $logs;
 		if (!$this->session->userdata('login_session')) {
-			redirect('http://local.webcontrol.com:8080/auth');
+			redirect('auth');
 		} else {
 			$this->load->view('team_filter_result', $data);
 		}
 	}
 
+	/* 
+		public function login()
+		In this function the system check the person is admin or not
+	*/
 	public function login() {
 		$request = $_POST;
 		if($request['username'] == ""){

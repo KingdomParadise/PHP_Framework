@@ -4,7 +4,7 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 <style>
-	/*bootstrap class override for login page only*/
+
 	.form-control {
 		border-radius: 0px;
 		margin: 12px 3px;
@@ -21,7 +21,6 @@
 		height: 70px;
 	}
 
-	/*footer*/
 	.footer a {
 		color: #000;
 		text-decoration: none;
@@ -32,10 +31,6 @@
 		text-align: center;
 	}
 
-	/*footer end*/
-
-
-	/*for logintemplate blue*/
 	.grayBody {
 		background-color: #E9E9E9;
 	}
@@ -97,19 +92,15 @@
 		outline: none;
 	}
 </style>
-<!------ Include the above in your HEAD tag ---------->
-
 <div class="container">
 	<div class="col-lg-4 col-md-3 col-sm-2"></div>
 	<div class="col-lg-4 col-md-6 col-sm-8">
 		<div class="logo">
-			<!-- <img src="https://s16.postimg.org/3wg150ysl/download.jpg" alt="Logo"> -->
 		</div>
 		<div class="row loginbox">
 			<div class="col-lg-12">
 				<span class="singtext">Sign in </span>
 			</div>
-
 			<div class="col-lg-12 col-md-12 col-sm-12">
 				<input class="form-control" type="text" id="username" name="username" placeholder="Please enter your user name">
 			</div>
@@ -119,18 +110,14 @@
 			<div class="col-lg-12  col-md-12 col-sm-12">
 				<button class="btn  submitButton" onclick="submit_func()">Submit </button>
 			</div>
-
 		</div>
 		<div class="row forGotPassword">
-			<!-- <a href="#">Forgot Username / Password? </a> -->
 		</div>
 		<br>
 		<br>
 		<footer class="footer">
 			<p>©2021 Designed by Nikola Ivanovic</p>
 		</footer>
-		<!--footer Section ends-->
-
 	</div>
 	<div class="col-lg-4 col-md-3 col-sm-2"></div>
 </div>
@@ -179,5 +166,4 @@
 			}
 		});
 	}
-
 </script>
