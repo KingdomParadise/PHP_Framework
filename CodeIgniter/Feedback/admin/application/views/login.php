@@ -14,7 +14,7 @@
 	<meta name="keywords" content="unique login form,leamug login form,boostrap login form,responsive login form,free css html login form,download login form">
 	<meta name="author" content="leamug">
 	<title>Feedback Admin Login</title>
-	<link href="css/style.css" rel="stylesheet" id="style">
+	<link href="../../admin/assets/css/style.css" rel="stylesheet" id="style">
 	<!-- Bootstrap core Library -->
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -98,7 +98,6 @@
 		.login-form {
 			margin-left: 33.3%;
 		}
-		
 	</style>
 </head>
 
@@ -112,13 +111,13 @@
 				<div class="form-login"></br>
 					<h4>Secure Login</h4>
 					</br>
-					<input type="text" id="userName" class="form-control input-sm chat-input" placeholder="Admin Emain" />
+					<input type="text" id="username" name="username" class="form-control input-sm chat-input" placeholder="Admin Emain" />
 					</br></br>
-					<input type="password" id="userPassword" class="form-control input-sm chat-input" placeholder="Password" />
+					<input type="password" id="userpwd" name="userpwd" class="form-control input-sm chat-input" placeholder="Password" />
 					</br></br>
 					<div class="wrapper">
 						<span class="group-btn">
-							<a href="#" class="btn btn-danger btn-md">Login <i class="fa fa-sign-in"></i></a>
+							<button class="btn btn-danger btn-md" onclick="login_func()" id="login" name="login">Login <i class="fa fa-sign-in"></i></button>
 						</span>
 					</div>
 				</div>
@@ -132,5 +131,53 @@
 		<!--//footer-->
 	</div>
 </body>
+
+<script>
+	function login_func() {
+		let name = $('#username').val();
+		let pwd = $('#userpwd').val();
+		if (name == '') {
+			alert('Please input Admin ID!');
+			return;
+		}
+
+		if (pwd == '') {
+			alert('Please input Admin password');
+			return;
+		}
+
+		if (name != 'admin@admin.com') {
+			alert('Please input correct Admin ID');
+			return;
+		}
+
+		if (pwd != '12345678') {
+			alert('Please input correct Admin password');
+			return;
+		}
+
+		$.ajax({
+
+			url: 'auth/admin_login',
+			type: 'post',
+			data: {
+				'name': name,
+				'pwd': pwd
+			},
+			dataType: 'json',
+			success: function(data) {
+				if (data.state === "fail") {
+					alert(data.message);
+				} else {
+					alert(data.message);
+					location.href = "dashboard";
+				}
+			},
+			error: function(request, error) {
+				alert("Ajax Error!!!");
+			}
+		});
+	}
+</script>
 
 </html>

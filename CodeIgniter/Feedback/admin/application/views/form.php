@@ -68,25 +68,9 @@
                         <span class="navbar-toggler-bar burger-lines"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navigation">
-                        <ul class="nav navbar-nav mr-auto">
-                            <li class="dropdown nav-item">
-                                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                                    <i class="nc-icon nc-planet"></i>
-                                    <span class="notification">5</span>
-                                    <span class="d-lg-none">Notification</span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Notification 1</a>
-                                    <a class="dropdown-item" href="#">Notification 2</a>
-                                    <a class="dropdown-item" href="#">Notification 3</a>
-                                    <a class="dropdown-item" href="#">Notification 4</a>
-                                    <a class="dropdown-item" href="#">Another notification</a>
-                                </ul>
-                            </li>
-                        </ul>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#pablo">
+                                <a class="nav-link" href="auth/log_out">
                                     <span class="no-icon">Log out</span>
                                 </a>
                             </li>
@@ -116,51 +100,49 @@
                                                 <th scope="col">Edit</th>
                                                 <th scope="col">Field</th>
                                                 <th scope="col">Feedbacks</th>
-                                                <th scope="col">Link</th>
-                                                <th scope="col">Clone</th>
+                                               <!--  <th scope="col">Link</th>
+                                                <th scope="col">Clone</th> -->
                                                 <th scope="col">Delete</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>Wave</td>
-                                                <td>wave</td>
-                                                <td><button type="button" class="btn btn-success">Active</button></td>
-                                                <td><button type="button" class="btn btn-danger">Active Home</button></td>
-                                                <td><button type="button" data-toggle="modal" data-target="#edit_form_modal" class="btn btn-primary">Edit</button></td>
-                                                <td><button type="button" class="btn btn-primary">Field</button></td>
-                                                <td><button type="button" class="btn btn-primary">Feedbacks</button></td>
-                                                <td><button type="button" class="btn btn-primary">Link</button></td>
-                                                <td><button type="button" data-toggle="modal" data-target="#clone_form_modal" class="btn btn-primary">Clone</button></td>
-                                                <td><button type="button" class="btn btn-danger">Delete</button></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>Layalina</td>
-                                                <td>layalina</td>
-                                                <td><button type="button" class="btn btn-success">Active</button></td>
-                                                <td><button type="button" class="btn btn-success">Home</button></td>
-                                                <td><button type="button" data-toggle="modal" data-target="#edit_form_modal" class="btn btn-primary">Edit</button></td>
-                                                <td><button type="button" class="btn btn-primary">Field</button></td>
-                                                <td><button type="button" class="btn btn-primary">Feedbacks</button></td>
-                                                <td><button type="button" class="btn btn-primary">Link</button></td>
-                                                <td><button type="button" data-toggle="modal" data-target="#clone_form_modal" class="btn btn-primary">Clone</button></td>
-                                                <td><button type="button" class="btn btn-danger">Delete</button></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>Tea garden</td>
-                                                <td>tea-garden</td>
-                                                <td><button type="button" class="btn btn-success">Active</button></td>
-                                                <td><button type="button" class="btn btn-danger">Active Home</button></td>
-                                                <td><button type="button" data-toggle="modal" data-target="#edit_form_modal" class="btn btn-primary">Edit</button></td>
-                                                <td><button type="button" class="btn btn-primary">Field</button></td>
-                                                <td><button type="button" class="btn btn-primary">Feedbacks</button></td>
-                                                <td><button type="button" class="btn btn-primary">Link</button></td>
-                                                <td><button type="button" data-toggle="modal" data-target="#clone_form_modal" class="btn btn-primary">Clone</button></td>
-                                                <td><button type="button" class="btn btn-danger">Delete</button></td>
-                                            </tr>
+                                            <?php
+                                            foreach ($forms as $key => $value) {
+                                            ?>
+                                                <tr>
+                                                    <th scope="row"><?php echo $key + 1; ?></th>
+                                                    <td><?php echo $value['f_name']; ?></td>
+                                                    <td><?php echo $value['f_slug']; ?></td>
+                                                    <?php
+                                                    if ($value['f_state'] == 1) {
+                                                    ?>
+                                                        <td><button type="button" data-id="<?php echo $value['f_name']; ?>" class="btn btn-success btn_active">Active</button></td>
+                                                    <?php
+                                                    } else {
+                                                    ?>
+                                                        <td><button type="button" data-id="<?php echo $value['f_name']; ?>" class="btn btn-danger btn_active">Deactive</button></td>
+                                                    <?php
+                                                    }
+                                                    if ($value['f_ishome'] == 0) {
+                                                    ?>
+                                                        <td><button type="button" data-id="<?php echo $value['f_name']; ?>" class="btn btn-danger btn_home">Active Home</button></td>
+                                                    <?php
+                                                    } else {
+                                                    ?>
+                                                        <td><button type="button" data-id="<?php echo $value['f_name']; ?>" class="btn btn-success btn_home">Home</button></td>
+                                                    <?php
+                                                    }
+                                                    ?>
+                                                    <td><button type="button" data-id="<?php echo $value['f_name']; ?>" data-toggle="modal" data-target="#edit_form_modal" class="btn_edit btn btn-primary">Edit</button></td>
+                                                    <td><button type="button" data-id="<?php echo $value['f_name']; ?>" class="btn_field btn btn-primary">Field</button></td>
+                                                    <td><button type="button" data-id="<?php echo $value['f_name']; ?>" class="btn btn-primary btn_feedback">Feedback</button></td>
+                                                    <!-- <td><button type="button" data-id="<?php echo $value['f_name']; ?>" class="btn btn-primary btn_link">Link</button></td> -->
+                                                    <!-- <td><button type="button" data-id="<?php echo $value['f_name']; ?>" data-toggle="modal" data-target="#clone_form_modal" class="btn_clone btn btn-primary">Clone</button></td> -->
+                                                    <td><button type="button" data-id="<?php echo $value['f_name']; ?>" class="btn_delete btn btn-danger">Delete</button></td>
+                                                </tr>
+                                            <?php
+                                            }
+                                            ?>
                                         </tbody>
                                     </table>
                                 </div>
@@ -194,26 +176,28 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <label>Form Name</label>
-                            <input class="form-control" placeholder="Place form name"></input>
-                        </div>
-                        <div class="col-md-12">
-                            <label>Welcome Text</label>
-                            <input class="form-control" placeholder="Place Welcome Text"></input>
-                        </div>
-                        <div class="col-md-12">
-                            <label>Form Logo</label>
-                            <input type="file" class="form-control" id="customFile" />
+                <form method="post" action="form/add_form" id="upload_form" enctype="multipart/form-data">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>Form Name</label>
+                                <input name="form_name" id="form_name" class="form-control" placeholder="Place form name" required></input>
+                            </div>
+                            <div class="col-md-12">
+                                <label>Welcome Text</label>
+                                <textarea class="form-control" id="welcome_text" name="welcome_text" placeholder="Place Welcome Text" style="height: 150px;" required></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <label>Form Logo</label>
+                                <input type="file" id="image_file" name="image_file" class="form-control" required />
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Add Form</button>
-                </div>
+                    <div class="modal-footer">
+                        <input type="button" class="btn btn-secondary" data-dismiss="modal" value="Close" />
+                        <button type="submit" id="btn_upload" type="submit" class="btn btn-primary">ADD</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -251,7 +235,7 @@
         </div>
     </div>
 
-    <div class="modal fade" id="clone_form_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <!--  <div class="modal fade" id="clone_form_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -274,7 +258,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </body>
 <!--   Core JS Files   -->
 <script src="../assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
@@ -294,7 +278,90 @@
 <script src="../assets/js/demo.js"></script>
 
 <script>
+    jQuery(function($) {
+        $(".card table button.btn_active").on("click", function() {
+            var form_id = $(this).data('id');
+            $.ajax({
 
+                url: 'form/active_func',
+                type: 'post',
+                data: {
+                    'formid': form_id
+                },
+                dataType: 'json',
+                success: function(data) {
+                    if (data.state === "fail") {
+                        alert(data.message);
+                    } else {
+                        alert(data.message);
+                        location.href = "form";
+                    }
+                },
+                error: function(request, error) {
+                    alert("Ajax Error!!!");
+                }
+            });
+        });
+
+        $(".card table button.btn_home").on("click", function() {
+            var form_id = $(this).attr('data-id');
+            $.ajax({
+
+                url: 'form/home_func',
+                type: 'post',
+                data: {
+                    'formid': form_id
+                },
+                dataType: 'json',
+                success: function(data) {
+                    if (data.state === "fail") {
+                        alert(data.message);
+                    } else {
+                        alert(data.message);
+                        location.href = "form";
+                    }
+                },
+                error: function(request, error) {
+                    alert("Ajax Error!!!");
+                }
+            });
+        });
+
+        /* $(".card table button.btn_link").on("click", function() {
+            var form_id = $(this).attr('data-id');
+            location.href = "http://local.feedback.com:8080/" + form_id;
+        }); */
+
+        $(".card table button.btn_delete").on("click", function() {
+            var form_id = $(this).attr('data-id');
+            var result = confirm("Do you want to delete this form?");
+            if (result) {
+                $.ajax({
+
+                    url: 'form/delete_func',
+                    type: 'post',
+                    data: {
+                        'formid': form_id
+                    },
+                    dataType: 'json',
+                    success: function(data) {
+                        if (data.state === "fail") {
+                            alert(data.message);
+                        } else {
+                            alert(data.message);
+                            location.href = "form";
+                        }
+                    },
+                    error: function(request, error) {
+                        alert("Ajax Error!!!");
+                    }
+                });
+            } else {
+                alert("Delete form request cnacel!");
+            }
+
+        });
+    });
 </script>
 
 </html>
