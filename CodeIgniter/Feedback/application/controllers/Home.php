@@ -37,6 +37,7 @@ class Home extends CI_Controller
     public function get_feedback(){
         $req = $_POST;
         $date = date('y.m.d h:i:s');
+        $cur_feedback = count($this->db->get_where('tb_feedbacks', array('f_field_id'=>2,'f_del_flag'=>0))->result_array());
         foreach ($req as $key => $value) {
             $get_field = $this->db->get_where('tb_fields', array('f_id'=>$key))->row_array();
             if($get_field['f_field_type'] == 2){
@@ -46,7 +47,8 @@ class Home extends CI_Controller
                     'f_combo_val' => $req[$key],
                     'f_text_val' => '',
                     'f_create_date' => $date,
-                    'f_del_flag' => 0
+                    'f_del_flag' => 0,
+                    'f_cur_feednum' => $cur_feedback+1
                );
                $this->db->insert('tb_feedbacks', $input_data);
             }
@@ -57,7 +59,8 @@ class Home extends CI_Controller
                     'f_combo_val' => '',
                     'f_text_val' => $req[$key],
                     'f_create_date' => $date,
-                    'f_del_flag' => 0
+                    'f_del_flag' => 0,
+                    'f_cur_feednum' => $cur_feedback + 1
                 );
                 $this->db->insert('tb_feedbacks', $input_data);
             }

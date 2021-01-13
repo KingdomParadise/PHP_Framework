@@ -100,7 +100,7 @@
                                                 <th scope="col">Edit</th>
                                                 <th scope="col">Field</th>
                                                 <th scope="col">Feedbacks</th>
-                                               <!--  <th scope="col">Link</th>
+                                                <!--  <th scope="col">Link</th>
                                                 <th scope="col">Clone</th> -->
                                                 <th scope="col">Delete</th>
                                             </tr>
@@ -211,31 +211,34 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <label>Form Name</label>
-                            <input class="form-control" placeholder="Place form name"></input>
-                        </div>
-                        <div class="col-md-12">
-                            <label>Welcome Text</label>
-                            <input class="form-control" placeholder="Place Welcome Text"></input>
-                        </div>
-                        <div class="col-md-12">
-                            <label>Form Logo</label>
-                            <input type="file" class="form-control" id="customFile" />
+                <form method="post" action="form/edit_form" id="upload_form" enctype="multipart/form-data">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>Form Name</label>
+                                <input class="form-control" id="edit_form_name" name="edit_form_name" placeholder="Place form name" required></input>
+                                <input class="form-control" id="current_name" name="current_name" type="hidden"></input>
+                            </div>
+                            <div class="col-md-12">
+                                <label>Welcome Text</label>
+                                <textarea class="form-control" id="edit_welcome_text" name="edit_welcome_text" style="height: 150px;" placeholder="Place Welcome Text" required></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <label>Form Logo</label>
+                                <input type="file" class="form-control" id="edit_logo" name="edit_logo" required />
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Edit Form</button>
-                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" id="btn_end" type="submit" class="btn btn-primary">Edit Form</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
 
-   <!--  <div class="modal fade" id="clone_form_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!--  <div class="modal fade" id="clone_form_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -303,6 +306,22 @@
             });
         });
 
+        $(".card table button.btn_edit").on("click", function() {
+            var form_id = $(this).attr('data-id');
+            $('#edit_form_name').val(form_id);
+            $('#current_name').val(form_id);
+        });
+
+        $(".card table button.btn_field").on("click", function() {
+            var form_id = $(this).attr('data-id');
+            location.href = "form/edit_field?dist=" + form_id;
+        });
+
+        $(".card table button.btn_feedback").on("click", function() {
+            var form_id = $(this).attr('data-id');
+            location.href = "form/show_feedback?dist=" + form_id;
+        });
+
         $(".card table button.btn_home").on("click", function() {
             var form_id = $(this).attr('data-id');
             $.ajax({
@@ -327,10 +346,6 @@
             });
         });
 
-        /* $(".card table button.btn_link").on("click", function() {
-            var form_id = $(this).attr('data-id');
-            location.href = "http://local.feedback.com:8080/" + form_id;
-        }); */
 
         $(".card table button.btn_delete").on("click", function() {
             var form_id = $(this).attr('data-id');
