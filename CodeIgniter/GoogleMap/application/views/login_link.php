@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-grid.min.css" integrity="sha512-QTQigm89ZvHzwoJ/NgJPghQPegLIwnXuOXWEdAjjOvpE9uaBGeI05+auj0RjYVr86gtMaBJRKi8hWZVsrVe/Ug==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g==" crossorigin="anonymous" />
     <link href="../../assets/css/transparent/app.min.css" rel="stylesheet" />
-    <link href="../../assets/plugins/nvd3/build/nv.d3.css" rel="stylesheet" />
     <link href="../../assets/css/custom.css" rel="stylesheet">
     <link href="../../assets/css/style.css" rel="stylesheet">
 
@@ -53,41 +52,3 @@
         });
     </script>
 </head>
-
-<body style="color: black;">
-    <!-- begin page-cover -->
-    <div class="page-cover"></div>
-    <!-- end page-cover -->
-
-    <!-- begin #page-loader -->
-    <div id="page-loader" class="fade show">
-        <span class="spinner"></span>
-    </div>
-    <!-- end #page-loader -->
-
-    <!-- begin #page-container -->
-    <div id="page-container" class="fade page-sidebar-fixed page-header-fixed page-content-full-height">
-        <!-- begin #header -->
-        <div id="header" class="header navbar-default show-bg">
-            <!-- begin navbar-header -->
-            <div class="navbar-header">
-                <a href="index.html" class="navbar-brand"><span class="navbar-logo"></span> <b>Control</b> Admin</a>
-                <button type="button" class="navbar-toggle" data-click="sidebar-toggled">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <!-- end navbar-header -->
-            <!-- begin header-nav -->
-            <ul class="navbar-nav navbar-right">
-                <li class="dropdown navbar-user">
-                    <a href="#">
-                        <img src="../../assets/img/user/none.jpg" alt="" />
-                        <span class="d-none d-md-inline">Admin</span></b>
-                    </a>
-                </li>
-            </ul>
-            <!-- end header navigation right -->
-        </div>
-        <!-- end #header -->

@@ -5,7 +5,7 @@ class Auth extends CI_Controller
 {
     public function index()
     {   
-        $this->load->view('link');
+        $this->load->view('login_link');
         $this->load->view('login_view');
     }
 
@@ -32,5 +32,10 @@ class Auth extends CI_Controller
             $this->session->set_userdata('userlogin', 'success');
         }
         redirect("http://local.googlemap.com:8080/dashboard");
+    }
+
+    public function log_out(){
+        $this->session->sess_destroy();
+        redirect("http://local.googlemap.com:8080");
     }
 }

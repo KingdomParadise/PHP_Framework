@@ -7,7 +7,7 @@
                 <ul class="nav">
                     <li class="nav-header">Menu</li>
                     <li class="active">
-                        <a href="dashboard">
+                        <a href="/dashboard">
                             <i class="fas fa-map-marked-alt"></i>
                             <span>Dashboard</span>
                         </a>
@@ -19,12 +19,12 @@
                             <span>Registrar</span>
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="regist/user_reg_func"><i class="fa fa-user" style="margin-right: 10px;"></i>Usuario Registrar</a></li>
-                            <li><a href="regist/pos_reg_func"><i class="fas fa-map-marker-alt" style="margin-right: 10px;"></i>Pozo Registrar</a></li>
+                            <li><a href="/regist/user_reg_func"><i class="fa fa-user" style="margin-right: 10px;"></i>Usuario Registrar</a></li>
+                            <li><a href="/regist/pos_reg_func"><i class="fas fa-map-marker-alt" style="margin-right: 10px;"></i>Pozo Registrar</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="widget">
+                        <a href="/assign">
                             <i class="fas fa-crosshairs" style="margin-right:10px;"></i>
                             <span>Asignar ESTACIONES a USUARIOS</span>
                         </a>
@@ -36,13 +36,13 @@
                             <span>Mantenedores</span>
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="maintenance/user_func"> Usuario </a></li>
-                            <li><a href="maintenance/waterhole_func"> Pozo</a></li>
-                            <li><a href="maintenance/hydrogeological_func"> Sector Hidrogeológico</a></li>
-                            <li><a href="maintenance/telemetry_func"> Proveedor Telemetria</a></li>
-                            <li><a href="maintenance/water_func"> Tipo de Derecho</a></li>
-                            <li><a href="maintenance/zone_func"> Zona Administrativa</a></li>
-                            <li><a href="maintenance/address_func"> Valores de Direccionamiento de variables</a></li>
+                            <li><a href="/maintenance/user_func"> Usuario </a></li>
+                            <li><a href="/maintenance/waterhole_func"> Pozo</a></li>
+                            <li><a href="/maintenance/hydrogeological_func"> Sector Hidrogeológico</a></li>
+                            <li><a href="/maintenance/telemetry_func"> Proveedor Telemetria</a></li>
+                            <li><a href="/maintenance/water_func"> Tipo de Derecho</a></li>
+                            <li><a href="/maintenance/zone_func"> Zona Administrativa</a></li>
+                            <li><a href="/maintenance/address_func"> Valores de Direccionamiento de variables</a></li>
                         </ul>
                     </li>
                     <li class="has-sub">
@@ -52,19 +52,19 @@
                             <span>Historico Datos </span>
                         </a>
                         <ul class="sub-menu">
-                            <li><a href="history/graph_show"><i class="fas fa-chart-bar"></i> Espectáculo gráfico</a></li>
-                            <li><a href="history/table_show"><i class="fa fa-table"></i> Mostrar tabla</a></li>
+                            <li><a href="/history/graph_show"><i class="fas fa-chart-bar"></i> Espectáculo gráfico</a></li>
+                            <li><a href="/history/table_show"><i class="fa fa-table"></i> Mostrar tabla</a></li>
                         </ul>
                     </li>
 
                     <li>
-                        <a href="water_volume">
+                        <a href="/water_volume">
                             <i class="fas fa-water" style="margin-right:10px;"></i>
                             <span>Volúmenes de agua</span>
                         </a>
                     </li>
                     <li>
-                        <a href="auth/log_out">
+                        <a href="/auth/log_out">
                             <i class="fas fa-sign-out-alt" style="margin-right:10px;"></i>
                             <span>Cerrar sesión</span>
                         </a>
