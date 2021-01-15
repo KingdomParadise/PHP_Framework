@@ -271,6 +271,7 @@ class Form extends CI_Controller
     public function show_feedback(){
         $form_name = $_GET['dist'];
         $form_id = $this->db->get_where('tb_forms',array('f_name'=>$form_name))->row_array()['f_id'];
+        $fields_list = $this->db->get_where('tb_fields',array(''))
         $feedbacks = $this->db->get_where('tb_feedbacks', array('f_form_id'=>$form_id, 'f_del_flag'=>0))->result_array();
         $cnt_good = count($this->db->get_where('tb_feedbacks', array('f_form_id'=>$form_id, 'f_combo_val'=>'good', 'f_del_flag'=>0))->result_array());
         $cnt_aver = count($this->db->get_where('tb_feedbacks', array('f_form_id' => $form_id, 'f_combo_val' => 'average', 'f_del_flag' => 0))->result_array());
@@ -280,6 +281,7 @@ class Form extends CI_Controller
         $data['cnt_aver'] = $cnt_aver;
         $data['cnt_bad'] = $cnt_bad;
         $data['form_name'] = $form_name;
+        var_dump($data);exit;
         $this->load->view('feedbacks',$data);
     }
 }

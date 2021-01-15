@@ -122,6 +122,7 @@
                                </div>
                            </div>
                            <div id="nv-stacked-area-chart" class="height-sm"></div>
+                           <div id="nv-stacked-area-chart2" class="height-sm"></div>
                        </div>
                    </div>
                    <!-- end panel -->
@@ -129,9 +130,8 @@
                <div class="col-1"></div>
                <!-- end col-6 -->
                <!-- begin col-6 -->
-               <div class="col-1"></div>
-               <div class="col-10">
-                   <!-- begin panel -->
+               <!-- <div class="col-1"></div> -->
+               <!-- <div class="col-10">
                    <div class="panel panel-inverse">
                        <div class="panel-heading">
                            <h4 class="panel-title">Stacked Bar Chart</h4>
@@ -163,9 +163,8 @@
                            <div id="nv-stacked-bar-chart" class="height-sm"></div>
                        </div>
                    </div>
-                   <!-- end panel -->
-               </div>
-               <div class="col-1"></div>
+               </div> -->
+               <!-- <div class="col-1"></div> -->
                <!-- end col-6 -->
            </div>
            <!-- end row -->
@@ -180,9 +179,9 @@
 
 
        <!-- ================== BEGIN PAGE LEVEL JS ================== -->
-       <script src="../assets/plugins/d3/d3.min.js"></script>
+       <script src="../../assets/plugins/d3/d3.min.js"></script>
+       <script src="../../assets/plugins/nvd3/build/nv.d3.min.js"></script>
        <script type="text/javascript" src="../../assets/js/style.js"></script>
-       <script src="../assets/plugins/nvd3/build/nv.d3.min.js"></script>
        <!-- ================== END PAGE LEVEL JS ================== -->
        </body>
 

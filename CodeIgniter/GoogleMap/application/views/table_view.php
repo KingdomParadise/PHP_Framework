@@ -182,6 +182,7 @@
                                         <th class="text-nowrap">Nombre Titular</th>
                                         <th class="text-nowrap">Pozo</th>
                                         <th class="text-nowrap">Pozo Level</th>
+                                        <th class="text-nowrap">Date</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -190,136 +191,153 @@
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-1.jpg" class="img-rounded height-30" /></td>
                                         <td>Trident</td>
                                         <td>Owner1</td>
-                                        <td>Win 95+</td>
+                                        <td>Pozo1</td>
                                         <td>4</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="even gradeC">
                                         <td width="1%" class="f-s-600 text-inverse">2</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-2.jpg" class="img-rounded height-30" /></td>
                                         <td>Trident</td>
                                         <td>Owner1</td>
-                                        <td>Win 95+</td>
+                                        <td>Pozo1</td>
                                         <td>5</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="odd gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">3</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-3.jpg" class="img-rounded height-30" /></td>
                                         <td>Trident</td>
                                         <td>Owner1</td>
-                                        <td>Win 95+</td>
+                                        <td>Pozo1</td>
                                         <td>5.5</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="even gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">4</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-4.jpg" class="img-rounded height-30" /></td>
                                         <td>Trident</td>
                                         <td>Owner1</td>
-                                        <td>Win 98+</td>
+                                        <td>Pozo1</td>
                                         <td>6</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="odd gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">5</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-5.jpg" class="img-rounded height-30" /></td>
                                         <td>Trident</td>
                                         <td>Owner1</td>
-                                        <td>Win XP SP2+</td>
+                                        <td>Pozo2</td>
                                         <td>7</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="even gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">6</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-6.jpg" class="img-rounded height-30" /></td>
                                         <td>Trident</td>
                                         <td>Owner1</td>
-                                        <td>Win XP</td>
+                                        <td>Pozo2</td>
                                         <td>6</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">7</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-7.jpg" class="img-rounded height-30" /></td>
                                         <td>Gecko</td>
                                         <td>Owner2</td>
-                                        <td>Win 98+ / OSX.2+</td>
+                                        <td>Pozo2</td>
                                         <td>1.7</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">8</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-8.jpg" class="img-rounded height-30" /></td>
                                         <td>Gecko</td>
                                         <td>Owner2</td>
-                                        <td>Win 98+ / OSX.2+</td>
+                                        <td>Pozo2</td>
                                         <td>1.8</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">9</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-9.jpg" class="img-rounded height-30" /></td>
                                         <td>Gecko</td>
                                         <td>Owner2</td>
-                                        <td>Win 98+ / OSX.2+</td>
+                                        <td>Pozo2</td>
                                         <td>1.8</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">10</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-10.jpg" class="img-rounded height-30" /></td>
                                         <td>Gecko</td>
                                         <td>Owner2</td>
-                                        <td>Win 2k+ / OSX.3+</td>
+                                        <td>Pozo3</td>
                                         <td>1.9</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">11</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-11.jpg" class="img-rounded height-30" /></td>
                                         <td>Gecko</td>
                                         <td>Owner2</td>
-                                        <td>OSX.2+</td>
+                                        <td>Pozo3</td>
                                         <td>1.8</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">12</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-12.jpg" class="img-rounded height-30" /></td>
                                         <td>Gecko</td>
                                         <td>Owner2</td>
-                                        <td>OSX.3+</td>
+                                        <td>Pozo3</td>
                                         <td>1.8</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">13</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-13.jpg" class="img-rounded height-30" /></td>
                                         <td>Gecko</td>
                                         <td>Owner2</td>
-                                        <td>Win 95+ / Mac OS 8.6-9.2</td>
+                                        <td>Pozo3</td>
                                         <td>1.7</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">14</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-14.jpg" class="img-rounded height-30" /></td>
                                         <td>Gecko</td>
                                         <td>Owner2</td>
-                                        <td>Win 98SE+</td>
+                                        <td>Pozo4</td>
                                         <td>1.7</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">15</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-1.jpg" class="img-rounded height-30" /></td>
                                         <td>Gecko</td>
                                         <td>Owner2</td>
-                                        <td>Win 98+ / OSX.2+</td>
+                                        <td>Pozo4</td>
                                         <td>1.8</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">16</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-2.jpg" class="img-rounded height-30" /></td>
                                         <td>Gecko</td>
                                         <td>Owner3</td>
-                                        <td>Win 95+ / OSX.1+</td>
+                                        <td>Pozo4</td>
                                         <td>1</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                     <tr class="gradeA">
                                         <td width="1%" class="f-s-600 text-inverse">17</td>
                                         <td width="1%" class="with-img"><img src="../../assets/img/user/user-3.jpg" class="img-rounded height-30" /></td>
                                         <td>Gecko</td>
                                         <td>Owner3</td>
-                                        <td>Win 95+ / OSX.1+</td>
+                                        <td>Pozo4</td>
                                         <td>1.1</td>
+                                        <td>2021-01-04 15:01:59</td>
                                     </tr>
                                 </tbody>
                             </table>
