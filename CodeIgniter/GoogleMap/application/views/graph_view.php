@@ -89,9 +89,7 @@
            <!-- end page-header -->
            <!-- begin row -->
            <div class="row">
-               <!-- begin col-6 -->
-               <div class="col-1"></div>
-               <div class="col-10">
+               <div class="col-12">
                    <!-- begin panel -->
                    <div class="panel panel-inverse">
                        <div class="panel-heading">

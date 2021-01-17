@@ -12,10 +12,8 @@
     <!-- end page-header -->
     <!-- begin row -->
     <div class="row">
-        <!-- begin col-1 -->
-        <div class="col-1"></div>
-        <!-- begin col-10 -->
-        <div class="col-xl-10">
+
+        <div class="col-12">
             <div class="panel panel-inverse">
                 <!-- begin panel-heading -->
                 <div class="panel-heading">
