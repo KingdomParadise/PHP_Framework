@@ -12,6 +12,4 @@ class Assign extends CI_Controller
             $this->load->view('assign_view');
         }
     }
-
-    
 }
