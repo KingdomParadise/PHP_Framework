@@ -6,6 +6,10 @@ class Dashboard extends CI_Controller
 
     public function index()
     {   
-        $this->load->view('dashboard');
+        if ($this->session->userdata['userlogin'] != 'success') {
+            redirect("http://local.feedback.com:8080/admin");
+        } else {
+            $this->load->view('dashboard');
+        }
     }
 }

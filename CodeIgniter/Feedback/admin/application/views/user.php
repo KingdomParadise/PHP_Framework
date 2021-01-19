@@ -86,7 +86,7 @@
                         </ul>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#pablo">
+                                <a class="nav-link" href="/admin/auth/log_out">
                                     <span class="no-icon">Log out</span>
                                 </a>
                             </li>
@@ -198,7 +198,7 @@
                             <label>Password Confirm</label>
                             <input type="password" class="form-control" placeholder="Place User Password Confirm"></input>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="modal-footer">

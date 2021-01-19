@@ -74,7 +74,7 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navigation">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="auth/log_out">
+                                <a class="nav-link" href="/admin/auth/log_out">
                                     <span class="no-icon">Log out</span>
                                 </a>
                             </li>
@@ -119,7 +119,7 @@
                                         <div class="col-12 col-sm-4 mt-3">
                                             <div class="card state-box">
                                                 <div class="card-body" style="margin: 10px;">
-                                                    <h2 style="margin-top: 10px;">Total Checks(<?php echo($cnt_good+$cnt_aver+$cnt_bad);?>)</h2>
+                                                    <h2 style="margin-top: 10px;">Total Checks(<?php echo ($cnt_good + $cnt_aver + $cnt_bad); ?>)</h2>
                                                 </div>
                                             </div>
                                         </div>
