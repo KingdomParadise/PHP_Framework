@@ -29,6 +29,7 @@ class Dashboard extends CI_Controller
             = count($this->db->get_where('tb_feedbacks', array('f_combo_val' => 'bad', 'f_create_date' => $value['f_create_date'], 'f_del_flag' => '0'))->result_array());
             $date_feedback[$key]['date'] = $value['f_create_date'];
         }
+        
         var_dump($date_feedback);exit;
     }
 }
