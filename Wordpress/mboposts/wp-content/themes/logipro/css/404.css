@@ -1,0 +1,68 @@
+body.error404 {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+body.error404 #main {
+	position: relative;
+}
+
+body.error404 #content {
+	width:100%;
+	text-align:center;
+}
+
+body.error404 div#error404 {
+	display:inline-block;
+    margin-top: 15vh;	
+}
+
+body.error404 #content p {
+    font-size: 25px !important;
+    font-weight: 100;
+    line-height: 150% !important;
+    white-space: nowrap;
+}
+@media only screen and (max-width: 1180px) {
+	body.error404 div#error404 {
+		width:100%;
+	}
+}
+@media only screen and (max-width: 920px) {
+	body.error404 #content p {
+		white-space:normal;
+	}
+}
+@media only screen and (max-width: 500px) {
+	#content {
+		overflow:auto;
+	}
+}
+body.error404 #content a.go-home {
+    display: inline-block;	
+    padding: 6px 40px;
+    border-radius: 3px;
+    font-size: 11px;
+	letter-spacing:3px;
+	text-align:center;
+	text-decoration: none;
+}
+
+/* svg canvas */
+#animation_container {
+	width:100%;
+	padding:0;
+}
+#animation_container>canvas {
+	position: absolute;
+	display: block;
+}
+#animation_container>div {
+	pointer-events:none;
+	overflow:hidden;
+	width:100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: block;
+}

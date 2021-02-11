@@ -1,0 +1,19 @@
+<svg width="71.497665" height="23.886881" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd">
+ <metadata id="metadata56">image/svg+xml</metadata>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill="#000000" fill-opacity="0.20408" transform="matrix(0.34650485,0,0,0.34650485,30.267064,8.7780735) " id="g20">
+   <text font-style="normal" font-weight="300" font-size="40px" font-family="Roboto" fill="#000000" fill-opacity="0.20408" stroke-width="1px" id="text4234" y="42.14198" x="-33.3211" xml:space="preserve">
+    <tspan y="42.14198" x="-33.3211" id="tspan4236">toolkit</tspan>
+   </text>
+  </g>
+  <text font-style="normal" font-weight="bold" font-size="15.767px" font-family="'Roboto Slab'" fill="#000000" fill-opacity="0.10204" stroke-width="1px" id="text4238" y="11.57364" x="13.19396" xml:space="preserve">
+   <tspan y="11.57364" x="13.19396" id="tspan4240">KIRKI</tspan>
+  </text>
+ </g>
+</svg>

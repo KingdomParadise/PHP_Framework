@@ -1,0 +1,7 @@
+input[name*="[movement_time]"] {
+	width:60px !important;
+}
+body.post-type-ozy_tracking #misc-publishing-actions,
+body.post-type-ozy_tracking #minor-publishing-actions {
+	display:none;
+}

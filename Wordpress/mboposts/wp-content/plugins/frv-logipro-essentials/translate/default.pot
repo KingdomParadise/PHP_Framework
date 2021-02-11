@@ -1,0 +1,2050 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LogiPro Essentials Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-31 08:51+0300\n"
+"PO-Revision-Date: 2016-04-07 11:22+0300\n"
+"Last-Translator: freevision <team@freevision.me>\n"
+"Language-Team: freevision <team@freevision.me>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: frv-logipro-essentials-shortcodes.php:71
+msgid "Chart"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:81
+msgid "Chart Title"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:88
+msgid "Title Position"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:95
+msgid "Type"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:102
+msgid "Show Legends"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:109
+msgid "Legends Position"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:116
+#: frv-logipro-essentials-shortcodes.php:3584
+#: frv-logipro-essentials-shortcodes.php:3849
+#: frv-logipro-essentials-shortcodes.php:5674
+msgid "Font Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:123
+#: frv-logipro-essentials-shortcodes.php:838
+msgid "Background Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:152
+msgid "Chart Item"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:161
+msgid "Label"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:168
+msgid "Value"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:175
+#: frv-logipro-essentials-shortcodes.php:3700
+msgid "Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:216
+msgid "Timeline Wrapper"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:226
+#: frv-logipro-essentials-shortcodes.php:300
+#: frv-logipro-essentials-shortcodes.php:800
+#: frv-logipro-essentials-shortcodes.php:950
+#: frv-logipro-essentials-shortcodes.php:1813
+#: frv-logipro-essentials-shortcodes.php:1970
+#: frv-logipro-essentials-shortcodes.php:2055
+#: frv-logipro-essentials-shortcodes.php:2150
+#: frv-logipro-essentials-shortcodes.php:2554
+#: frv-logipro-essentials-shortcodes.php:2599
+#: frv-logipro-essentials-shortcodes.php:2714
+#: frv-logipro-essentials-shortcodes.php:2751
+#: frv-logipro-essentials-shortcodes.php:2849
+#: frv-logipro-essentials-shortcodes.php:2886
+#: frv-logipro-essentials-shortcodes.php:3039
+#: frv-logipro-essentials-shortcodes.php:3144
+#: frv-logipro-essentials-shortcodes.php:3189
+#: frv-logipro-essentials-shortcodes.php:3289
+#: frv-logipro-essentials-shortcodes.php:3415
+#: frv-logipro-essentials-shortcodes.php:3577
+#: frv-logipro-essentials-shortcodes.php:4727
+#: frv-logipro-essentials-shortcodes.php:5337
+#: frv-logipro-essentials-shortcodes.php:5495
+#: frv-logipro-essentials-shortcodes.php:5906
+#: frv-logipro-essentials-shortcodes.php:6068
+msgid "Title"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:229
+msgid "Only place holder"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:234
+msgid "Item Background / Arrow Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:284
+msgid "Timeline Item"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:293
+msgid "Position"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:307
+#: frv-logipro-essentials-shortcodes.php:2230
+#: frv-logipro-essentials-shortcodes.php:2311
+#: frv-logipro-essentials-shortcodes.php:3607
+#: frv-logipro-essentials-shortcodes.php:5632
+msgid "Content"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:313
+#: frv-logipro-essentials-shortcodes.php:2215
+#: frv-logipro-essentials-shortcodes.php:3304
+#: frv-logipro-essentials-shortcodes.php:3498
+#: frv-logipro-essentials-shortcodes.php:5638
+#: frv-logipro-essentials-shortcodes.php:5784
+msgid "Icon"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:317
+msgid "Once you select an Icon, title will not be shown on overlay."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:321
+msgid "Text Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:328
+#: frv-logipro-essentials-shortcodes.php:3540
+msgid "Icon Background Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:335
+#: frv-logipro-essentials-shortcodes.php:2223
+msgid "Icon Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:790
+msgid "Custom Button"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:803
+msgid "Button Text"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:804
+#: frv-logipro-essentials-shortcodes.php:954
+msgid "Title of your box."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:808
+#: frv-logipro-essentials-shortcodes.php:966
+#: frv-logipro-essentials-shortcodes.php:1376
+#: frv-logipro-essentials-shortcodes.php:1836
+#: frv-logipro-essentials-shortcodes.php:2077
+#: frv-logipro-essentials-shortcodes.php:2158
+#: frv-logipro-essentials-shortcodes.php:2318
+#: frv-logipro-essentials-shortcodes.php:3368
+#: frv-logipro-essentials-shortcodes.php:3562
+#: frv-logipro-essentials-shortcodes.php:4788
+#: frv-logipro-essentials-shortcodes.php:5392
+#: frv-logipro-essentials-shortcodes.php:5511
+#: frv-logipro-essentials-shortcodes.php:5800
+msgid "Link"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:814
+msgid "Open Link In LightBox"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:817
+msgid "Off"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:818
+msgid "On"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:824
+#: frv-logipro-essentials-shortcodes.php:973
+msgid "Foregound Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:831
+msgid "Foregound Color (Hover)"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:845
+msgid "Background Color (Active)"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:851
+msgid "Button Style"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:854
+msgid "Swipe"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:855
+msgid "Diagonal Swipe"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:856
+msgid "Double Swipe"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:857
+msgid "Diagonal Close"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:858
+msgid "Zoning In"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:859
+msgid "4 Corners"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:860
+msgid "Slice"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:861
+msgid "Position Aware"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:862
+msgid "Alternate"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:863
+msgid "Smoosh"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:864
+msgid "Vertical Overlap"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:865
+msgid "Horizontal Overlap"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:866
+msgid "Collision"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:871
+#: frv-logipro-essentials-shortcodes.php:3772
+#: frv-logipro-essentials-shortcodes.php:5926
+msgid "Align"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:874
+msgid "Left"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:875
+msgid "Center"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:876
+msgid "Right"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:940
+msgid "Service Box 2"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:958
+#: frv-logipro-essentials-shortcodes.php:1829
+#: frv-logipro-essentials-shortcodes.php:1978
+#: frv-logipro-essentials-shortcodes.php:3314
+#: frv-logipro-essentials-shortcodes.php:5353
+#: frv-logipro-essentials-shortcodes.php:5503
+msgid "Excerpt"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:962
+msgid "Enter a short text to display under your title."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:980
+msgid "Background Image"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:984
+#: frv-logipro-essentials-shortcodes.php:5333
+#: frv-logipro-essentials-shortcodes.php:5491
+msgid "Select image for your team member."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:987
+#: frv-logipro-essentials-shortcodes.php:1082
+#: frv-logipro-essentials-shortcodes.php:5618
+msgid "Size"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1086
+msgid "6 in a column"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1087
+msgid "5 in a column"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1088
+msgid "4 in a column"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1089
+msgid "3 in a column"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1090
+msgid "2 in a column"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1091
+msgid "1 in a column"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1135
+msgid "YouTube Embed"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1144
+msgid "Video Size"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1146
+msgid "16:9"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1146
+msgid "4:3"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1151
+msgid "Embed Video ID"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1155
+msgid ""
+"YouTube Embed Video ID. eq. https://www.youtube.com/watch?v=<strong style="
+"\"color:red\">3sey-GFl1SQ</strong>, the bold - red part is your video ID."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1159
+msgid "Poster Image"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1163
+msgid "Set a poster image for your video player."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1254
+msgid "Custom Link"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1257
+msgid "Leave this field empty to use floating form automatically."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1364
+msgid ""
+"Usage Example: '700px'. Use this option whenever you place two or more "
+"elements in same row.."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1368
+#: frv-logipro-essentials-shortcodes.php:1464
+#: frv-logipro-essentials-shortcodes.php:1805
+#: frv-logipro-essentials-shortcodes.php:2047
+#: frv-logipro-essentials-shortcodes.php:2142
+#: frv-logipro-essentials-shortcodes.php:2303
+#: frv-logipro-essentials-shortcodes.php:5625
+#: frv-logipro-essentials-shortcodes.php:5769
+#: frv-logipro-essentials-shortcodes.php:5891
+msgid "Image"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1372
+msgid "Select an image for your item to use as background."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1468
+#: frv-logipro-essentials-shortcodes.php:1809
+#: frv-logipro-essentials-shortcodes.php:2051
+#: frv-logipro-essentials-shortcodes.php:2146
+#: frv-logipro-essentials-shortcodes.php:2307
+msgid "Select an image for your item."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1725
+#: frv-logipro-essentials-shortcodes.php:1903
+#: frv-logipro-essentials-shortcodes.php:5233
+msgid "Show Dots"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1728
+#: frv-logipro-essentials-shortcodes.php:1906
+#: frv-logipro-essentials-shortcodes.php:5236
+msgid "Show navigation dots on this carousel."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1732
+#: frv-logipro-essentials-shortcodes.php:1910
+#: frv-logipro-essentials-shortcodes.php:5240
+msgid "Show Arrows"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1735
+#: frv-logipro-essentials-shortcodes.php:1913
+#: frv-logipro-essentials-shortcodes.php:5243
+msgid "Show navigation arrows on this carousel."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1794
+msgid "Testimonial Carousel Item"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1817
+msgid "Adam Smith, CEO"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1821
+#: frv-logipro-essentials-shortcodes.php:2063
+#: frv-logipro-essentials-shortcodes.php:5120
+#: frv-logipro-essentials-shortcodes.php:5345
+msgid "Sub Title"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1825
+msgid "Seneca Mineral Company"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1959
+msgid "Testimonial Carousel Item Simple"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:1974
+#: frv-logipro-essentials-shortcodes.php:2059
+#: frv-logipro-essentials-shortcodes.php:2154
+msgid "Title for your carousel item."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2036
+msgid "Carousel Item"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2070
+msgid "Foreground Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2131
+msgid "Variable Size Item"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2206
+msgid "Custom List"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2219
+msgid "Select an icon."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2293
+msgid "Image With Featured Content"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2546
+msgid "Post Slider"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2558
+#: frv-logipro-essentials-shortcodes.php:2718
+#: frv-logipro-essentials-shortcodes.php:2853
+#: frv-logipro-essentials-shortcodes.php:3148
+msgid "Component title"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2563
+#: frv-logipro-essentials-shortcodes.php:3153
+msgid "View All Link"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2571
+#: frv-logipro-essentials-shortcodes.php:2723
+#: frv-logipro-essentials-shortcodes.php:2858
+#: frv-logipro-essentials-shortcodes.php:3011
+#: frv-logipro-essentials-shortcodes.php:3161
+msgid "Post Count"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2575
+#: frv-logipro-essentials-shortcodes.php:2727
+#: frv-logipro-essentials-shortcodes.php:2862
+#: frv-logipro-essentials-shortcodes.php:3165
+msgid "How many post will be listed on one page?"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2579
+#: frv-logipro-essentials-shortcodes.php:2731
+#: frv-logipro-essentials-shortcodes.php:2866
+#: frv-logipro-essentials-shortcodes.php:3019
+#: frv-logipro-essentials-shortcodes.php:3169
+msgid "Categories"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2581
+#: frv-logipro-essentials-shortcodes.php:2733
+#: frv-logipro-essentials-shortcodes.php:2868
+#: frv-logipro-essentials-shortcodes.php:3021
+#: frv-logipro-essentials-shortcodes.php:3171
+msgid ""
+"If you want to narrow output, enter category slug names here. Display "
+"posts that have this category (and any children of that category), use "
+"category slug (NOT name). Split names with ','. More information; <a "
+"href='http://codex.wordpress.org/Class_Reference/"
+"WP_Query#Category_Parameters' target='_blank'>http://codex.wordpress.org/"
+"Class_Reference/WP_Query#Category_Parameters</a>"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2585
+#: frv-logipro-essentials-shortcodes.php:2737
+#: frv-logipro-essentials-shortcodes.php:2872
+#: frv-logipro-essentials-shortcodes.php:3025
+#: frv-logipro-essentials-shortcodes.php:3175
+msgid "Tags"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2587
+#: frv-logipro-essentials-shortcodes.php:2739
+#: frv-logipro-essentials-shortcodes.php:2874
+#: frv-logipro-essentials-shortcodes.php:3027
+#: frv-logipro-essentials-shortcodes.php:3177
+msgid ""
+"If you want to narrow output, enter tag slug names here. Display posts "
+"that have this tag, use tag slug (NOT name). Split names with ','. More "
+"information; <a href='http://codex.wordpress.org/Class_Reference/"
+"WP_Query#Author_Parameters' target='_blank'>http://codex.wordpress.org/"
+"Class_Reference/WP_Query#Author_Parameters</a>"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2591
+#: frv-logipro-essentials-shortcodes.php:2599
+#: frv-logipro-essentials-shortcodes.php:2743
+#: frv-logipro-essentials-shortcodes.php:2751
+#: frv-logipro-essentials-shortcodes.php:2878
+#: frv-logipro-essentials-shortcodes.php:2886
+#: frv-logipro-essentials-shortcodes.php:3031
+#: frv-logipro-essentials-shortcodes.php:3039
+#: frv-logipro-essentials-shortcodes.php:3181
+#: frv-logipro-essentials-shortcodes.php:3189
+msgid "Author"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2593
+#: frv-logipro-essentials-shortcodes.php:2745
+#: frv-logipro-essentials-shortcodes.php:2880
+#: frv-logipro-essentials-shortcodes.php:3033
+#: frv-logipro-essentials-shortcodes.php:3183
+msgid ""
+"If you want to narrow output, enter author slug name here. Display posts "
+"that belongs to author, use 'user_nicename' (NOT name). More information; "
+"<a href='http://codex.wordpress.org/Class_Reference/"
+"WP_Query#Tag_Parameters' target='_blank'>http://codex.wordpress.org/"
+"Class_Reference/WP_Query#Tag_Parameters</a>"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2597
+#: frv-logipro-essentials-shortcodes.php:2749
+#: frv-logipro-essentials-shortcodes.php:2884
+#: frv-logipro-essentials-shortcodes.php:3037
+#: frv-logipro-essentials-shortcodes.php:3187
+msgid "Order by"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2599
+#: frv-logipro-essentials-shortcodes.php:2751
+#: frv-logipro-essentials-shortcodes.php:2886
+#: frv-logipro-essentials-shortcodes.php:3039
+#: frv-logipro-essentials-shortcodes.php:3189
+msgid "Date"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2599
+#: frv-logipro-essentials-shortcodes.php:2751
+#: frv-logipro-essentials-shortcodes.php:2886
+#: frv-logipro-essentials-shortcodes.php:3039
+#: frv-logipro-essentials-shortcodes.php:3189
+msgid "ID"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2599
+#: frv-logipro-essentials-shortcodes.php:2751
+#: frv-logipro-essentials-shortcodes.php:2886
+#: frv-logipro-essentials-shortcodes.php:3039
+#: frv-logipro-essentials-shortcodes.php:3189
+msgid "Modified"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2599
+#: frv-logipro-essentials-shortcodes.php:2751
+#: frv-logipro-essentials-shortcodes.php:2886
+#: frv-logipro-essentials-shortcodes.php:3039
+#: frv-logipro-essentials-shortcodes.php:3189
+msgid "Random"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2599
+#: frv-logipro-essentials-shortcodes.php:2751
+#: frv-logipro-essentials-shortcodes.php:2886
+#: frv-logipro-essentials-shortcodes.php:3039
+#: frv-logipro-essentials-shortcodes.php:3189
+msgid "Comment count"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2599
+#: frv-logipro-essentials-shortcodes.php:2751
+#: frv-logipro-essentials-shortcodes.php:2886
+#: frv-logipro-essentials-shortcodes.php:3039
+#: frv-logipro-essentials-shortcodes.php:3189
+msgid "Menu order"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2600
+#: frv-logipro-essentials-shortcodes.php:2752
+#: frv-logipro-essentials-shortcodes.php:2887
+#: frv-logipro-essentials-shortcodes.php:3040
+#: frv-logipro-essentials-shortcodes.php:3190
+msgid ""
+"Select how to sort retrieved posts. More at <a href=\"http://codex."
+"wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters\" "
+"target=\"_blank\">WordPress codex page</a>."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2604
+#: frv-logipro-essentials-shortcodes.php:2756
+#: frv-logipro-essentials-shortcodes.php:2891
+#: frv-logipro-essentials-shortcodes.php:3044
+#: frv-logipro-essentials-shortcodes.php:3194
+msgid "Order way"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2606
+#: frv-logipro-essentials-shortcodes.php:2758
+#: frv-logipro-essentials-shortcodes.php:2893
+#: frv-logipro-essentials-shortcodes.php:3046
+#: frv-logipro-essentials-shortcodes.php:3196
+msgid "Descending"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2606
+#: frv-logipro-essentials-shortcodes.php:2758
+#: frv-logipro-essentials-shortcodes.php:2893
+#: frv-logipro-essentials-shortcodes.php:3046
+#: frv-logipro-essentials-shortcodes.php:3196
+msgid "Ascending"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2607
+#: frv-logipro-essentials-shortcodes.php:2759
+#: frv-logipro-essentials-shortcodes.php:2894
+#: frv-logipro-essentials-shortcodes.php:3047
+#: frv-logipro-essentials-shortcodes.php:3197
+msgid ""
+"Designates the ascending or descending order. More at <a href=\"http://"
+"codex.wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters"
+"\" target=\"_blank\">WordPress codex page</a>."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2611
+#: frv-logipro-essentials-shortcodes.php:2763
+#: frv-logipro-essentials-shortcodes.php:2898
+#: frv-logipro-essentials-shortcodes.php:3051
+#: frv-logipro-essentials-shortcodes.php:3201
+msgid "Post Status"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2615
+#: frv-logipro-essentials-shortcodes.php:2767
+#: frv-logipro-essentials-shortcodes.php:2902
+#: frv-logipro-essentials-shortcodes.php:3055
+#: frv-logipro-essentials-shortcodes.php:3205
+msgid "Show posts associated with certain status."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2706
+msgid "News Carousel"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2841
+msgid "News Ticker"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2958
+msgid "Read More"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2972
+msgid "News Ticker Box"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2980
+msgid "Item Per Page"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2984
+msgid "How many post will be listed on the slider?"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2988
+#: frv-logipro-essentials-shortcodes.php:5209
+msgid "Auto Play"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:2995
+msgid "Direction"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3003
+msgid "Ticker Interval"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3015
+msgid "How many post will be populated from the source?"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3136
+msgid "News & Events"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3279
+msgid "Service Box"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3290
+msgid "TITLE GOES HERE"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3297
+msgid "Title Hover"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3298
+msgid "SET AN APPOINTMENT"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3308
+#: frv-logipro-essentials-shortcodes.php:3502
+#: frv-logipro-essentials-shortcodes.php:3558
+msgid "Title heading style."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3320
+msgid "Title Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3328
+msgid "Excerpt Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3336
+msgid "Front Face Background Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3344
+msgid "Front Face Background Image"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3352
+msgid "Back Face Background Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3360
+msgid "Back Face Background Image"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3376
+#: frv-logipro-essentials-shortcodes.php:5248
+#: frv-logipro-essentials-shortcodes.php:5705
+#: frv-logipro-essentials-shortcodes.php:5824
+#: frv-logipro-essentials-shortcodes.php:5933
+msgid "Extra class name"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3378
+#: frv-logipro-essentials-shortcodes.php:5250
+#: frv-logipro-essentials-shortcodes.php:5707
+#: frv-logipro-essentials-shortcodes.php:5826
+#: frv-logipro-essentials-shortcodes.php:5935
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3405
+msgid "Icon Wrapper"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3489
+msgid "Title With Icon"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3505
+msgid "Icon Size"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3507
+msgid "medium"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3507
+msgid "large"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3507
+msgid "xlarge"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3507
+msgid "xxlarge"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3507
+msgid "xxxlarge"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3509
+msgid "Size of the Icon."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3512
+msgid "Icon Position"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3514
+msgid "left"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3514
+msgid "right"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3514
+msgid "top"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3516
+#: frv-logipro-essentials-shortcodes.php:3537
+msgid "Position of the Icon."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3519
+msgid "Icon Alternative Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3523
+msgid "This field is not required."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3526
+msgid "Icon Alternative Color End"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3530
+msgid "To generate gradient effect on your icon, choose a color here."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3533
+msgid "Icon Background Type"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3535
+msgid "rectangle"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3535
+msgid "rounded"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3535
+msgid "circle"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3535
+msgid "clear"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3544
+msgid "Background color of Icon."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3547
+msgid "Icon Shadow Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3551
+msgid "Shadow color of Icon."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3554
+msgid "Heading Style"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3566
+msgid "Enter full path."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3569
+#: frv-logipro-essentials-shortcodes.php:5806
+msgid "Link Target"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3573
+msgid ""
+"Select link target window. fancybox will launch an lightbox window for "
+"images, and fancybox-media will launch a lightbox window for frames/video."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3580
+msgid "Enter your title here"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3581
+msgid "Content of the title."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3588
+msgid "This option will affect Title and Content color."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3591
+msgid "Connected"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3595
+msgid "Select yes to connect elements to next one with a dashed border."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3598
+#: frv-logipro-essentials-shortcodes.php:3736
+msgid "Border Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3610
+msgid "Type your content here."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3683
+msgid "Separator (Divider) With Caption"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3693
+msgid "Caption Size"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3707
+#: frv-logipro-essentials-shortcodes.php:4780
+#: frv-logipro-essentials-shortcodes.php:5033
+#: frv-logipro-essentials-shortcodes.php:5036
+#: frv-logipro-essentials-shortcodes.php:5777
+msgid "Caption"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3710
+msgid "Enter your caption here"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3711
+msgid "Caption of the divider."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3714
+msgid "or use an Icon"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3717
+msgid ""
+"Caption will be ignored when an icon selected. Only works with overlay "
+"caption position."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3722
+msgid "Border Style"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3729
+msgid "Border Size"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3743
+msgid "Caption Align"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3747
+msgid "Caption align."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3751
+msgid "Caption Position"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3755
+msgid "Caption position."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3758
+msgid "More Customization"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3764
+#: frv-logipro-essentials-shortcodes.php:5974
+msgid "Width"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3831
+msgid "Typewriter"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3842
+msgid "Static Caption"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3857
+msgid "Font Size"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3865
+msgid "Font Weight"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3873
+msgid "Type Speed"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3876
+msgid "Typing Speed"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3882
+msgid "Start Delay"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3885
+msgid "Time before typing starts"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3891
+msgid "Back Speed"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3894
+msgid "Backspacing speed"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3900
+msgid "Back Delay"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3903
+msgid "Time before backspacing"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3909
+msgid "Loop"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3912
+msgid "The whole typing is loop or not"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3936
+msgid "Line"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3945
+msgid "Typewriter Line"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:3948
+msgid ""
+"Add ^1000 between the words if you like add 1000ms delay to before the "
+"next word. Example: First ^1000 sentence."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4716
+msgid "Locations World Map"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4764
+#: frv-logipro-essentials-shortcodes.php:4922
+msgid "Location"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4772
+msgid "Country"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4783
+msgid "Click to see our Offices in ..."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4837
+msgid "Multi Location Google Map"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4848
+#: frv-logipro-essentials-shortcodes.php:5008
+msgid "Google Maps API Key"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4852
+#: frv-logipro-essentials-shortcodes.php:5012
+msgid ""
+"<a href=\"http://freevision.me/google-maps-key/\" target=\"_blank\">Learn "
+"how to get an API Key.</a>"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4857
+#: frv-logipro-essentials-shortcodes.php:5017
+msgid "Height"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4865
+#: frv-logipro-essentials-shortcodes.php:5041
+msgid "Zoom Level"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4872
+#: frv-logipro-essentials-shortcodes.php:5057
+msgid "Hue Color"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4880
+#: frv-logipro-essentials-shortcodes.php:5065
+msgid "Saturation"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4888
+#: frv-logipro-essentials-shortcodes.php:5073
+msgid "Lightness"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4931
+msgid "Info Box Caption"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4934
+msgid "Head Quarter"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4939
+#: frv-logipro-essentials-shortcodes.php:5025
+msgid "Address"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4942
+#: frv-logipro-essentials-shortcodes.php:5028
+msgid "Melbourne, Australia"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4947
+#: frv-logipro-essentials-shortcodes.php:5049
+msgid "Custom Icon"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4949
+#: frv-logipro-essentials-shortcodes.php:5051
+msgid "You can select a custom icon for your pin on the map"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:4998
+msgid "Custom Google Map"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5109
+msgid "Count To"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5124
+msgid "Counter title."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5128
+msgid "From"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5132
+msgid "Counter start from"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5136
+msgid "To"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5140
+msgid "Counter count to"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5144
+msgid "Sign"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5148
+#, php-format
+msgid "Enter a sign like % or whatever you like"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5151
+msgid "Sign Position"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5155
+msgid "Select position of your sign."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5158
+msgid "Forecolor"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5198
+msgid "Team Member Carousel"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5213
+msgid ""
+"Change to any available integrer for example 3000 to play every 3 seconds. "
+"If you set it true default speed will be 5 seconds."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5217
+msgid "Cell Group"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5221
+msgid ""
+"This variable allows you to set the maximum amount of items displayed at a "
+"time with the widest browser width."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5225
+msgid "Visible Item Count"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5229
+msgid "Choose how many items will be visible on the carousel at once."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5319
+msgid "Team Member"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5329
+#: frv-logipro-essentials-shortcodes.php:5487
+msgid "Member Image"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5341
+#: frv-logipro-essentials-shortcodes.php:5499
+msgid "Title for your Team Member, like a name."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5349
+msgid "Sub Title for your Team Member, like work title."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5360
+msgid "Twitter"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5364
+msgid "Enter your Twitter account name"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5368
+msgid "Facebook"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5372
+msgid "Enter your Facebook account name"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5376
+msgid "LinkedIn"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5380
+msgid "Enter your LinkedIn account name"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5384
+msgid "Pinterest"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5388
+msgid "Enter your Pinterest account name"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5396
+msgid "Define a path to details page"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5399
+#: frv-logipro-essentials-shortcodes.php:5517
+msgid "Use Extended Content"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5402
+msgid "Link will be used in extended content when this option used."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5405
+#: frv-logipro-essentials-shortcodes.php:5531
+msgid "Extended Content"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5413
+#: frv-logipro-essentials-shortcodes.php:5524
+#: frv-logipro-essentials-shortcodes.php:5792
+msgid "Link Caption"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5416
+msgid "SEND AN EMAIL"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5477
+msgid "Team Member (Simple)"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5507
+msgid "Short content, will be shown under title."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5520
+msgid ""
+"Link will be ignored when extended content used to display in page content."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5527
+msgid "Biography"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5609
+msgid "CTA With Hover Box"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5644
+msgid "Overlay Position"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5652
+msgid "Box Background"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5659
+msgid "Box Background Hover"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5666
+msgid "Overlay Background"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5682
+msgid "Font Color Hover"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5697
+#: frv-logipro-essentials-shortcodes.php:5815
+msgid "Min Height"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5759
+msgid "Call To Action Box"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5780
+msgid "Box Title"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5795
+msgid "SHOP USED EQUIPMENT &rarr;"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5810
+msgid "Select link target window."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5818
+msgid "Optional, please use 0 for automatic height."
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5881
+msgid "Blockquote Box"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5899
+msgid "Quote"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5913
+msgid "Sub Title #1"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5920
+msgid "Sub Title #2"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5963
+msgid "Padding Box"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5982
+msgid "Text Align"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5990
+msgid "Padding Top"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:5998
+msgid "Padding Right"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:6006
+msgid "Padding Bottom"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:6014
+msgid "Padding Left"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:6058
+msgid "LogiPro Doodle"
+msgstr ""
+
+#: frv-logipro-essentials-shortcodes.php:6071
+msgid "Just a place holder"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:25
+msgid "This widget will help you to display a beautiful download file box."
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:29
+msgid "(LogiPro) File Download"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:75
+msgid "Company Presentation"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:76
+msgid ""
+"LogiPro is committed to meeting every customer’s needs through a variety "
+"of efficient and affordable delivery services."
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:77
+msgid "DOWNLOAD"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:78
+msgid "#"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:83
+#: frv-logipro-essentials-widgets.php:166
+#: frv-logipro-essentials-widgets.php:286
+#: frv-logipro-essentials-widgets.php:359
+#: frv-logipro-essentials-widgets.php:421
+#: frv-logipro-essentials-widgets.php:554
+msgid "Title:"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:88
+#: frv-logipro-essentials-widgets.php:161
+msgid "Content:"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:93
+msgid "Button Caption:"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:97
+msgid "Button Link:"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:113
+msgid "This widget will help you to display a testimonial box."
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:115
+msgid "(LogiPro) Testimonial Box"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:171
+#: frv-logipro-essentials-widgets.php:296
+msgid "Sub Title:"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:186
+msgid ""
+"This widget will get posts from your Twitter account. To set necessary "
+"parameters visit Settings > ozy Essentials section."
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:190
+msgid "(LogiPro) Twitter"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:241
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:278
+msgid "LATEST TWEET"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:280
+msgid "FOLLOW US ON TWITTER"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:291
+msgid "Username:"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:301
+msgid "Post Count:"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:316
+msgid ""
+"This widget will put social site icons which previously set on Theme "
+"Options > Social panel."
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:320
+msgid "(LogiPro) Social Bar"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:355
+msgid "Follow Us"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:375
+msgid "This widget will display custom menu from selected menu."
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:379
+msgid "(LogiPro) Custom Menu"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:417
+msgid "Custom Menu"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:426
+msgid "Menu:"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:450
+msgid "This widget will display latest posts in multiple view modes."
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:454
+msgid "(LogiPro) Latest Posts"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:550
+msgid "Latest Posts"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:559
+msgid "Type:"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:573
+msgid "Post Type:"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:593
+msgid "Order:"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:607
+msgid "Order By:"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:621
+msgid "Count:"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:634
+msgid "(LogiPro) Flickr Widget for user photo stream!"
+msgstr ""
+
+#: frv-logipro-essentials-widgets.php:675
+msgid "Invalid flickr user ID."
+msgstr ""
+
+#: frv-logipro-essentials.php:36 frv-logipro-essentials.php:37
+msgid "Sidebars"
+msgstr ""
+
+#: frv-logipro-essentials.php:66 frv-logipro-essentials.php:67
+msgid "Custom Fonts"
+msgstr ""
+
+#: frv-logipro-essentials.php:93 frv-logipro-essentials.php:94
+msgid "Event"
+msgstr ""
+
+#: frv-logipro-essentials.php:95
+msgid "Add Event"
+msgstr ""
+
+#: frv-logipro-essentials.php:96
+msgid "Edit Event"
+msgstr ""
+
+#: frv-logipro-essentials.php:97
+msgid "New Event"
+msgstr ""
+
+#: frv-logipro-essentials.php:98
+msgid "View Event"
+msgstr ""
+
+#: frv-logipro-essentials.php:99
+msgid "Search Event"
+msgstr ""
+
+#: frv-logipro-essentials.php:100
+msgid "No Event found"
+msgstr ""
+
+#: frv-logipro-essentials.php:101
+msgid "No Event found in Trash"
+msgstr ""
+
+#: frv-logipro-essentials.php:118 frv-logipro-essentials.php:119
+msgid "Client"
+msgstr ""
+
+#: frv-logipro-essentials.php:120
+msgid "Add Client"
+msgstr ""
+
+#: frv-logipro-essentials.php:121
+msgid "Edit Client"
+msgstr ""
+
+#: frv-logipro-essentials.php:122
+msgid "New Client"
+msgstr ""
+
+#: frv-logipro-essentials.php:123
+msgid "View Client"
+msgstr ""
+
+#: frv-logipro-essentials.php:124
+msgid "Search Client"
+msgstr ""
+
+#: frv-logipro-essentials.php:125
+msgid "No Client found"
+msgstr ""
+
+#: frv-logipro-essentials.php:126
+msgid "No Client found in Trash"
+msgstr ""
+
+#: frv-logipro-essentials.php:148
+msgid "Event Categories"
+msgstr ""
+
+#: frv-logipro-essentials.php:149
+msgid "Event Category"
+msgstr ""
+
+#: frv-logipro-essentials.php:150
+msgid "Search Event Categories"
+msgstr ""
+
+#: frv-logipro-essentials.php:151
+msgid "Popular Event Categories"
+msgstr ""
+
+#: frv-logipro-essentials.php:152
+msgid "All Event Categories"
+msgstr ""
+
+#: frv-logipro-essentials.php:153
+msgid "Parent Event Categories"
+msgstr ""
+
+#: frv-logipro-essentials.php:154
+msgid "Parent Event Category:"
+msgstr ""
+
+#: frv-logipro-essentials.php:155
+msgid "Edit Event Category"
+msgstr ""
+
+#: frv-logipro-essentials.php:156
+msgid "Update Event Category"
+msgstr ""
+
+#: frv-logipro-essentials.php:157
+msgid "Add New Event Category"
+msgstr ""
+
+#: frv-logipro-essentials.php:158
+msgid "New Event Category"
+msgstr ""
+
+#: frv-logipro-essentials.php:172
+msgid "Client Categories"
+msgstr ""
+
+#: frv-logipro-essentials.php:173
+msgid "Client Category"
+msgstr ""
+
+#: frv-logipro-essentials.php:174
+msgid "Search Client Categories"
+msgstr ""
+
+#: frv-logipro-essentials.php:175
+msgid "Popular Client Categories"
+msgstr ""
+
+#: frv-logipro-essentials.php:176
+msgid "All Client Categories"
+msgstr ""
+
+#: frv-logipro-essentials.php:177
+msgid "Parent Client Categories"
+msgstr ""
+
+#: frv-logipro-essentials.php:178
+msgid "Parent Client Category:"
+msgstr ""
+
+#: frv-logipro-essentials.php:179
+msgid "Edit Client Category"
+msgstr ""
+
+#: frv-logipro-essentials.php:180
+msgid "Update Client Category"
+msgstr ""
+
+#: frv-logipro-essentials.php:181
+msgid "Add New Client Category"
+msgstr ""
+
+#: frv-logipro-essentials.php:182
+msgid "New Client Category"
+msgstr ""
+
+#: frv-logipro-essentials.php:500 frv-logipro-essentials.php:501
+msgid "Documentation"
+msgstr ""
+
+#: importer/parsers.php:42 importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: importer/parsers.php:67 importer/parsers.php:72 importer/parsers.php:262
+#: importer/parsers.php:451
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: importer/radium-importer.php:237
+msgid "Demo already imported"
+msgstr ""
+
+#: importer/radium-importer.php:257
+msgid "Import Again"
+msgstr ""
+
+#: importer/radium-importer.php:261
+msgid "Import Demo Data"
+msgstr ""
+
+#: importer/radium-importer.php:502
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: importer/radium-importer.php:560
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: importer/radium-importer.php:633
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: importer/radium-importer.php:655
+msgid "Site does not support widget"
+msgstr ""
+
+#: importer/radium-importer.php:678
+msgid "Widget already exists"
+msgstr ""
+
+#: importer/radium-importer.php:727
+msgid "Imported"
+msgstr ""
+
+#: importer/radium-importer.php:730
+msgid "Imported to Inactive"
+msgstr ""
+
+#: importer/radium-importer.php:737
+msgid "No Title"
+msgstr ""
+
+#: importer/wordpress-importer.php:135 importer/wordpress-importer.php:144
+#: importer/wordpress-importer.php:195 importer/wordpress-importer.php:199
+#: importer/wordpress-importer.php:208
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: importer/wordpress-importer.php:136
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: importer/wordpress-importer.php:179
+msgid "All done."
+msgstr ""
+
+#: importer/wordpress-importer.php:179
+msgid "Have fun!"
+msgstr ""
+
+#: importer/wordpress-importer.php:180
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: importer/wordpress-importer.php:200
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: importer/wordpress-importer.php:216
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: importer/wordpress-importer.php:241
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: importer/wordpress-importer.php:267
+msgid "Assign Authors"
+msgstr ""
+
+#: importer/wordpress-importer.php:268
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of "
+"this site. For example, you may want to import all the entries as "
+"<code>admin</code>s entries."
+msgstr ""
+
+#: importer/wordpress-importer.php:270
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually "
+"changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: importer/wordpress-importer.php:280
+msgid "Import Attachments"
+msgstr ""
+
+#: importer/wordpress-importer.php:283
+msgid "Download and import file attachments"
+msgstr ""
+
+#: importer/wordpress-importer.php:287
+msgid "Submit"
+msgstr ""
+
+#: importer/wordpress-importer.php:300
+msgid "Import author:"
+msgstr ""
+
+#: importer/wordpress-importer.php:311
+msgid "or create new user with login name:"
+msgstr ""
+
+#: importer/wordpress-importer.php:314
+msgid "as a new user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:322
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:324
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:325
+msgid "- Select -"
+msgstr ""
+
+#: importer/wordpress-importer.php:375
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: importer/wordpress-importer.php:426
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:466
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:512 importer/wordpress-importer.php:653
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:538
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:560
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: importer/wordpress-importer.php:619
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: importer/wordpress-importer.php:784
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: importer/wordpress-importer.php:791
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:873
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: importer/wordpress-importer.php:886
+msgid "Invalid file type"
+msgstr ""
+
+#: importer/wordpress-importer.php:944
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: importer/wordpress-importer.php:957
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: importer/wordpress-importer.php:962
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: importer/wordpress-importer.php:968
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:1067
+msgid "Import WordPress"
+msgstr ""
+
+#: importer/wordpress-importer.php:1074
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s "
+"to ensure compatibility with newer export files."
+msgstr ""
+
+#: importer/wordpress-importer.php:1089
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll "
+"import the posts, pages, comments, custom fields, categories, and tags "
+"into this site."
+msgstr ""
+
+#: importer/wordpress-importer.php:1090
+msgid ""
+"Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: importer/wordpress-importer.php:1164
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and "
+"tags</strong> from a WordPress export file."
+msgstr ""

@@ -1,0 +1,24 @@
+/*
+Theme Name: LogiPro
+Theme URI: http://logistics.freevision.me/
+Author: freevision
+Author URI: http://freevision.me/
+Description: Create a world-class transport business website with a responsive design packed full of useful features, built to top standards, e-commerce ready & 6 months support.
+Version: 2.9
+Text Domain: logipro
+Domain Path: /lang
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, translation-ready
+*/
+
+/**
+* Built on the Whiteboard Framework
+* http://whiteboardframework.com
+*/
+
+/*************** Add Custom CSS after this line ***************/
+
+@media only screen and (max-width: 48em) {
+/*************** Add mobile only custom CSS after this line  ***************/
+}

@@ -1,0 +1,33 @@
+.ozy-image_with_featured_content {
+	position:relative;
+	display:block;
+	width: 100%;
+	min-height: 180px;	
+}
+.ozy-image_with_featured_content>div:first-child {
+	height:160px;
+	background-size:cover;
+}
+@media (min-width: 600px) {
+	.ozy-image_with_featured_content {
+		min-height: 580px;	
+	}
+	.ozy-image_with_featured_content>div {
+		position:absolute;
+		width:50%;
+	}
+	.ozy-image_with_featured_content>div:first-child {
+		height:100%;				
+		left:0;
+		top:0;
+	}
+	.ozy-image_with_featured_content>div:last-child {
+		left:45%;
+		right:0;
+		width: auto;		
+		background-color:#fff;		
+		top: 50%;
+		transform: translateY(-50%);		
+	    padding: 20px 22% 20px 30px;
+	}
+}

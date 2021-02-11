@@ -1,0 +1,233 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Freevision Tracker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-07 01:29+0300\n"
+"PO-Revision-Date: 2016-04-07 11:22+0300\n"
+"Last-Translator: freevision <team@freevision.me>\n"
+"Language-Team: freevision <team@freevision.me>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: freevision-tracker.php:43
+msgid "Tracking"
+msgstr ""
+
+#: freevision-tracker.php:44
+msgid "Tracking Entry"
+msgstr ""
+
+#: freevision-tracker.php:45 freevision-tracker.php:46
+msgid "Add Tracking Entry"
+msgstr ""
+
+#: freevision-tracker.php:47
+msgid "Edit Tracking Entry"
+msgstr ""
+
+#: freevision-tracker.php:48
+msgid "New Tracking Entry"
+msgstr ""
+
+#: freevision-tracker.php:49
+msgid "View Tracking Entry"
+msgstr ""
+
+#: freevision-tracker.php:50
+msgid "Search Tracking Entry"
+msgstr ""
+
+#: freevision-tracker.php:51
+msgid "No Tracking Entry found"
+msgstr ""
+
+#: freevision-tracker.php:52
+msgid "No Tracking Entry found in Trash"
+msgstr ""
+
+#: freevision-tracker.php:140
+msgid "FreeVision Tracker"
+msgstr ""
+
+#: freevision-tracker.php:231
+msgid "When checked sentive information on quey page will be masked."
+msgstr ""
+
+#: metabox/ozy_tracking.php:6
+msgid "Tracking Parameters"
+msgstr ""
+
+#: metabox/ozy_tracking.php:14
+msgid "Movements"
+msgstr ""
+
+#: metabox/ozy_tracking.php:19
+msgid "Status"
+msgstr ""
+
+#: metabox/ozy_tracking.php:46
+msgid "Location"
+msgstr ""
+
+#: metabox/ozy_tracking.php:51
+msgid "Message"
+msgstr ""
+
+#: metabox/ozy_tracking.php:56
+msgid "Date"
+msgstr ""
+
+#: metabox/ozy_tracking.php:62
+msgid "Time"
+msgstr ""
+
+#: metabox/ozy_tracking.php:63
+msgid "Enter your values like 10:45"
+msgstr ""
+
+#: metabox/ozy_tracking.php:74
+msgid "Shipment Facts"
+msgstr ""
+
+#: metabox/ozy_tracking.php:79
+msgid "Show Shipment Facts section?"
+msgstr ""
+
+#: metabox/ozy_tracking.php:80
+msgid ""
+"If this option checked, shipment facts section will be shown on frontend."
+msgstr ""
+
+#: metabox/ozy_tracking.php:85
+msgid "Ship Date"
+msgstr ""
+
+#: metabox/ozy_tracking.php:91
+msgid "Estimated Delivery Date"
+msgstr ""
+
+#: metabox/ozy_tracking.php:97
+msgid "Shipping Status"
+msgstr ""
+
+#: metabox/ozy_tracking.php:124
+msgid "Courier"
+msgstr ""
+
+#: metabox/ozy_tracking.php:129
+msgid "Payment Mode"
+msgstr ""
+
+#: metabox/ozy_tracking.php:134
+msgid "Special Handling Section"
+msgstr ""
+
+#: metabox/ozy_tracking.php:139
+msgid "Description"
+msgstr ""
+
+#: metabox/ozy_tracking.php:144
+msgid "Quantity"
+msgstr ""
+
+#: metabox/ozy_tracking.php:149
+msgid "Size"
+msgstr ""
+
+#: metabox/ozy_tracking.php:154
+msgid "Weight"
+msgstr ""
+
+#: metabox/ozy_tracking.php:159
+msgid "Total Freight"
+msgstr ""
+
+#: metabox/ozy_tracking.php:169
+msgid "Sender"
+msgstr ""
+
+#: metabox/ozy_tracking.php:174
+msgid "Sender's Name"
+msgstr ""
+
+#: metabox/ozy_tracking.php:179 metabox/ozy_tracking.php:235
+msgid "Company"
+msgstr ""
+
+#: metabox/ozy_tracking.php:184 metabox/ozy_tracking.php:240
+msgid "Address"
+msgstr ""
+
+#: metabox/ozy_tracking.php:189 metabox/ozy_tracking.php:245
+msgid "Country"
+msgstr ""
+
+#: metabox/ozy_tracking.php:194 metabox/ozy_tracking.php:250
+msgid "City"
+msgstr ""
+
+#: metabox/ozy_tracking.php:199 metabox/ozy_tracking.php:255
+msgid "State/Province"
+msgstr ""
+
+#: metabox/ozy_tracking.php:204 metabox/ozy_tracking.php:260
+msgid "Postal Code"
+msgstr ""
+
+#: metabox/ozy_tracking.php:209 metabox/ozy_tracking.php:265
+msgid "Telephone"
+msgstr ""
+
+#: metabox/ozy_tracking.php:214 metabox/ozy_tracking.php:270
+msgid "E-Mail"
+msgstr ""
+
+#: metabox/ozy_tracking.php:225
+msgid "Receiver"
+msgstr ""
+
+#: metabox/ozy_tracking.php:230
+msgid "Receiver's Name"
+msgstr ""
+
+#: shortcodes/shortcodes.php:78
+msgid "Tracker"
+msgstr ""
+
+#: shortcodes/shortcodes.php:88
+msgid "Minimum Height"
+msgstr ""
+
+#: shortcodes/shortcodes.php:94
+msgid "Inline"
+msgstr ""
+
+#: shortcodes/shortcodes.php:100
+msgid "Background Color"
+msgstr ""
+
+#: shortcodes/shortcodes.php:107
+msgid "Font Color"
+msgstr ""
+
+#: shortcodes/shortcodes.php:114
+msgid "Extra class name"
+msgstr ""
+
+#: shortcodes/shortcodes.php:116
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""

@@ -1,0 +1,3060 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LogiPro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-27 19:34+0300\n"
+"PO-Revision-Date: 2016-03-23 08:07+0200\n"
+"Last-Translator: freevision <team@freevision.me>\n"
+"Language-Team: freevision <team@freevision.me>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n_noop;_x\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:18
+msgid "Oops!"
+msgstr ""
+
+#: 404.php:18
+msgid "We can't seem to find the page you're looking for."
+msgstr ""
+
+#: 404.php:19
+msgid "RETURN HOME"
+msgstr ""
+
+#: admin/data_sources.php:6
+msgid "-Use Generic-"
+msgstr ""
+
+#: admin/data_sources.php:73
+msgid "No contact forms found"
+msgstr ""
+
+#: admin/data_sources.php:116 admin/data_sources.php:142
+#: admin/data_sources.php:155
+msgid "All"
+msgstr ""
+
+#: admin/data_sources.php:171 admin/data_sources.php:199
+msgid "-Not in Use-"
+msgstr ""
+
+#: admin/data_sources.php:185
+msgid "-Revolution Slider is not activated-"
+msgstr ""
+
+#: admin/data_sources.php:213
+msgid "-Master Slider is not activated-"
+msgstr ""
+
+#: admin/metabox/blog.php:6 admin/metabox/page_blog_options.php:12
+msgid "Post Options"
+msgstr ""
+
+#: admin/metabox/blog.php:12
+msgid "Item Size"
+msgstr ""
+
+#: admin/metabox/ozy_custom_font.php:6
+msgid "Font Options"
+msgstr ""
+
+#: admin/metabox/ozy_custom_font.php:15
+msgid "Custom Font"
+msgstr ""
+
+#: admin/metabox/ozy_custom_font.php:20
+msgid "Font Identifier"
+msgstr ""
+
+#: admin/metabox/ozy_custom_font.php:21
+msgid "Exact name of the font. * Font type name"
+msgstr ""
+
+#: admin/metabox/ozy_custom_font.php:28
+msgid "EOT File"
+msgstr ""
+
+#: admin/metabox/ozy_custom_font.php:29
+msgid "Upload or choose a EOT font file."
+msgstr ""
+
+#: admin/metabox/ozy_custom_font.php:35
+msgid "WOFF File"
+msgstr ""
+
+#: admin/metabox/ozy_custom_font.php:36
+msgid "Upload or choose a WOFF font file."
+msgstr ""
+
+#: admin/metabox/ozy_custom_font.php:42
+msgid "TTF File"
+msgstr ""
+
+#: admin/metabox/ozy_custom_font.php:43
+msgid "Upload or choose an TTF font file."
+msgstr ""
+
+#: admin/metabox/ozy_custom_font.php:49
+msgid "SVG File"
+msgstr ""
+
+#: admin/metabox/ozy_custom_font.php:50
+msgid "Upload or choose an SVG font file."
+msgstr ""
+
+#: admin/metabox/ozy_custom_font.php:56
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:125
+msgid "Font Weight"
+msgstr ""
+
+#: admin/metabox/ozy_custom_font.php:107
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:127
+msgid "Font Style"
+msgstr ""
+
+#: admin/metabox/page.php:6
+msgid "Page Options"
+msgstr ""
+
+#: admin/metabox/page.php:19
+msgid "Custom Menu"
+msgstr ""
+
+#: admin/metabox/page.php:20
+msgid "You can select a custom menu for this page."
+msgstr ""
+
+#: admin/metabox/page.php:34
+msgid "Display Side Navigation"
+msgstr ""
+
+#: admin/metabox/page.php:35
+msgid "Requires rows with Row ID and Row Caption set."
+msgstr ""
+
+#: admin/metabox/page.php:41
+msgid "Revolution Header Slider"
+msgstr ""
+
+#: admin/metabox/page.php:42
+msgid "You can select a header slider if you have installed and activated Revolution Slider which comes bundled with your theme."
+msgstr ""
+
+#: admin/metabox/page.php:56
+msgid "Master Header Slider"
+msgstr ""
+
+#: admin/metabox/page.php:57
+msgid "You can select a header slider if you have installed and activated Master Slider which comes bundled with your theme."
+msgstr ""
+
+#: admin/metabox/page.php:73
+msgid "Use Footer Slider"
+msgstr ""
+
+#: admin/metabox/page.php:74
+msgid "You can use footer slider with header slider too."
+msgstr ""
+
+#: admin/metabox/page.php:81
+msgid "Footer Slider"
+msgstr ""
+
+#: admin/metabox/page.php:90
+msgid "Revolution Footer Slider"
+msgstr ""
+
+#: admin/metabox/page.php:91
+msgid "You can select a footer slider if you have installed and activated Revolution Slider which comes bundled with your theme."
+msgstr ""
+
+#: admin/metabox/page.php:105
+msgid "Master Footer Slider"
+msgstr ""
+
+#: admin/metabox/page.php:106
+msgid "You can select a footer slider if you have installed and activated Master Slider which comes bundled with your theme."
+msgstr ""
+
+#: admin/metabox/page.php:123
+msgid "No Menu Space"
+msgstr ""
+
+#: admin/metabox/page.php:124
+msgid "If this option checked, your page content top will set to \"0\", not the bottom point of primary menu."
+msgstr ""
+
+#: admin/metabox/page.php:130 functions/customizer/general-options.php:27
+msgid "Disable Loading Screen"
+msgstr ""
+
+#: admin/metabox/page.php:131 functions/customizer/general-options.php:28
+msgid "Loading screen and page transition on this page will be disable."
+msgstr ""
+
+#: admin/metabox/page.php:136
+msgid "Footer Bars Visiblity"
+msgstr ""
+
+#: admin/metabox/page.php:137
+msgid "By this option you can hide footer bars as you wish."
+msgstr ""
+
+#: admin/metabox/page.php:141
+msgid "All Visible"
+msgstr ""
+
+#: admin/metabox/page.php:145
+msgid "Hide Widget Bar"
+msgstr ""
+
+#: admin/metabox/page.php:149
+msgid "Hide Widget Bar and Footer"
+msgstr ""
+
+#: admin/metabox/page.php:162
+msgid "Hide Page Title"
+msgstr ""
+
+#: admin/metabox/page.php:163
+msgid "Page title will not be shown on the page."
+msgstr ""
+
+#: admin/metabox/page.php:169
+msgid "No content top padding"
+msgstr ""
+
+#: admin/metabox/page.php:170
+msgid "Check this option to disable the padding top of your content (after page title)."
+msgstr ""
+
+#: admin/metabox/page.php:175
+msgid "Custom Header/Title"
+msgstr ""
+
+#: admin/metabox/page.php:176
+msgid "There are several options to help you customize your page header."
+msgstr ""
+
+#: admin/metabox/page.php:183
+msgid "Custom Header/Title Options"
+msgstr ""
+
+#: admin/metabox/page.php:192
+msgid "Title Position"
+msgstr ""
+
+#: admin/metabox/page.php:196 admin/metabox/page.php:255
+#: admin/metabox/page.php:285
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:132
+#: framework/kirki/controls/php/class-kirki-control-typography.php:155
+#: framework/kirki/field/class-kirki-field-spacing.php:79
+#: functions/customizer/layout.php:35 functions/vc_extend.php:52
+#: functions/vc_extend.php:164
+msgid "Left"
+msgstr ""
+
+#: admin/metabox/page.php:200 admin/metabox/page.php:259
+#: admin/metabox/page.php:289
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:133
+#: framework/kirki/controls/php/class-kirki-control-typography.php:167
+#: framework/kirki/field/class-kirki-field-spacing.php:80
+#: functions/customizer/layout.php:34 functions/vc_extend.php:53
+#: functions/vc_extend.php:165
+msgid "Right"
+msgstr ""
+
+#: admin/metabox/page.php:204 admin/metabox/page.php:263
+#: admin/metabox/page.php:293
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:134
+#: framework/kirki/controls/php/class-kirki-control-typography.php:161
+#: functions/vc_extend.php:166
+msgid "Center"
+msgstr ""
+
+#: admin/metabox/page.php:214
+msgid "Page Title"
+msgstr ""
+
+#: admin/metabox/page.php:219
+msgid "Title Color"
+msgstr ""
+
+#: admin/metabox/page.php:226
+msgid "Sub Title"
+msgstr ""
+
+#: admin/metabox/page.php:231
+msgid "Sub Title Color"
+msgstr ""
+
+#: admin/metabox/page.php:238
+msgid "Header Background Color"
+msgstr ""
+
+#: admin/metabox/page.php:245
+msgid "Header Image"
+msgstr ""
+
+#: admin/metabox/page.php:246
+msgid "Please use images like 1600px, 2000px wide and have a minimum height like 475px for good results."
+msgstr ""
+
+#: admin/metabox/page.php:251
+msgid "Background X-Position"
+msgstr ""
+
+#: admin/metabox/page.php:267 admin/metabox/page.php:297
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:130
+#: framework/kirki/field/class-kirki-field-spacing.php:77
+#: functions/vc_extend.php:54
+msgid "Top"
+msgstr ""
+
+#: admin/metabox/page.php:271 admin/metabox/page.php:301
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:131
+#: framework/kirki/field/class-kirki-field-spacing.php:78
+#: functions/vc_extend.php:55
+msgid "Bottom"
+msgstr ""
+
+#: admin/metabox/page.php:281
+msgid "Background Y-Position"
+msgstr ""
+
+#: admin/metabox/page.php:311
+msgid "Header Height"
+msgstr ""
+
+#: admin/metabox/page.php:312
+msgid "Height of your header in pixels? Don't include \"px\" in the string. e.g. 400"
+msgstr ""
+
+#: admin/metabox/page.php:321
+msgid "Hide Page Content"
+msgstr ""
+
+#: admin/metabox/page.php:322
+msgid "Page content will not be shown. Supposed to use with Video backgrounds or Fullscreen sliders."
+msgstr ""
+
+#: admin/metabox/page.php:327
+msgid "Use Custom Sidebar"
+msgstr ""
+
+#: admin/metabox/page.php:328
+msgid "You can use custom sidebar individually."
+msgstr ""
+
+#: admin/metabox/page.php:335
+msgid "Custom Sidebar"
+msgstr ""
+
+#: admin/metabox/page.php:344
+msgid "Sidebar Position"
+msgstr ""
+
+#: admin/metabox/page.php:345
+msgid "Select one of available header type."
+msgstr ""
+
+#: admin/metabox/page.php:350
+msgid "No Sidebar"
+msgstr ""
+
+#: admin/metabox/page.php:355
+msgid "Left Sidebar"
+msgstr ""
+
+#: admin/metabox/page.php:360
+msgid "Right Sidebar"
+msgstr ""
+
+#: admin/metabox/page.php:369
+msgid "Sidebar"
+msgstr ""
+
+#: admin/metabox/page.php:384
+msgid "Use Custom Style"
+msgstr ""
+
+#: admin/metabox/page.php:385
+msgid "Options to customize your page individually."
+msgstr ""
+
+#: admin/metabox/page.php:392
+msgid "Layout Styling"
+msgstr ""
+
+#: admin/metabox/page.php:401 admin/metabox/page.php:556
+#: framework/kirki/controls/php/class-kirki-control-background.php:48
+#: functions/customizer/styling.php:494 functions/customizer/styling.php:581
+#: functions/customizer/styling.php:613
+msgid "Background Color"
+msgstr ""
+
+#: admin/metabox/page.php:402
+msgid "This option will affect, main wrapper's background color."
+msgstr ""
+
+#: admin/metabox/page.php:409
+msgid "Transparent Content Background"
+msgstr ""
+
+#: admin/metabox/page.php:410
+msgid "If you want, you can use transparent background for your content."
+msgstr ""
+
+#: admin/metabox/page.php:419
+msgid "Use Custom Background"
+msgstr ""
+
+#: admin/metabox/page.php:420
+msgid "Lots of options to customize your page background individually."
+msgstr ""
+
+#: admin/metabox/page.php:426
+msgid "Background Styling"
+msgstr ""
+
+#: admin/metabox/page.php:435 functions/customizer/styling.php:624
+msgid "Custom Background Image"
+msgstr ""
+
+#: admin/metabox/page.php:436 functions/customizer/styling.php:244
+#: functions/customizer/styling.php:355 functions/customizer/styling.php:450
+#: functions/customizer/styling.php:625
+msgid "Upload or choose custom page background image."
+msgstr ""
+
+#: admin/metabox/page.php:441 functions/customizer/styling.php:634
+msgid "Background Image Size"
+msgstr ""
+
+#: admin/metabox/page.php:442
+msgid "Only available on browsers which supports CSS3."
+msgstr ""
+
+#: admin/metabox/page.php:446 admin/metabox/page.php:536
+#: functions/customizer/styling.php:639 functions/customizer/styling.php:669
+msgid "-not set-"
+msgstr ""
+
+#: admin/metabox/page.php:450 functions/customizer/styling.php:640
+msgid "cover"
+msgstr ""
+
+#: admin/metabox/page.php:454 functions/customizer/styling.php:641
+msgid "contain"
+msgstr ""
+
+#: admin/metabox/page.php:463
+msgid "Background Position X"
+msgstr ""
+
+#: admin/metabox/page.php:467
+msgid "left"
+msgstr ""
+
+#: admin/metabox/page.php:471 admin/metabox/page.php:491
+msgid "center"
+msgstr ""
+
+#: admin/metabox/page.php:475
+msgid "right"
+msgstr ""
+
+#: admin/metabox/page.php:483
+msgid "Background Position Y"
+msgstr ""
+
+#: admin/metabox/page.php:487
+msgid "top"
+msgstr ""
+
+#: admin/metabox/page.php:495
+msgid "bottom"
+msgstr ""
+
+#: admin/metabox/page.php:504 functions/customizer/styling.php:648
+msgid "Background Image Repeat"
+msgstr ""
+
+#: admin/metabox/page.php:508 functions/customizer/styling.php:653
+msgid "inherit"
+msgstr ""
+
+#: admin/metabox/page.php:512 functions/customizer/styling.php:654
+msgid "no-repeat"
+msgstr ""
+
+#: admin/metabox/page.php:516 functions/customizer/styling.php:655
+msgid "repeat"
+msgstr ""
+
+#: admin/metabox/page.php:520 functions/customizer/styling.php:656
+msgid "repeat-x"
+msgstr ""
+
+#: admin/metabox/page.php:524 functions/customizer/styling.php:657
+msgid "repeat-y"
+msgstr ""
+
+#: admin/metabox/page.php:532 functions/customizer/styling.php:664
+msgid "Background Image Attachment"
+msgstr ""
+
+#: admin/metabox/page.php:540 functions/customizer/styling.php:670
+msgid "fixed"
+msgstr ""
+
+#: admin/metabox/page.php:544 functions/customizer/styling.php:671
+msgid "scroll"
+msgstr ""
+
+#: admin/metabox/page.php:548 functions/customizer/styling.php:672
+msgid "local"
+msgstr ""
+
+#: admin/metabox/page.php:557
+msgid "This option will affect only page background."
+msgstr ""
+
+#: admin/metabox/page.php:564
+msgid "Use Google Map"
+msgstr ""
+
+#: admin/metabox/page.php:565
+msgid "Instead of using a static background, you can use a Google Map as background."
+msgstr ""
+
+#: admin/metabox/page.php:571
+msgid "Google Map"
+msgstr ""
+
+#: admin/metabox/page.php:580
+msgid "iFrame Src"
+msgstr ""
+
+#: admin/metabox/page.php:581
+msgid "Enter src attribute of your Google Map iFrame."
+msgstr ""
+
+#: admin/metabox/page.php:588
+msgid "Use Background Slider"
+msgstr ""
+
+#: admin/metabox/page.php:589
+msgid "Instead of using a static background, you can use background image slider."
+msgstr ""
+
+#: admin/metabox/page.php:596 admin/metabox/page.php:605
+msgid "Slider Image"
+msgstr ""
+
+#: admin/metabox/page.php:606
+msgid "Upload or choose custom background image."
+msgstr ""
+
+#: admin/metabox/page.php:613
+msgid "Use Self Hosted Video"
+msgstr ""
+
+#: admin/metabox/page.php:614
+msgid "Instead of using a static background, you can use self hosted video."
+msgstr ""
+
+#: admin/metabox/page.php:621
+msgid "Self Hosted Video"
+msgstr ""
+
+#: admin/metabox/page.php:630 admin/metabox/page.php:673
+#: admin/metabox/page.php:704
+msgid "Poster Image"
+msgstr ""
+
+#: admin/metabox/page.php:631 admin/metabox/page.php:674
+#: admin/metabox/page.php:705
+msgid "Upload or choose a poster image."
+msgstr ""
+
+#: admin/metabox/page.php:636
+msgid "MP4 File"
+msgstr ""
+
+#: admin/metabox/page.php:637
+msgid "Upload or choose a MP4 file."
+msgstr ""
+
+#: admin/metabox/page.php:642
+msgid "WEBM File"
+msgstr ""
+
+#: admin/metabox/page.php:643
+msgid "Upload or choose a WEBM file."
+msgstr ""
+
+#: admin/metabox/page.php:648
+msgid "OGV File"
+msgstr ""
+
+#: admin/metabox/page.php:649
+msgid "Upload or choose an OGV file."
+msgstr ""
+
+#: admin/metabox/page.php:656
+msgid "Use YouTube Video"
+msgstr ""
+
+#: admin/metabox/page.php:657
+msgid "Instead of using a static background, you can use YouTube video."
+msgstr ""
+
+#: admin/metabox/page.php:664
+msgid "YouTube Video"
+msgstr ""
+
+#: admin/metabox/page.php:679
+msgid "YouTube Video ID"
+msgstr ""
+
+#: admin/metabox/page.php:680
+msgid "Enter YouTube video ID. http://www.youtube.com/watch?v=<span style=\"color:red;\">mYKA-VokOtA</span> text marked with red is the ID you have to be looking for."
+msgstr ""
+
+#: admin/metabox/page.php:687
+msgid "Use Vimeo Video"
+msgstr ""
+
+#: admin/metabox/page.php:688
+msgid "Instead of using a static background, you can use Vimeo video."
+msgstr ""
+
+#: admin/metabox/page.php:695
+msgid "Vimeo Video"
+msgstr ""
+
+#: admin/metabox/page.php:710
+msgid "Vimeo Video ID"
+msgstr ""
+
+#: admin/metabox/page.php:711
+msgid "Enter Vimeo video ID. http://vimeo.com/<span style=\"color:red;\">71964690</span> text marked with red is the ID you have to be looking for."
+msgstr ""
+
+#: admin/metabox/page.php:720
+msgid "Default Page Model"
+msgstr ""
+
+#: admin/metabox/page.php:724
+msgid "Use From Theme Options"
+msgstr ""
+
+#: admin/metabox/page.php:728
+msgid "Boxed"
+msgstr ""
+
+#: admin/metabox/page.php:732
+msgid "Full"
+msgstr ""
+
+#: admin/metabox/page_blog_options.php:6
+msgid "Blog Options"
+msgstr ""
+
+#: admin/metabox/page_blog_options.php:13
+msgid "Below this point all the options are only works with blog page template types."
+msgstr ""
+
+#: admin/metabox/page_blog_options.php:19
+msgid "Display Items From Categories"
+msgstr ""
+
+#: admin/metabox/page_blog_options.php:20
+msgid "If you select \"All\" select, all the Blog items will be displayed. When another category is selected, only the Blog items that belong to this category or this category's subcategories will be displayed. By this way, you can create multiple blog pages with different items."
+msgstr ""
+
+#: admin/metabox/page_blog_options.php:34
+msgid "Item Order"
+msgstr ""
+
+#: admin/metabox/page_blog_options.php:35
+msgid "By selecting \"Custom Order ...\" you will have to set the order field of each of the items."
+msgstr ""
+
+#: admin/metabox/page_blog_options.php:59
+msgid "Item Count Per Load"
+msgstr ""
+
+#: admin/metabox/page_blog_options.php:60
+msgid "How many portfolio item will be loaded when LOAD MORE button clicked."
+msgstr ""
+
+#: archive.php:94 archive.php:132 author.php:115 author.php:153 category.php:95
+#: category.php:133 index.php:99 index.php:137 page-regular-blog.php:106
+#: page-regular-blog.php:144 single.php:88 tag.php:95 tag.php:133
+msgid "By "
+msgstr ""
+
+#: archive.php:96 archive.php:134 author.php:117 author.php:155 category.php:97
+#: category.php:135 index.php:101 index.php:139 page-regular-blog.php:108
+#: page-regular-blog.php:146 single.php:90 tag.php:97 tag.php:135
+msgid " in "
+msgstr ""
+
+#: archive.php:153 author.php:174 category.php:154 index.php:158
+#: page-regular-blog.php:166 tag.php:154
+msgid "READ MORE"
+msgstr ""
+
+#: archive.php:161 author.php:182 category.php:162 tag.php:162
+msgid "There has been an error."
+msgstr ""
+
+#: archive.php:162 author.php:183 category.php:163 tag.php:163
+msgid "We apologize for any inconvenience, please hit back on your browser or use the search form below."
+msgstr ""
+
+#: author.php:31
+msgid "Recent Posts by "
+msgstr ""
+
+#: author.php:191
+msgid "Recent Comments by "
+msgstr ""
+
+#: author.php:199
+#, php-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: author.php:201
+msgid "No comments by "
+msgstr ""
+
+#: comments.php:10
+msgid "Please do not load this page directly. Thanks and have a great day!"
+msgstr ""
+
+#: comments.php:22
+msgid "Comments"
+msgstr ""
+
+#: comments.php:27
+msgid "Trackbacks"
+msgstr ""
+
+#: comments.php:48
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:50
+msgid "Our apologies, you must be "
+msgstr ""
+
+#: comments.php:50
+msgid "logged in"
+msgstr ""
+
+#: comments.php:50
+msgid " to post a comment."
+msgstr ""
+
+#: comments.php:55 comments.php:56
+msgid "NAME"
+msgstr ""
+
+#: comments.php:60 comments.php:61
+msgid "MAIL (will not be shared)"
+msgstr ""
+
+#: comments.php:70 comments.php:71
+msgid "COMMENT"
+msgstr ""
+
+#: comments.php:78
+msgid "The comments are closed."
+msgstr ""
+
+#: framework/bootstrap.php:82 framework/classes/option.php:346
+#: framework/classes/option.php:371
+msgid "Successful"
+msgstr ""
+
+#: framework/bootstrap.php:93
+msgid "Unauthorized function"
+msgstr ""
+
+#: framework/classes/metabox.php:35
+msgid "[Development Mode] "
+msgstr ""
+
+#: framework/classes/metabox.php:564 framework/classes/metabox/alchemy.php:493
+#: framework/kirki/controls/php/class-kirki-control-background.php:62
+#: framework/kirki/controls/php/class-kirki-control-base.php:104
+#: framework/kirki/controls/php/class-kirki-control-image.php:52
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:376
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:433
+#: framework/kirki/field/class-kirki-field-image.php:44
+msgid "Remove"
+msgstr ""
+
+#: framework/classes/metabox.php:586 framework/classes/metabox/alchemy.php:515
+msgid "Add More"
+msgstr ""
+
+#: framework/classes/option.php:47 framework/classes/option.php:48
+msgid "Vafpress Options"
+msgstr ""
+
+#: framework/classes/option.php:54
+msgid "Option Key is required"
+msgstr ""
+
+#: framework/classes/option.php:56
+msgid "Template Array/File is required"
+msgstr ""
+
+#: framework/classes/option.php:58
+msgid "Page Slug is required"
+msgstr ""
+
+#: framework/classes/option.php:160
+msgid "Development Mode is Active, options' values won't be saved into database."
+msgstr ""
+
+#: framework/classes/option.php:288
+msgid "Can not be empty"
+msgstr ""
+
+#: framework/classes/option.php:313
+msgid "Invalid data"
+msgstr ""
+
+#: framework/classes/option.php:376
+msgid "Unverified Access."
+msgstr ""
+
+#: framework/classes/option.php:442
+msgid "Invalid template supplied"
+msgstr ""
+
+#: framework/classes/option.php:455
+msgid "Utility"
+msgstr ""
+
+#: framework/classes/option.php:461 framework/views/option/restore.php:13
+msgid "Restore Default"
+msgstr ""
+
+#: framework/classes/option.php:470
+msgid "Export/Import"
+msgstr ""
+
+#: framework/classes/option/control/set.php:359
+msgid "Saving successful"
+msgstr ""
+
+#: framework/classes/option/control/set.php:370
+msgid "Saving failed"
+msgstr ""
+
+#: framework/classes/option/control/set.php:376
+msgid "No changes made"
+msgstr ""
+
+#: framework/classes/shortcodegenerator.php:259
+msgid "insert"
+msgstr ""
+
+#: framework/classes/shortcodegenerator.php:260
+msgid "cancel"
+msgstr ""
+
+#: framework/config/messages.php:13
+msgid "Value needs to be Alphabet"
+msgstr ""
+
+#: framework/config/messages.php:14
+msgid "Value needs to be Alphanumeric"
+msgstr ""
+
+#: framework/config/messages.php:15
+msgid "Value needs to be Numeric"
+msgstr ""
+
+#: framework/config/messages.php:16
+msgid "Value needs to be Valid Email"
+msgstr ""
+
+#: framework/config/messages.php:17
+msgid "Value needs to be Valid URL"
+msgstr ""
+
+#: framework/config/messages.php:18
+msgid "Length needs to be less than {0} characters"
+msgstr ""
+
+#: framework/config/messages.php:19
+msgid "Length needs to be more than {0} characters"
+msgstr ""
+
+#: framework/config/messages.php:20
+msgid "Select no more than {0} items"
+msgstr ""
+
+#: framework/config/messages.php:21
+msgid "Select at least {0} items"
+msgstr ""
+
+#: framework/config/messages.php:22
+msgid "This is required"
+msgstr ""
+
+#: framework/config/messages.php:29
+msgid "Import succeed, option page will be refreshed.."
+msgstr ""
+
+#: framework/config/messages.php:30
+msgid "Import failed"
+msgstr ""
+
+#: framework/config/messages.php:31
+msgid "Export succeed, copy the JSON formatted options"
+msgstr ""
+
+#: framework/config/messages.php:32
+msgid "Export failed"
+msgstr ""
+
+#: framework/config/messages.php:33
+msgid "Restoration succeed, option page will be refreshed.."
+msgstr ""
+
+#: framework/config/messages.php:34
+msgid "Options identical to default"
+msgstr ""
+
+#: framework/config/messages.php:35
+msgid "Restoration failed"
+msgstr ""
+
+#: framework/config/messages.php:43
+msgid "Select option(s)"
+msgstr ""
+
+#: framework/config/messages.php:45
+msgid "Select an Icon"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:54
+#: functions/customizer/styling.php:243 functions/customizer/styling.php:354
+#: functions/customizer/styling.php:449
+msgid "Background Image"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:59
+#: framework/kirki/controls/php/class-kirki-control-base.php:103
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:398
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:403
+msgid "No File Selected"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:63
+#: framework/kirki/controls/php/class-kirki-control-base.php:106
+msgid "Select File"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:70
+msgid "Background Repeat"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:72
+msgid "No Repeat"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:73
+msgid "Repeat All"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:81
+msgid "Background Position"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:83
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:115
+msgid "Left Top"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:84
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:116
+msgid "Left Center"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:85
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:117
+msgid "Left Bottom"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:86
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:118
+msgid "Right Top"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:87
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:119
+msgid "Right Center"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:88
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:120
+msgid "Right Bottom"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:89
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:121
+msgid "Center Top"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:90
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:122
+msgid "Center Center"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:91
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:123
+msgid "Center Bottom"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:97
+msgid "Background Size"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:100
+msgid "Cover"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:103
+msgid "Contain"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:106
+msgid "Auto"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:113
+msgid "Background Attachment"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:116
+msgid "Scroll"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-background.php:119
+msgid "Fixed"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-base.php:105
+#: framework/kirki/controls/php/class-kirki-control-image.php:51
+#: framework/kirki/field/class-kirki-field-image.php:43
+msgid "Default"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-base.php:107
+msgid "Standard Fonts"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-base.php:108
+msgid "Google Fonts"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-code.php:37
+msgid "Please update your WordPress installation to a version newer than 4.9 to access the code control."
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-date.php:51
+msgid "Update to WordPress 4.9 or greater for a datetime picker."
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-dimension.php:39
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:140
+msgid "Invalid Value"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:124
+#: framework/kirki/controls/php/class-kirki-control-typography.php:112
+msgid "Font Size"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:126
+#: framework/kirki/controls/php/class-kirki-control-typography.php:120
+msgid "Line Height"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:128
+#: framework/kirki/controls/php/class-kirki-control-typography.php:128
+msgid "Letter Spacing"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:129
+#: framework/kirki/controls/php/class-kirki-control-typography.php:136
+msgid "Word Spacing"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:135
+msgid "Size"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:136
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:139
+msgid "Height"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:137
+msgid "Spacing"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-dimensions.php:138
+msgid "Width"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-image.php:49
+#: framework/kirki/controls/php/class-kirki-control-image.php:54
+#: framework/kirki/field/class-kirki-field-image.php:41
+#: framework/kirki/field/class-kirki-field-image.php:46
+msgid "Select image"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-image.php:50
+#: framework/kirki/field/class-kirki-field-image.php:42
+msgid "Change image"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-image.php:53
+#: framework/kirki/field/class-kirki-field-image.php:45
+msgid "No image selected"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-image.php:55
+#: framework/kirki/field/class-kirki-field-image.php:47
+msgid "Choose image"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:70
+msgid "row"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:79
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:114
+msgid "Select a Page"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:220
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:349
+msgid "Hex Value"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:366
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:371
+msgid "No Image Selected"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:377
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:381
+msgid "Add Image"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:377
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:379
+msgid "Change Image"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:409
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:413
+msgid "Add File"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:409
+#: framework/kirki/controls/php/class-kirki-control-repeater.php:411
+msgid "Change File"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-slider.php:65
+msgid "Reset"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-switch.php:52
+#: framework/kirki/field/class-kirki-field-switch.php:42
+#: functions/customizer/layout.php:140
+msgid "On"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-switch.php:56
+#: framework/kirki/field/class-kirki-field-switch.php:43
+#: functions/customizer/layout.php:141
+msgid "Off"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:82
+msgid "Font Family"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:83
+#: framework/kirki/controls/php/class-kirki-control-typography.php:88
+msgid "Select Font Family"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:87
+msgid "Backup Font"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:93
+msgid "Variant"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:99
+msgid "Subset(s)"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:144
+#: functions/vc_extend.php:160
+msgid "Text Align"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:149
+#: framework/kirki/controls/php/class-kirki-control-typography.php:190
+#: framework/kirki/controls/php/class-kirki-control-typography.php:205
+msgid "Inherit"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:173
+msgid "Justify"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:183
+msgid "Text Transform"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:185
+#: framework/kirki/controls/php/class-kirki-control-typography.php:200
+msgid "None"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:186
+msgid "Capitalize"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:187
+msgid "Uppercase"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:188
+msgid "Lowercase"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:189
+#: framework/kirki/controls/php/class-kirki-control-typography.php:204
+msgid "Initial"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:198
+msgid "Text Decoration"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:201
+msgid "Underline"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:202
+msgid "Overline"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:203
+msgid "Line-Through"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:213
+msgid "Margin Top"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:221
+msgid "Margin Bottom"
+msgstr ""
+
+#: framework/kirki/controls/php/class-kirki-control-typography.php:229
+#: functions/vc_extend.php:132
+msgid "Color"
+msgstr ""
+
+#: framework/kirki/core/class-kirki-field.php:232
+#, php-format
+msgid "Typo found in field %s - setting instead of settings."
+msgstr ""
+
+#: framework/kirki/core/class-kirki-field.php:241
+#: framework/kirki/core/class-kirki-field.php:251
+#, php-format
+msgid "Config not defined for field %1$s - See %2$s for details on how to properly add fields."
+msgstr ""
+
+#: framework/kirki/core/class-kirki-field.php:391
+#, php-format
+msgid "Typo found in field %s - \"theme_mods\" vs \"theme_mod\""
+msgstr ""
+
+#: framework/kirki/core/class-kirki-field.php:409
+#, php-format
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr ""
+
+#: framework/kirki/core/class-kirki-field.php:538
+#: framework/kirki/core/class-kirki-field.php:548
+#, php-format
+msgid "\"output\" invalid format in field %s. The \"output\" argument should be defined as an array of arrays."
+msgstr ""
+
+#: framework/kirki/core/class-kirki-init.php:280
+msgid "We detected you're using Kirki_Init::get_variables(). Please use Kirki_Util::get_variables() instead."
+msgstr ""
+
+#: framework/kirki/core/class-kirki.php:228
+msgid "Kirki fields should not be added on customize_register. Please add them directly, or on init."
+msgstr ""
+
+#: framework/kirki/deprecated/functions.php:19
+#, php-format
+msgid "%1$s or %2$s"
+msgstr ""
+
+#: framework/kirki/field/class-kirki-field-color.php:55
+msgid "Do not use \"alpha\" as an argument in color controls. Use \"choices[alpha]\" instead."
+msgstr ""
+
+#: framework/kirki/field/class-kirki-field-radio.php:37
+#, php-format
+msgid "Error in field %1$s. The \"mode\" argument has been deprecated since Kirki v0.8. Use the \"radio-%2$s\" type instead."
+msgstr ""
+
+#: framework/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:59
+msgid "Customizing"
+msgstr ""
+
+#: framework/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:62
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:196
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:197
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:198
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:199
+msgid "Light 200"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:200
+msgid "Light 200 Italic"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:201
+msgid "Book 300"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:202
+msgid "Book 300 Italic"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:203
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:204
+msgid "Normal 400"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:205
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:206
+msgid "Medium 500"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:207
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:208
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:209
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:210
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:211
+msgid "Bold 700"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:212
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:213
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:214
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:215
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:216
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:217
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: framework/kirki/modules/webfonts/class-kirki-fonts.php:218
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: framework/kirki/upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr ""
+
+#: framework/views/control/upload.php:5
+msgid "Choose File"
+msgstr ""
+
+#: framework/views/option/impexp.php:4 framework/views/option/impexp.php:14
+msgid "Import"
+msgstr ""
+
+#: framework/views/option/impexp.php:7
+msgid "Import Options"
+msgstr ""
+
+#: framework/views/option/impexp.php:27 framework/views/option/impexp.php:37
+msgid "Export"
+msgstr ""
+
+#: framework/views/option/impexp.php:30
+msgid "Export Options"
+msgstr ""
+
+#: framework/views/option/restore.php:4
+msgid "Restore Default Options"
+msgstr ""
+
+#: framework/views/option/restore.php:7
+msgid "Restore options to initial default values."
+msgstr ""
+
+#: framework/views/option/restore.php:14
+msgid "** Please make sure you have already make a backup data of your current settings. Once you click this button, your current settings will be gone"
+msgstr ""
+
+#: framework/views/option/set.php:69 framework/views/option/set.php:84
+msgid "Save Changes"
+msgstr ""
+
+#: framework/views/option/set.php:70 framework/views/option/set.php:85
+msgid "Saving Now"
+msgstr ""
+
+#: functions/classes/helper.php:1009
+msgid "0"
+msgstr ""
+
+#: functions/classes/helper.php:1009
+msgid "COMMENTS"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:355
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:393
+#: functions/classes/tgm-plugin-activation.php:913
+#: functions/classes/tgm-plugin-activation.php:2619
+#: functions/classes/tgm-plugin-activation.php:3666
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:394
+#: functions/classes/tgm-plugin-activation.php:3245
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:399
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:608
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:609
+msgid "Update Required"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:1020
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:1020
+#: functions/classes/tgm-plugin-activation.php:1023
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:1023
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2068
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2359
+msgid "Required"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2362
+msgid "Recommended"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2378
+msgid "WordPress Repository"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2381
+msgid "External Source"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2384
+msgid "Pre-Packaged"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2401
+msgid "Not Installed"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2405
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2407
+msgid "Active"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2413
+msgid "Required Update not Available"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2416
+msgid "Requires Update"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2419
+msgid "Update recommended"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2428
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2568
+msgid "unknown"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2576
+msgid "Installed version:"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2584
+msgid "Minimum required version:"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2596
+msgid "Available version:"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2619
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2633
+msgid "Plugin"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2634
+msgid "Source"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2635
+msgid "Type"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2639
+msgid "Version"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2640
+msgid "Status"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2689
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2694
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2700
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2770
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2803
+msgid "Install"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2809
+msgid "Update"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2812
+msgid "Activate"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2843
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2845
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2886
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2888
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:2994
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3020
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3244
+msgid "Plugin activation failed."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3584
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3587
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3589
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3593
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3595
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3595
+#: functions/classes/tgm-plugin-activation.php:3603
+msgid "Show Details"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3595
+#: functions/classes/tgm-plugin-activation.php:3603
+msgid "Hide Details"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3596
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3598
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3601
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3603
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3604
+msgid "All installations have been completed."
+msgstr ""
+
+#: functions/classes/tgm-plugin-activation.php:3606
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/customizer.php:21
+msgid "Add / Edit Custom CSS"
+msgstr ""
+
+#: functions/customizer.php:40
+msgid "Custom Script"
+msgstr ""
+
+#: functions/customizer.php:41
+msgid "Add custom Script here"
+msgstr ""
+
+#: functions/customizer.php:51
+msgid "Add / Edit Custom Script"
+msgstr ""
+
+#: functions/customizer/general-options.php:7
+msgid "General Options"
+msgstr ""
+
+#: functions/customizer/general-options.php:17
+msgid "Back To Top Button"
+msgstr ""
+
+#: functions/customizer/general-options.php:18
+msgid "Enable / Disable Back To Top Button globally."
+msgstr ""
+
+#: functions/customizer/general-options.php:37
+msgid "Alternative Date Format"
+msgstr ""
+
+#: functions/customizer/general-options.php:38
+msgid "<a href=\"https://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\">Documentation on date and time formatting.</a>"
+msgstr ""
+
+#: functions/customizer/layout.php:9
+msgid "Layout Options"
+msgstr ""
+
+#: functions/customizer/layout.php:10
+msgid "Customize menu, logo, footer, content, page and more options here."
+msgstr ""
+
+#: functions/customizer/layout.php:16
+msgid "Menu Type"
+msgstr ""
+
+#: functions/customizer/layout.php:21
+msgid "Dropdown"
+msgstr ""
+
+#: functions/customizer/layout.php:22
+msgid "Classic"
+msgstr ""
+
+#: functions/customizer/layout.php:29
+msgid "Menu Align"
+msgstr ""
+
+#: functions/customizer/layout.php:47
+msgid "Primary Menu / Logo"
+msgstr ""
+
+#: functions/customizer/layout.php:57
+msgid "Menu / Logo Height"
+msgstr ""
+
+#: functions/customizer/layout.php:59
+msgid "Set this value to fit at least same as your logo height for perfect results"
+msgstr ""
+
+#: functions/customizer/layout.php:81
+msgid "Menu Side Contact Info"
+msgstr ""
+
+#: functions/customizer/layout.php:86
+msgid "Show"
+msgstr ""
+
+#: functions/customizer/layout.php:87
+msgid "Hide"
+msgstr ""
+
+#: functions/customizer/layout.php:94
+msgid "Menu Side Contact Info Title"
+msgstr ""
+
+#: functions/customizer/layout.php:110
+msgid "Menu Side Contact Info Sub Title"
+msgstr ""
+
+#: functions/customizer/layout.php:135
+msgid "Search Button / Box"
+msgstr ""
+
+#: functions/customizer/layout.php:157
+msgid "Use Custom Logo"
+msgstr ""
+
+#: functions/customizer/layout.php:158
+msgid "Please upload custom logo images for your site, one for regular one for retina screens which mighy be 2x larger"
+msgstr ""
+
+#: functions/customizer/layout.php:167
+msgid "Custom Logo"
+msgstr ""
+
+#: functions/customizer/layout.php:168
+msgid "Upload or choose custom logo image."
+msgstr ""
+
+#: functions/customizer/layout.php:184
+msgid "Custom Logo Retina"
+msgstr ""
+
+#: functions/customizer/layout.php:185
+msgid "Upload or choose custom 2x bigger logo."
+msgstr ""
+
+#: functions/customizer/layout.php:200 functions/customizer/styling.php:363
+msgid "Footer"
+msgstr ""
+
+#: functions/customizer/layout.php:210 functions/customizer/layout.php:234
+msgid "Footer Text"
+msgstr ""
+
+#: functions/customizer/layout.php:211 functions/customizer/layout.php:235
+msgid "Please enter your text here."
+msgstr ""
+
+#: functions/customizer/layout.php:215 functions/customizer/layout.php:239
+msgid "&copy; Copyright 2021 - LogiPro WordPress Theme"
+msgstr ""
+
+#: functions/customizer/layout.php:256 functions/customizer/layout.php:700
+msgid "Show Social Icons?"
+msgstr ""
+
+#: functions/customizer/layout.php:257
+msgid "Set visibility options of footer social icon list."
+msgstr ""
+
+#: functions/customizer/layout.php:266
+msgid "Show Our Partners Slider?"
+msgstr ""
+
+#: functions/customizer/layout.php:267
+msgid "Set visibility options of footer our partners slider."
+msgstr ""
+
+#: functions/customizer/layout.php:276 include/footer-bars.php:32
+msgid "Our Partners"
+msgstr ""
+
+#: functions/customizer/layout.php:277
+msgid "Upload images to build a carousel in the footer. For best results make sure all images height set to 100px."
+msgstr ""
+
+#: functions/customizer/layout.php:282
+msgid "Carousel Image"
+msgstr ""
+
+#: functions/customizer/layout.php:287
+msgid "Image"
+msgstr ""
+
+#: functions/customizer/layout.php:288
+msgid "Please upload / select an image for your carousel"
+msgstr ""
+
+#: functions/customizer/layout.php:297
+msgid "Content / Page / Post"
+msgstr ""
+
+#: functions/customizer/layout.php:309
+msgid "CUSTOM PAGE POINTERS"
+msgstr ""
+
+#: functions/customizer/layout.php:316
+msgid "404 Page"
+msgstr ""
+
+#: functions/customizer/layout.php:317
+msgid "Select a page to use as custom 404 page."
+msgstr ""
+
+#: functions/customizer/layout.php:327
+msgid "Blog Page"
+msgstr ""
+
+#: functions/customizer/layout.php:328
+msgid "Select a page to use as custom Blog page."
+msgstr ""
+
+#: functions/customizer/layout.php:340
+msgid "PAGE"
+msgstr ""
+
+#: functions/customizer/layout.php:340 functions/customizer/layout.php:394
+msgid "To create a dynamic sidebar, first make sure \"LogiPro Theme Essentials\" plugins installed and activated, then please open <a href=\"edit.php?post_type=ozy_sidebars\">Sidebars</a> section."
+msgstr ""
+
+#: functions/customizer/layout.php:348 functions/customizer/layout.php:402
+msgid "Default Sidebar Position"
+msgstr ""
+
+#: functions/customizer/layout.php:349 functions/customizer/layout.php:403
+msgid "Select one of available sidebar position."
+msgstr ""
+
+#: functions/customizer/layout.php:361 functions/customizer/layout.php:415
+msgid "Default Sidebar"
+msgstr ""
+
+#: functions/customizer/layout.php:362 functions/customizer/layout.php:416
+msgid "This option could be overriden individually by Page Options panel."
+msgstr ""
+
+#: functions/customizer/layout.php:372 functions/customizer/layout.php:426
+msgid "Comments Section"
+msgstr ""
+
+#: functions/customizer/layout.php:373 functions/customizer/layout.php:427
+msgid "Enable / Disable comment section on the pages"
+msgstr ""
+
+#: functions/customizer/layout.php:382 functions/customizer/layout.php:436
+msgid "Author Section"
+msgstr ""
+
+#: functions/customizer/layout.php:383 functions/customizer/layout.php:437
+msgid "Enable / Disable author section on the pages"
+msgstr ""
+
+#: functions/customizer/layout.php:394
+msgid "BLOG"
+msgstr ""
+
+#: functions/customizer/layout.php:446
+msgid "Share Buttons"
+msgstr ""
+
+#: functions/customizer/layout.php:447
+msgid "Enable / Disable share buttons for post"
+msgstr ""
+
+#: functions/customizer/layout.php:456
+msgid "Miscellaneous"
+msgstr ""
+
+#: functions/customizer/layout.php:468
+msgid "FANCY BOX (LIGHTBOX)"
+msgstr ""
+
+#: functions/customizer/layout.php:475
+msgid "Video Support"
+msgstr ""
+
+#: functions/customizer/layout.php:476
+msgid "By enabling this option Fancybox will start to support popular media links."
+msgstr ""
+
+#: functions/customizer/layout.php:485
+msgid "Thumbnail"
+msgstr ""
+
+#: functions/customizer/layout.php:486
+msgid "Enable this option to show thumnails under your Fancybox window."
+msgstr ""
+
+#: functions/customizer/layout.php:495
+msgid "Countdown Page"
+msgstr ""
+
+#: functions/customizer/layout.php:505
+msgid "End Year"
+msgstr ""
+
+#: functions/customizer/layout.php:506
+msgid "Enter the Year of the date counter will count to."
+msgstr ""
+
+#: functions/customizer/layout.php:515
+msgid "End Month"
+msgstr ""
+
+#: functions/customizer/layout.php:516
+msgid "Enter the Month of the date counter will count to."
+msgstr ""
+
+#: functions/customizer/layout.php:525
+msgid "End Day"
+msgstr ""
+
+#: functions/customizer/layout.php:526
+msgid "Enter the Day of the date counter will count to."
+msgstr ""
+
+#: functions/customizer/layout.php:535
+msgid "End Hour"
+msgstr ""
+
+#: functions/customizer/layout.php:536
+msgid "Enter the Hour of the date counter will count to. Use 24 hour format."
+msgstr ""
+
+#: functions/customizer/layout.php:545
+msgid "End Minute"
+msgstr ""
+
+#: functions/customizer/layout.php:546
+msgid "Enter the Minute of the date counter will count to."
+msgstr ""
+
+#: functions/customizer/layout.php:555
+msgid "Request A Rate"
+msgstr ""
+
+#: functions/customizer/layout.php:565 functions/customizer/layout.php:629
+#: functions/customizer/layout.php:771
+msgid "Show Request A Rate form?"
+msgstr ""
+
+#: functions/customizer/layout.php:566 functions/customizer/layout.php:630
+#: functions/customizer/layout.php:772 include/admin-menu-style-editor.php:33
+msgid "By enabling this option you can activate Request A Rate form."
+msgstr ""
+
+#: functions/customizer/layout.php:575 functions/customizer/layout.php:639
+msgid "Menu Title"
+msgstr ""
+
+#: functions/customizer/layout.php:584 functions/customizer/layout.php:648
+msgid "Title"
+msgstr ""
+
+#: functions/customizer/layout.php:593 functions/customizer/layout.php:657
+msgid "Description"
+msgstr ""
+
+#: functions/customizer/layout.php:602 functions/customizer/layout.php:666
+#: functions/customizer/styling.php:558
+msgid "Contact Form 7"
+msgstr ""
+
+#: functions/customizer/layout.php:603 functions/customizer/layout.php:667
+msgid "Select an available Contact Form 7 form."
+msgstr ""
+
+#: functions/customizer/layout.php:613
+msgid "or Use Custom Shortcode"
+msgstr ""
+
+#: functions/customizer/layout.php:614
+msgid "When this field filled Contact Form 7 option selection will be ignored and shortcode in this field will be rendered."
+msgstr ""
+
+#: functions/customizer/layout.php:681
+msgid "Menu Extended Info Bar"
+msgstr ""
+
+#: functions/customizer/layout.php:691 functions/customizer/layout.php:762
+msgid "Show Info Bar?"
+msgstr ""
+
+#: functions/customizer/layout.php:701
+msgid "By enabling this option you can show social icons on extension bar of primary menu."
+msgstr ""
+
+#: functions/customizer/layout.php:710 functions/customizer/layout.php:781
+msgid "Box #1"
+msgstr ""
+
+#: functions/customizer/layout.php:724 functions/customizer/layout.php:790
+msgid "Box #2"
+msgstr ""
+
+#: functions/customizer/layout.php:733 functions/customizer/layout.php:799
+msgid "Box #3"
+msgstr ""
+
+#: functions/customizer/layout.php:747 functions/customizer/layout.php:808
+msgid "Box #4"
+msgstr ""
+
+#: functions/customizer/social.php:9
+msgid "Social"
+msgstr ""
+
+#: functions/customizer/social.php:10
+msgid "Define and arrange social icons/links here."
+msgstr ""
+
+#: functions/customizer/social.php:14
+msgid "Accounts"
+msgstr ""
+
+#: functions/customizer/social.php:24
+msgid "500px"
+msgstr ""
+
+#: functions/customizer/social.php:33
+msgid "Behance"
+msgstr ""
+
+#: functions/customizer/social.php:42
+msgid "Blogger"
+msgstr ""
+
+#: functions/customizer/social.php:51
+msgid "Delicious"
+msgstr ""
+
+#: functions/customizer/social.php:60
+msgid "DeviantArt"
+msgstr ""
+
+#: functions/customizer/social.php:69
+msgid "Digg"
+msgstr ""
+
+#: functions/customizer/social.php:78
+msgid "Dribble"
+msgstr ""
+
+#: functions/customizer/social.php:87
+msgid "E-Mail"
+msgstr ""
+
+#: functions/customizer/social.php:96
+msgid "Facebook"
+msgstr ""
+
+#: functions/customizer/social.php:105
+msgid "Flickr"
+msgstr ""
+
+#: functions/customizer/social.php:114
+msgid "Forrst"
+msgstr ""
+
+#: functions/customizer/social.php:123
+msgid "Foursquare"
+msgstr ""
+
+#: functions/customizer/social.php:132
+msgid "Github"
+msgstr ""
+
+#: functions/customizer/social.php:141
+msgid "Google+"
+msgstr ""
+
+#: functions/customizer/social.php:150
+msgid "Instagram"
+msgstr ""
+
+#: functions/customizer/social.php:159
+msgid "Last.FM"
+msgstr ""
+
+#: functions/customizer/social.php:168
+msgid "LinkedIn"
+msgstr ""
+
+#: functions/customizer/social.php:177
+msgid "MySpace"
+msgstr ""
+
+#: functions/customizer/social.php:186
+msgid "Pinterest"
+msgstr ""
+
+#: functions/customizer/social.php:195
+msgid "RSS"
+msgstr ""
+
+#: functions/customizer/social.php:204
+msgid "SoundCloud"
+msgstr ""
+
+#: functions/customizer/social.php:213
+msgid "StumbleUpon"
+msgstr ""
+
+#: functions/customizer/social.php:222
+msgid "Tumblr"
+msgstr ""
+
+#: functions/customizer/social.php:231
+msgid "Twitter"
+msgstr ""
+
+#: functions/customizer/social.php:240
+msgid "Vimeo"
+msgstr ""
+
+#: functions/customizer/social.php:249
+msgid "WordPress"
+msgstr ""
+
+#: functions/customizer/social.php:258
+msgid "Yahoo!"
+msgstr ""
+
+#: functions/customizer/social.php:267
+msgid "YouTube"
+msgstr ""
+
+#: functions/customizer/social.php:276 functions/customizer/styling.php:14
+msgid "General"
+msgstr ""
+
+#: functions/customizer/social.php:286
+msgid "Social Share Buttons"
+msgstr ""
+
+#: functions/customizer/social.php:287
+msgid "Enable / Disable the social share buttons."
+msgstr ""
+
+#: functions/customizer/social.php:296
+msgid "Icon List / Order"
+msgstr ""
+
+#: functions/customizer/social.php:297
+msgid "Select visible icons and sort."
+msgstr ""
+
+#: functions/customizer/social.php:308
+msgid "Target Window"
+msgstr ""
+
+#: functions/customizer/social.php:309
+msgid "Where the links will be opened?"
+msgstr ""
+
+#: functions/customizer/styling.php:9
+msgid "Styling Options"
+msgstr ""
+
+#: functions/customizer/styling.php:10
+msgid "Customize colors and background image options of your theme here."
+msgstr ""
+
+#: functions/customizer/styling.php:24
+msgid "Content Background"
+msgstr ""
+
+#: functions/customizer/styling.php:37
+msgid "Heading Color"
+msgstr ""
+
+#: functions/customizer/styling.php:38
+msgid "Default color for H1-H6 elements"
+msgstr ""
+
+#: functions/customizer/styling.php:49
+msgid "Heading Color #2"
+msgstr ""
+
+#: functions/customizer/styling.php:50
+msgid "Alternate color for H1-H6 elements. Currently used for post heading."
+msgstr ""
+
+#: functions/customizer/styling.php:60
+msgid "Content Color"
+msgstr ""
+
+#: functions/customizer/styling.php:61
+msgid "Font color of the content."
+msgstr ""
+
+#: functions/customizer/styling.php:71
+msgid "Alternate Color #1"
+msgstr ""
+
+#: functions/customizer/styling.php:72
+msgid "Like link color, hover color and input elements active border."
+msgstr ""
+
+#: functions/customizer/styling.php:82 functions/customizer/styling.php:429
+msgid "Alternate Color #2"
+msgstr ""
+
+#: functions/customizer/styling.php:83
+msgid "Like footer, footer sidebar title color, text color and seperator color."
+msgstr ""
+
+#: functions/customizer/styling.php:93
+msgid "Alternate Color #3"
+msgstr ""
+
+#: functions/customizer/styling.php:94
+msgid "Like footer sidebar link color."
+msgstr ""
+
+#: functions/customizer/styling.php:104
+msgid "Alternate Color #4"
+msgstr ""
+
+#: functions/customizer/styling.php:105
+msgid "Like Blog meta info bar text."
+msgstr ""
+
+#: functions/customizer/styling.php:115
+msgid "Alternate Background Color"
+msgstr ""
+
+#: functions/customizer/styling.php:116
+msgid "Like comments background color."
+msgstr ""
+
+#: functions/customizer/styling.php:129
+msgid "Separator / Border Color"
+msgstr ""
+
+#: functions/customizer/styling.php:130
+msgid "Used for, in page Seperators and Comments bottom border."
+msgstr ""
+
+#: functions/customizer/styling.php:142 functions/customizer/typography.php:204
+msgid "Primary Menu"
+msgstr ""
+
+#: functions/customizer/styling.php:152 functions/customizer/styling.php:262
+#: functions/customizer/styling.php:468 functions/customizer/styling.php:568
+msgid "Font Color"
+msgstr ""
+
+#: functions/customizer/styling.php:165 functions/customizer/styling.php:275
+msgid "Font Color Alternate"
+msgstr ""
+
+#: functions/customizer/styling.php:178
+msgid "Font Color Alternate #2"
+msgstr ""
+
+#: functions/customizer/styling.php:191 functions/customizer/styling.php:295
+msgid "Dropdown Background"
+msgstr ""
+
+#: functions/customizer/styling.php:204 functions/customizer/styling.php:315
+msgid "Header Background"
+msgstr ""
+
+#: functions/customizer/styling.php:217 functions/customizer/styling.php:328
+msgid "Header Background On Scroll"
+msgstr ""
+
+#: functions/customizer/styling.php:230 functions/customizer/styling.php:341
+#: functions/customizer/styling.php:439
+msgid "Separator Color"
+msgstr ""
+
+#: functions/customizer/styling.php:252 functions/customizer/typography.php:230
+msgid "Primary Menu Classic"
+msgstr ""
+
+#: functions/customizer/styling.php:285
+msgid "Dropdown Font Color"
+msgstr ""
+
+#: functions/customizer/styling.php:305
+msgid "Dropdown Background Color : Hover / Active"
+msgstr ""
+
+#: functions/customizer/styling.php:373
+msgid "Footer Widget Bar Background Color"
+msgstr ""
+
+#: functions/customizer/styling.php:386
+msgid "Footer Background Color"
+msgstr ""
+
+#: functions/customizer/styling.php:399
+msgid "Title Foreground Color"
+msgstr ""
+
+#: functions/customizer/styling.php:409 include/admin-menu-style-editor.php:21
+msgid "Foreground Color"
+msgstr ""
+
+#: functions/customizer/styling.php:419
+msgid "Alternate Color"
+msgstr ""
+
+#: functions/customizer/styling.php:458
+msgid "Form"
+msgstr ""
+
+#: functions/customizer/styling.php:481
+msgid "Font Color Hover"
+msgstr ""
+
+#: functions/customizer/styling.php:507
+msgid "Font Color (Button)"
+msgstr ""
+
+#: functions/customizer/styling.php:520
+msgid "Font Color : Hover / Active (Button)"
+msgstr ""
+
+#: functions/customizer/styling.php:533
+msgid "Background Color (Button)"
+msgstr ""
+
+#: functions/customizer/styling.php:546
+msgid "Background Color : Hover / Active (Button)"
+msgstr ""
+
+#: functions/customizer/styling.php:594
+msgid "Field Padding"
+msgstr ""
+
+#: functions/customizer/styling.php:597
+msgid "Please use 8px 10px if you like to use none transparent background for input fields"
+msgstr ""
+
+#: functions/customizer/styling.php:603
+msgid "Background"
+msgstr ""
+
+#: functions/customizer/typography.php:9
+msgid "Typography Options"
+msgstr ""
+
+#: functions/customizer/typography.php:10
+msgid "Customize typography options of your theme here."
+msgstr ""
+
+#: functions/customizer/typography.php:15
+msgid "Extended Parameters"
+msgstr ""
+
+#: functions/customizer/typography.php:28
+msgid "Add extra parameters here. By this option, you can load non-latin charset or more types byt available parameters. Use like \":400,100,300,700\"."
+msgstr ""
+
+#: functions/customizer/typography.php:34
+#: functions/customizer/typography.php:44
+msgid "Content"
+msgstr ""
+
+#: functions/customizer/typography.php:61
+msgid "Button / Link Button Font"
+msgstr ""
+
+#: functions/customizer/typography.php:62
+#: functions/customizer/typography.php:74
+#: functions/customizer/typography.php:92
+msgid "Only font family will be used from this option."
+msgstr ""
+
+#: functions/customizer/typography.php:73
+msgid "Footer Font"
+msgstr ""
+
+#: functions/customizer/typography.php:91
+msgid "Alternate Title"
+msgstr ""
+
+#: functions/customizer/typography.php:102
+msgid "Heading"
+msgstr ""
+
+#: functions/customizer/typography.php:112
+msgid "H1"
+msgstr ""
+
+#: functions/customizer/typography.php:113
+msgid "This font face option will be used for all H1 - H6 tags."
+msgstr ""
+
+#: functions/customizer/typography.php:130
+msgid "H2"
+msgstr ""
+
+#: functions/customizer/typography.php:145
+msgid "H3"
+msgstr ""
+
+#: functions/customizer/typography.php:160
+msgid "H4"
+msgstr ""
+
+#: functions/customizer/typography.php:175
+msgid "H5"
+msgstr ""
+
+#: functions/customizer/typography.php:190
+msgid "H6"
+msgstr ""
+
+#: functions/customizer/typography.php:214
+#: functions/customizer/typography.php:240
+msgid "Menu Typography"
+msgstr ""
+
+#: functions/extender.php:21 functions/extender.php:22
+#: functions/extender.php:295
+msgid "Theme Verification"
+msgstr ""
+
+#: functions/extender.php:57
+#, php-format
+msgid "%s Theme Verification"
+msgstr ""
+
+#: functions/extender.php:58
+msgid "Need help? Please follow this url"
+msgstr ""
+
+#: functions/extender.php:58
+msgid "Where is my purchase code?"
+msgstr ""
+
+#: functions/extender.php:73 functions/extender.php:74
+msgid "Enter Your Purchase Code"
+msgstr ""
+
+#: functions/extender.php:76
+msgid "When you verify the theme, your domain name ("
+msgstr ""
+
+#: functions/extender.php:117 functions/extender.php:344
+#: functions/extender.php:383
+msgid "Your Purchase Code is not valid, please fill correct code to verify your theme."
+msgstr ""
+
+#: functions/extender.php:195
+msgid "Your theme is not verified, please fill your purchase code to install/update latest version of the necessary extensions."
+msgstr ""
+
+#: functions/extender.php:196
+msgid " Please "
+msgstr ""
+
+#: functions/extender.php:198
+msgid "click here"
+msgstr ""
+
+#: functions/extender.php:200
+msgid " to go verification page."
+msgstr ""
+
+#: functions/extender.php:245
+#, php-format
+msgid "Your %s theme purchase code seems used for other domains too. Please do not share your purchase code with others. For further information go to <a href=\"https://freevision.ticksy.com\">https://freevision.ticksy.com</a> and submit a support ticket."
+msgstr ""
+
+#: functions/extender.php:246 include/primary-menu-classic.php:63
+#: include/primary-menu-classic.php:74 include/primary-menu-classic.php:83
+#: include/primary-menu.php:37 include/primary-menu.php:87
+#: include/primary-menu.php:100 include/primary-menu.php:112
+msgid "Close"
+msgstr ""
+
+#: functions/extender.php:295
+msgid "Please click here to verify your purchase code."
+msgstr ""
+
+#: functions/functions.php:371
+msgid "Attached"
+msgstr ""
+
+#: functions/functions.php:1495
+msgid "Search"
+msgstr ""
+
+#: functions/functions.php:1557
+msgid "Pages: "
+msgstr ""
+
+#: functions/functions.php:1571
+msgid "This content is password protected. To view it please enter your password below."
+msgstr ""
+
+#: functions/functions.php:1572
+msgid "Password:"
+msgstr ""
+
+#: functions/functions.php:1572
+msgid "Submit"
+msgstr ""
+
+#: functions/functions.php:1616
+msgid "Search results for: \""
+msgstr ""
+
+#: functions/functions.php:1620
+msgid "Blog"
+msgstr ""
+
+#: functions/functions.php:1630
+msgid "About: "
+msgstr ""
+
+#: functions/functions.php:1634
+msgid "Category Archives: "
+msgstr ""
+
+#: functions/functions.php:1639
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: functions/functions.php:1641
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: functions/functions.php:1643
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: functions/functions.php:1645 functions/functions.php:1771
+msgid "Blog Archives"
+msgstr ""
+
+#: functions/functions.php:1650
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: functions/functions.php:1690
+msgid " In "
+msgstr ""
+
+#: functions/functions.php:1716
+msgid "Share"
+msgstr ""
+
+#: functions/functions.php:1766
+msgid "Tag for "
+msgstr ""
+
+#: functions/functions.php:1767 functions/functions.php:1768
+#: functions/functions.php:1769
+msgid "Archive for "
+msgstr ""
+
+#: functions/functions.php:1770
+msgid "Author Archive"
+msgstr ""
+
+#: functions/functions.php:1772
+msgid "Search Results"
+msgstr ""
+
+#: functions/menu-item-custom-fields/menu-item-custom-fields-megamenu.php:86
+msgid "Menu Item Options"
+msgstr ""
+
+#: functions/menu-item-custom-fields/menu-item-custom-fields-megamenu.php:88
+msgid "Edit Options"
+msgstr ""
+
+#: functions/menu-item-custom-fields/menu-item-custom-fields-megamenu.php:108
+msgid "Custom Menu Options"
+msgstr ""
+
+#: functions/vc_extend.php:4
+msgid "Open link in LightBox?"
+msgstr ""
+
+#: functions/vc_extend.php:6 functions/vc_extend.php:15
+#: functions/vc_extend.php:126 functions/vc_extend.php:177
+msgid "Yes, please"
+msgstr ""
+
+#: functions/vc_extend.php:12
+msgid "Hide Background Image (mobile)"
+msgstr ""
+
+#: functions/vc_extend.php:14
+msgid "Background image will not visible on mobile devices if check."
+msgstr ""
+
+#: functions/vc_extend.php:16
+msgid "Design Options"
+msgstr ""
+
+#: functions/vc_extend.php:21
+msgid "Background Slider"
+msgstr ""
+
+#: functions/vc_extend.php:23
+msgid "If selected, you can select background images for your row."
+msgstr ""
+
+#: functions/vc_extend.php:25 functions/vc_extend.php:34
+#: functions/vc_extend.php:43 functions/vc_extend.php:58
+#: functions/vc_extend.php:66 functions/vc_extend.php:75
+#: functions/vc_extend.php:84 functions/vc_extend.php:93
+#: functions/vc_extend.php:101 functions/vc_extend.php:110
+#: functions/vc_extend.php:127 functions/vc_extend.php:136
+#: functions/vc_extend.php:145 functions/vc_extend.php:155
+#: functions/vc_extend.php:168 functions/vc_extend.php:178
+msgid "FreeVision Custom"
+msgstr ""
+
+#: functions/vc_extend.php:30
+msgid "Images"
+msgstr ""
+
+#: functions/vc_extend.php:32
+msgid "Select images for your slider"
+msgstr ""
+
+#: functions/vc_extend.php:39 functions/vc_extend.php:89
+msgid "Fallback Image"
+msgstr ""
+
+#: functions/vc_extend.php:41 functions/vc_extend.php:91
+msgid "Please select a fallback image to use on mobile devices and small screens."
+msgstr ""
+
+#: functions/vc_extend.php:48
+msgid "Background Scroll"
+msgstr ""
+
+#: functions/vc_extend.php:51
+msgid " "
+msgstr ""
+
+#: functions/vc_extend.php:57
+msgid "Please do not use with other Background Options"
+msgstr ""
+
+#: functions/vc_extend.php:63
+msgid "Particles Bacground Effect"
+msgstr ""
+
+#: functions/vc_extend.php:71
+msgid "Self Hosted Background Video"
+msgstr ""
+
+#: functions/vc_extend.php:73
+msgid "If selected, you can select background video for your row."
+msgstr ""
+
+#: functions/vc_extend.php:80
+msgid "Video Path"
+msgstr ""
+
+#: functions/vc_extend.php:82
+msgid "Please type path of your self hosted MP4 file here."
+msgstr ""
+
+#: functions/vc_extend.php:98
+msgid "Bottom Arrow?"
+msgstr ""
+
+#: functions/vc_extend.php:106
+msgid "Caption"
+msgstr ""
+
+#: functions/vc_extend.php:115
+msgid "Row Caption"
+msgstr ""
+
+#: functions/vc_extend.php:117
+msgid "Requires Row ID parameter, only works when you use One Page Side Navigation option on Page Options panel."
+msgstr ""
+
+#: functions/vc_extend.php:123
+msgid "Use Custom Typography Options"
+msgstr ""
+
+#: functions/vc_extend.php:125
+msgid "If selected, few custom typography options will appear."
+msgstr ""
+
+#: functions/vc_extend.php:141
+msgid "Size (px)"
+msgstr ""
+
+#: functions/vc_extend.php:146
+msgid "You can also use this like; 16px, 16em..."
+msgstr ""
+
+#: functions/vc_extend.php:151
+msgid "Line Height (em)"
+msgstr ""
+
+#: functions/vc_extend.php:163
+msgid "-leave as is-"
+msgstr ""
+
+#: functions/vc_extend.php:174
+msgid "Override Heading Colors"
+msgstr ""
+
+#: functions/vc_extend.php:176
+msgid "If selected, H1-H6 tags will be forced to use this text color selection."
+msgstr ""
+
+#: header.php:23
+msgid "Skip to Content"
+msgstr ""
+
+#: include/admin-menu-style-editor.php:3
+msgid "Note: Following options only available when Classic menu option in use"
+msgstr ""
+
+#: include/admin-menu-style-editor.php:5
+msgid "Use Custom Options?"
+msgstr ""
+
+#: include/admin-menu-style-editor.php:9
+msgid "Check this option to enable custom Background and Foreground color for this menu item."
+msgstr ""
+
+#: include/admin-menu-style-editor.php:14
+msgid "Background Color Start"
+msgstr ""
+
+#: include/admin-menu-style-editor.php:29
+msgid "Show Request a Rate Form?"
+msgstr ""
+
+#: include/admin-menu-style-editor.php:39
+msgid "Show Tracking Form?"
+msgstr ""
+
+#: include/admin-menu-style-editor.php:43
+msgid "By enabling this option you can show tracking form as dropdown form. Make sure you are not using it with Request a Rate Form option, and requires necessary plugin activated and configured in order to display tracking form."
+msgstr ""
+
+#: include/admin-menu-style-editor.php:49
+msgid "Apply Changes"
+msgstr ""
+
+#: include/admin-menu-style-editor.php:51
+msgid "Please note, you have to use \"Save Menu\" in order to get this changes applied"
+msgstr ""
+
+#: include/loop-ajax-posts.php:65 single.php:44
+msgid "READ MORE &rarr;"
+msgstr ""
+
+#: include/primary-menu-classic.php:85 include/primary-menu.php:114
+msgid "SEARCH SITE BY TYPING (ESC TO CLOSE)"
+msgstr ""
+
+#: include/primary-menu-classic.php:86 include/primary-menu.php:115
+#: searchform.php:3
+msgid "Type and hit Enter"
+msgstr ""
+
+#: include/primary-menu.php:37
+msgid "Menu"
+msgstr ""
+
+#: include/share-buttons.php:3
+msgid "LIKE"
+msgstr ""
+
+#: include/share-buttons.php:4
+msgid "SHARE"
+msgstr ""
+
+#: include/share-buttons.php:5
+msgid "TWEET"
+msgstr ""
+
+#: page-countdown.php:12
+msgid "COMING SOON"
+msgstr ""
+
+#: page-countdown.php:15
+msgid "DAYS"
+msgstr ""
+
+#: page-countdown.php:18
+msgid "HOURS"
+msgstr ""
+
+#: page-countdown.php:21
+msgid "MINUTES"
+msgstr ""
+
+#: page-countdown.php:24
+msgid "SECONDS"
+msgstr ""
+
+#: page.php:38
+msgid "Written by "
+msgstr ""
+
+#: page.php:40
+msgid "Posted on "
+msgstr ""
+
+#: page.php:40 single.php:92
+msgid " at "
+msgstr ""
+
+#: search.php:25
+msgid "No Results"
+msgstr ""
+
+#: search.php:26
+msgid "Please feel free try again!"
+msgstr ""
+
+#: single.php:143
+msgid "About "
+msgstr ""

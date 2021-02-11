@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Flaticon4";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon4") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon4";
+    src: url("./Flaticon.svg#Flaticon4") format("svg");
+  }
+}
+
+[class^="oic-fi4-"]:before, [class*=" oic-fi4-"]:before,
+[class^="oic-fi4-"]:after, [class*=" oic-fi4-"]:after {   
+	font-family: Flaticon4;
+	font-style: normal;
+}
+
+.oic-fi4-001-calendar-1:before { content: "\f100"; }
+.oic-fi4-002-aeroplane:before { content: "\f101"; }
+.oic-fi4-003-train:before { content: "\f102"; }
+.oic-fi4-004-delivery-box:before { content: "\f103"; }
+.oic-fi4-005-clipboard:before { content: "\f104"; }
+.oic-fi4-006-ship-1:before { content: "\f105"; }
+.oic-fi4-007-global-distribution:before { content: "\f106"; }
+.oic-fi4-008-global-2:before { content: "\f107"; }
+.oic-fi4-009-storage:before { content: "\f108"; }
+.oic-fi4-010-chronometer-1:before { content: "\f109"; }
+.oic-fi4-011-calendar:before { content: "\f10a"; }
+.oic-fi4-012-global-1:before { content: "\f10b"; }
+.oic-fi4-013-package-3:before { content: "\f10c"; }
+.oic-fi4-014-shopping-cart-1:before { content: "\f10d"; }
+.oic-fi4-015-world-map:before { content: "\f10e"; }
+.oic-fi4-016-diagram:before { content: "\f10f"; }
+.oic-fi4-017-map:before { content: "\f110"; }
+.oic-fi4-018-package-2:before { content: "\f111"; }
+.oic-fi4-019-customer-service-1:before { content: "\f112"; }
+.oic-fi4-020-cube-1:before { content: "\f113"; }
+.oic-fi4-021-cube:before { content: "\f114"; }
+.oic-fi4-022-earth:before { content: "\f115"; }
+.oic-fi4-023-customer-service:before { content: "\f116"; }
+.oic-fi4-024-delivery-man:before { content: "\f117"; }
+.oic-fi4-025-truck:before { content: "\f118"; }
+.oic-fi4-026-bus:before { content: "\f119"; }
+.oic-fi4-027-search:before { content: "\f11a"; }
+.oic-fi4-028-crane:before { content: "\f11b"; }
+.oic-fi4-029-airplane:before { content: "\f11c"; }
+.oic-fi4-030-check-list:before { content: "\f11d"; }
+.oic-fi4-031-shopping-cart:before { content: "\f11e"; }
+.oic-fi4-032-forklift:before { content: "\f11f"; }
+.oic-fi4-033-box:before { content: "\f120"; }
+.oic-fi4-034-moving-home:before { content: "\f121"; }
+.oic-fi4-035-package-1:before { content: "\f122"; }
+.oic-fi4-036-umbrella:before { content: "\f123"; }
+.oic-fi4-037-package:before { content: "\f124"; }
+.oic-fi4-038-moving-truck:before { content: "\f125"; }
+.oic-fi4-039-chronometer:before { content: "\f126"; }
+.oic-fi4-040-global:before { content: "\f127"; }
+.oic-fi4-041-credit-card:before { content: "\f128"; }
+.oic-fi4-042-phone-assistance:before { content: "\f129"; }
+.oic-fi4-043-unlock:before { content: "\f12a"; }
+.oic-fi4-044-ship:before { content: "\f12b"; }
