@@ -1,0 +1,48 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
+    'filename' => 'D:/xampp7.3/htdocs/chartvps/user/accounts/anton.yaml',
+    'modified' => 1613415782,
+    'data' => [
+        'state' => 'enabled',
+        '_json' => [
+            'avatar' => 'null',
+            'state' => '"enabled"',
+            'hashed_password' => '"$2y$10$Gc5PGvjME9.XNAJ\\/54efDuuBjEmCgDmhwBeNGFz4BxWUGMNUKhtqK"'
+        ],
+        'email' => 'anton@domain.com',
+        'firstname' => 'Anton',
+        'fullname' => 'Anton',
+        'language' => 'en',
+        'twofa_enabled' => false,
+        'twofa_secret' => 'NQOAQ5SLVLZ6XE7PJOPARMSYNPKMYLMZ',
+        'access' => [
+            'site' => [
+                'login' => 'true'
+            ],
+            'admin' => [
+                'super' => 'false',
+                'login' => 'true',
+                'cache' => 'true',
+                'configuration' => 'true',
+                'configuration_system' => 'true',
+                'configuration_site' => 'true',
+                'configuration_media' => 'true',
+                'configuration_info' => 'true',
+                'settings' => 'true',
+                'pages' => 'true',
+                'maintenance' => 'true',
+                'statistics' => 'false',
+                'plugins' => 'true',
+                'themes' => 'true',
+                'users' => 'true'
+            ],
+            'admin-addon-user-manager' => [
+                'users' => 'true',
+                'groups' => 'false',
+                'users_expert' => 'false'
+            ]
+        ],
+        'hashed_password' => '$2y$10$Gc5PGvjME9.XNAJ/54efDuuBjEmCgDmhwBeNGFz4BxWUGMNUKhtqK'
+    ]
+];

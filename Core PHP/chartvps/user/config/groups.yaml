@@ -1,0 +1,7 @@
+Tools:
+  groupname: Tools
+  description: 'Paid subscribers with access to downloadable tools'
+  access:
+    site: { subscribed: true }
+    admin: {  }
+    admin-addon-user-manager: {  }

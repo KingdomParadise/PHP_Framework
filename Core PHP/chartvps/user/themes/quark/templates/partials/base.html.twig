@@ -1,0 +1,197 @@
+{% set body_classes = body_class(['header-fixed', 'header-animated', 'header-dark', 'header-transparent', 'sticky-footer']) %}
+{% set grid_size = theme_var('grid-size') %}
+{% set compress = theme_var('production_mode') ? '.min.css' : '.css' %}
+<!DOCTYPE html>
+<html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}">
+<head>
+{% block head %}
+    <meta charset="utf-8" />
+    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include 'partials/metadata.html.twig' %}
+
+    <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,300&amp;subset=latin-ext,latin" rel="stylesheet" type="text/css">
+    <link rel="canonical" href="{{ page.url(true, true) }}" />
+
+    {% block stylesheets %}
+        {% do assets.addCss('theme://css-compiled/spectre'~compress) %}
+        {% if theme_var('spectre.exp') %}{% do assets.addCss('theme://css-compiled/spectre-exp'~compress)  %}{% endif %}
+        {% if theme_var('spectre.icons') %}{%  do assets.addCss('theme://css-compiled/spectre-icons'~compress) %}{% endif %}
+        {% do assets.addCss('theme://css-compiled/theme'~compress) %}
+        {% do assets.addCss('theme://css/custom.css') %}
+        {% do assets.addCss('theme://css/chartvps.css') %}
+        {% do assets.addCss('theme://css/line-awesome.min.css') %}
+    {% endblock %}
+    {{ assets.css() }}
+
+    {% block javascripts %}
+        {% do assets.addJs('jquery', 101) %}
+        {% do assets.addJs('theme://js/jquery.treemenu.js', {group:'bottom'}) %}
+        {% do assets.addJs('theme://js/site.js', {group:'bottom'}) %}
+    {% endblock %}
+    {{ assets.js() }}
+
+{% endblock head %}
+<!-- MN -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<script type="text/javascript">function Reveal() {
+  var x = document.getElementById("toggleMe");
+  var y = document.getElementById("toggleBut");
+  var z = document.getElementById("toggleSpan");
+  if (x.style.display === "none") {
+    x.style.display = "flex";
+    y.style.backgroundColor = "#FFFFFF";
+    y.style.color = "#444444";
+    y.style.fontSize = "1.5rem";
+    z.innerHTML = "All Supported Platforms";
+  } else {
+    x.style.display = "none";
+    y.style.backgroundColor = "#3a81a4";
+    y.style.color = "#FFFFFF";
+    z.innerHTML = "Show All Platforms";
+    y.style.fontSize = "1rem";
+  }
+}</script>
+
+</head>
+<body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}">
+    <div id="page-wrapper">
+    {% block header %}
+        <section id="header" class="section">
+            <section class="container {{ grid_size }}">
+                <nav class="navbar">
+                    <section class="navbar-section logo">
+                        {% include 'partials/logo.html.twig' %}
+                    </section>
+                    <section class="navbar-section">
+
+                        <nav class="dropmenu animated">
+                            {% block header_navigation %}
+                        {% include 'partials/navigation.html.twig' %}
+                            {% endblock %}
+                        </nav>
+
+                        {% if config.plugins.login.enabled and grav.user.username %}
+                            <span class="login-status-wrapper"><i class="fa fa-user"></i> {% include 'partials/login-status.html.twig' %}</span>
+                        {% endif %}
+
+                    </section>
+                </nav>
+            </section>
+        </section>
+        <div class="mobile-menu">
+            <div class="button_container" id="toggle">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </div>
+        </div>
+    {% endblock %}
+
+    {% block hero %}{% endblock %}
+
+        <section id="start" class="pagebg">
+        {% block body %}
+            <section id="body-wrapper" class="section">
+                <section class="container {{ grid_size }}">
+                    {% block messages %}
+                        {% include 'partials/messages.html.twig' ignore missing %}
+                    {% endblock %}
+                    {% block content %}{% endblock %}
+                </section>
+            </section>
+        {% endblock %}
+        </section>
+
+    </div>
+
+{% block footer %}
+    <section id="footer" class="section bg-gray">
+        <section class="container {{ grid_size }} footsey">
+        <div class="wrapper-footer-top">
+  <div class="footer-top">
+      
+    <div>
+      <h4>Support</h4>
+<ul class="contact-footer"><li> <a href="/contact"><i class="fas fa-envelope"></i> Email Us</a></li><li><a href="#support" onclick="$crisp.push(['do', 'chat:open'])"><i class="fas fa-comment-dots"></i> Live Chat</a></li>
+<li><a href="tel:+1-888-237-7606"><i class="fas fa-phone"></i> Call toll-free 1 (888) 237-7606</a></li>
+<li><a href="/company#all-inclusive-support"><i class="fas fa-sync-alt"></i> All-Inclusive Support</a></li><li><a href="/uptime"><i class="fas fa-cloud-upload-alt"></i> 100% Uptime Guarantee</a></li></ul>
+      <h4>About ChartVPS</h4>
+<ul style="
+    text-align: left;
+">
+        <li style="
+"><a href="company">The company, technology and infrastructure</a></li>
+        <li><a href="/tour">VPS services in trading action</a></li>
+        <li><a href="/#trading-platforms">Support for all trading platforms</a></li>
+        <li><a href="/tools">Tools included with every subscription</a></li>
+        <li><a href="/company#data-centers">Choice of datacenter locations</a></li>
+        <li><a href="/affiliates">Become an affiliate, get 5% per month</a></li>
+        
+
+      </ul>
+    </div>
+        <div>
+      <h4>Plans</h4>
+      <ul style="
+    text-align: left;
+">      <li><a href="/#pricing">Compare ChartVPS plans</a></li>
+        <li><a href="/standard">Standard VPS ($35/mo)</a></li>
+        <li><a href="/standard#x-performance">Standard X-Performance VPS ($45/mo)</a></li>
+        <li><a href="/personal">Personal VPS ($50/mo)</a></li>
+        <li><a href="/scalper">Scalper VPS ($65/mo)</a></li>
+        <li><a href="/daytrader">Daytrader VPS ($80/mo)</a></li>
+        <li><a href="/professional">Professional VPS ($140/mo)</a></li>
+        <li><a href="/institutional-alpha">Institutional Alpha ($170/mo)</a></li>
+        <li><a href="/institutional-prime">Institutional Prime ($190/mo)</a></li>
+        <li><a href="/quant">Quant Server ($260/mo)</a></li>
+          <li><a href="/server-specials">Server Specials + Custom Builds</a></li>
+<li class="social-bit">
+    <span>
+     For latest news and service updates:<br>
+    <a href="https://twitter.com/chartvps" target="_blank" style="
+    margin-right: 5px;
+"><i class="fab fa-twitter-square"></i>follow @chartvps</a><a href="https://facebook.com/chartvps" target="_blank"><i class="fab fa-facebook-square"></i> like us</a>
+</span>
+</li>
+      </ul>
+    </div>
+    <div class="risk-note">Trading (especially futures and forex) contains substantial risk and is not for every investor. An investor could
+potentially lose all or more than the initial investment. Risk capital is money that can be lost without
+jeopardizing ones’ financial security or life style. Only risk capital should be used for trading and only
+      those with sufficient risk capital should consider trading. </div>
+  </div>
+</div>
+            <p>&copy;<script>document.write(new Date().getFullYear())</script> <a href="https://chartvps.com">ChartVPS Technologies</a>, a Nitrode Corporation company. Please read our <a href="/privacy">Privacy Policy</a>, <a href="/terms-of-service">Terms of Service</a>, and <a href="/disclaimer">Disclaimer / Risk Disclosure</a>.</p>
+        </section>
+    </section>
+{% endblock %}
+
+    
+    <div class="mobile-container">
+        <div class="overlay" id="overlay">
+            <div class="mobile-logo">
+                {% include 'partials/logo.html.twig' with {mobile: true} %}
+            </div>
+            <nav class="overlay-menu">
+                {% include 'partials/navigation.html.twig' with {tree: true} %}
+            </nav>
+        </div>
+    </div>
+
+{% block bottom %}
+    {{ assets.js('bottom') }}
+{% endblock %}
+<script type="text/javascript">
+var myCrisp = function() {
+  window.$crisp=[];window.CRISP_WEBSITE_ID="efccc6c1-2ca5-45bd-bbbe-c7823a0aaf4b";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+}
+window.onload = function() {
+  setTimeout(myCrisp, 3000);
+}
+</script>
+</body>

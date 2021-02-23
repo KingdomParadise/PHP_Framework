@@ -1,0 +1,17 @@
+title: ChartVPS
+default_lang: en
+author:
+  name: ChartVPS
+  email: support@chartvps.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'High performance VPS hosting'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
