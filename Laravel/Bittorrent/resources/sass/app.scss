@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Custom pages
+@import 'home';
+@import 'common';
+
+.modal-footer {
+  justify-content: center;
+}
+.body {
+  min-height: 100vh;
+}
+.ip-invalid {
+  &.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
